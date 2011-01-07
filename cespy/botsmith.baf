@@ -34,7 +34,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("ImpForgeStuff","GLOBAL",0)
-    GiveItemCreate("c2ring03",Player1,2,1,2)
+    GiveItemCreate("c2staf01",Player1,2,1,2)
     StartDialogueNoSet(Player1)
 END
 

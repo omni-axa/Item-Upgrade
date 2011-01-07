@@ -38,7 +38,7 @@ THEN
   RESPONSE #100
     SetGlobal("ForgeStuff","GLOBAL",0)
 	SetGlobal("XO#Craft","ar0334",1)
-    GiveItemCreate("c2ring03",Player1,2,1,2)
+    GiveItemCreate("c2staf01",Player1,2,1,2)
     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
 END
 
