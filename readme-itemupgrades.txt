@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 38 \/
+                            \/ Release 38a \/
 
                       http://www.weidu.org/item.html
 
@@ -702,3 +702,10 @@ Version 38:	(updated by Lollorian)
 	  +5)
 	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' 
 	  upgrade
+Version 38a:
+	* Fixed NVLORs in recipes for Girdle of Glory, Teleomortis +4, Gloves of the 
+	  Master Thief, Quietus +4, Inevitable Entropy & Creeping Chaos, Ring of 
+	  Elemental Mastery, Sorcerian Ring and Enhanced Robe of the Good/Neutral/Evil 
+	  Archmagi.
+	* Staff of Elemental Mastery recipe now really gives a STAFF (used to give the
+	  Ring of Elemental Mastery lol)
