@@ -14,10 +14,28 @@ APPEND WSMITH01
 			PartyHasItem("clck01")
 			PartyHasItem("scrl7u")
 			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp03
-		IF ~OR(5)
-				!PartyHasItem("clck15")
-				!PartyHasItem("clck19")
-				!PartyHasItem("clck01")
+		IF ~PartyHasItem("clck15")
+			PartyHasItem("cdclck01")
+			PartyHasItem("scrl7u")
+			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp04
+		IF ~PartyHasItem("clck19")
+			PartyHasItem("cdclck01")
+			PartyHasItem("scrl7u")
+			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp05
+		IF ~PartyHasItem("clck15")
+			PartyHasItem("clck01cd")
+			PartyHasItem("scrl7u")
+			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp06
+		IF ~PartyHasItem("clck19")
+			PartyHasItem("clck01cd")
+			PartyHasItem("scrl7u")
+			PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp07
+		IF ~PartyHasItem("scrl7u")
+			PartyHasItem("scrl5k")
+			!PartyHasItem("clck01")
+			!PartyHasItem("cdclck01")
+			!PartyHasItem("clck01cd")~ THEN GOTO XO#ItemUp01
+		IF ~OR(2)
 				!PartyHasItem("scrl7u")
 				!PartyHasItem("scrl5k")~ THEN GOTO XO#ItemUp01
 	END
@@ -53,6 +71,74 @@ APPEND WSMITH01
 													 DestroyItem("clck19")
 													 TakePartyItemNum("clck01",1)
 													 DestroyItem("clck01")
+													 TakePartyItemNum("scrl7u",1)
+													 DestroyItem("scrl7u")
+													 TakePartyItemNum("scrl5k",1)
+													 DestroyItem("scrl5k")~ GOTO 56
+    IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
+	END
+
+	IF ~~ THEN BEGIN XO#ItemUp04 SAY @1234955
+		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
+		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",14)
+											 		 SetGlobal("ForgeStuff","GLOBAL",1)
+													 TakePartyGold(20000)
+													 DestroyGold(20000)
+													 TakePartyItemNum("clck15",1)
+													 DestroyItem("clck15")
+													 TakePartyItemNum("cdclck01",1)
+													 DestroyItem("cdclck01")
+													 TakePartyItemNum("scrl7u",1)
+													 DestroyItem("scrl7u")
+													 TakePartyItemNum("scrl5k",1)
+													 DestroyItem("scrl5k")~ GOTO 56
+    IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
+	END
+
+	IF ~~ THEN BEGIN XO#ItemUp05 SAY @1234955
+		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
+		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",14)
+											 		 SetGlobal("ForgeStuff","GLOBAL",1)
+													 TakePartyGold(20000)
+													 DestroyGold(20000)
+													 TakePartyItemNum("clck19",1)
+													 DestroyItem("clck19")
+													 TakePartyItemNum("cdclck01",1)
+													 DestroyItem("cdclck01")
+													 TakePartyItemNum("scrl7u",1)
+													 DestroyItem("scrl7u")
+													 TakePartyItemNum("scrl5k",1)
+													 DestroyItem("scrl5k")~ GOTO 56
+    IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
+	END
+
+	IF ~~ THEN BEGIN XO#ItemUp06 SAY @1234955
+		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
+		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",14)
+											 		 SetGlobal("ForgeStuff","GLOBAL",1)
+													 TakePartyGold(20000)
+													 DestroyGold(20000)
+													 TakePartyItemNum("clck15",1)
+													 DestroyItem("clck15")
+													 TakePartyItemNum("clck01cd",1)
+													 DestroyItem("clck01cd")
+													 TakePartyItemNum("scrl7u",1)
+													 DestroyItem("scrl7u")
+													 TakePartyItemNum("scrl5k",1)
+													 DestroyItem("scrl5k")~ GOTO 56
+    IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
+	END
+
+	IF ~~ THEN BEGIN XO#ItemUp07 SAY @1234955
+		IF ~PartyGoldLT(20000)~ THEN REPLY #66662 GOTO XO#NoItemUp
+		IF ~PartyGoldGT(19999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",14)
+											 		 SetGlobal("ForgeStuff","GLOBAL",1)
+													 TakePartyGold(20000)
+													 DestroyGold(20000)
+													 TakePartyItemNum("clck19",1)
+													 DestroyItem("clck19")
+													 TakePartyItemNum("clck01cd",1)
+													 DestroyItem("clck01cd")
 													 TakePartyItemNum("scrl7u",1)
 													 DestroyItem("scrl7u")
 													 TakePartyItemNum("scrl5k",1)
