@@ -453,6 +453,11 @@ you may wear them and rings of protection at the same time.
 Cespenar can sometimes "drop reagents". You will still get your upgrade,
 but you might get some of the gems back or something. 
 
+(Revised component only) Because BG2Tweaks adds 2 (interchangeable) versions
+of all protection items (ring, amulet & cloak), the upgrade recipes for the
+Amulet of ilmatar and the Gloves of Master Thief require 2 of the SAME 
+versions of the item to be detected. Detecting all combinations is possible
+(but tedious) so may be implemented in the future.
 
 		Section V. Thanks
 		~~~~~~~~~~~~~~~~~
@@ -702,10 +707,12 @@ Version 38:	(updated by Lollorian)
 	  +5)
 	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' 
 	  upgrade
-Version 38a:
+Version 38a: (Revised component fixbashing)
 	* Fixed NVLORs in recipes for Girdle of Glory, Teleomortis +4, Gloves of the 
 	  Master Thief, Quietus +4, Inevitable Entropy & Creeping Chaos, Ring of 
 	  Elemental Mastery, Sorcerian Ring and Enhanced Robe of the Good/Neutral/Evil 
 	  Archmagi.
 	* Staff of Elemental Mastery recipe now really gives a STAFF (used to give the
 	  Ring of Elemental Mastery lol)
+	* Revised components are now compatible with BG2Tweaks' "PnP-style Wear Multiple
+	  Items" component
