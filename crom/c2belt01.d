@@ -19,13 +19,16 @@ APPEND WSMITH01
 			PartyHasItem("belt02")
 			PartyHasItem("belt04")
 			NumItemsPartyGT("ring15",2)~ THEN GOTO XO#ItemUp04
-		IF ~OR(6)
+		IF ~PartyHasItem("belt03")
+			PartyHasItem("belt02")
+			PartyHasItem("belt04")
+			NumItemsPartyLT("misc20",3)
+			NumItemsPartyLT("amul13",3)
+			NumItemsPartyLT("ring15",3)~ THEN GOTO XO#ItemUp01
+		IF ~OR(3)
 				!PartyHasItem("belt03")
 				!PartyHasItem("belt02")
-				!PartyHasItem("belt04")
-				NumItemsPartyLT("misc20",3)
-				NumItemsPartyLT("amul13",3)
-				NumItemsPartyLT("ring15",3)~ THEN GOTO XO#ItemUp01
+				!PartyHasItem("belt04")~ THEN GOTO XO#ItemUp01
 	END
   
 	IF ~~ THEN BEGIN XO#ItemUp01 SAY @1234883
