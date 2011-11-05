@@ -54,7 +54,7 @@ APPEND WSMITH01
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
   
-	IF ~~ THEN BEGIN XO#ItemUp02 SAY @1234978
+	IF ~~ THEN BEGIN XO#ItemUp03 SAY @1234978
 		IF ~PartyGoldLT(10000)~ THEN REPLY #66662 GOTO XO#NoItemUp
 		IF ~PartyGoldGT(9999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",35)
 											 		 SetGlobal("ForgeStuff","GLOBAL",1)
@@ -73,7 +73,7 @@ APPEND WSMITH01
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
   
-	IF ~~ THEN BEGIN XO#ItemUp02 SAY @1234978
+	IF ~~ THEN BEGIN XO#ItemUp04 SAY @1234978
 		IF ~PartyGoldLT(10000)~ THEN REPLY #66662 GOTO XO#NoItemUp
 		IF ~PartyGoldGT(9999)~ THEN REPLY #66664 DO ~SetGlobal("XO#ItemUp","ar0334",35)
 											 		 SetGlobal("ForgeStuff","GLOBAL",1)
