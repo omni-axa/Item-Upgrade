@@ -1,0 +1,919 @@
+BACKUP ~c2/backup~
+AUTHOR ~weimer@cs.berkeley.edu~
+VERSION ~v38~
+
+README ~c2/readme-itemupgrades.txt~
+
+ALLOW_MISSING ~sw2h19.itm~
+
+LANGUAGE ~American English~ ~american~ ~c2/american/setup.tra~
+
+LANGUAGE ~Francais (traduction de Artemidore et Cocobard)~ ~french~
+  ~c2/american/setup.tra~
+  ~c2/french/setup.tra~
+
+LANGUAGE ~Deutsche (Übersetzung durch Maus & Frischauf & Lainer)~ ~german~
+  ~c2/american/setup.tra~
+  ~c2/german/setup.tra~
+
+LANGUAGE ~Español (hecha por Clan DLAN, Ancalagon del Negro por Clan REO & ...)~ ~spanish~
+  ~c2/american/setup.tra~
+  ~c2/spanish/setup.tra~
+
+LANGUAGE ~Polish (by Nastian & SoM - part of CoB Clan)~ ~polski~
+  ~c2/american/setup.tra~
+  ~c2/polski/setup.tra~
+
+LANGUAGE ~Russian (Iogan, prowler, hawkmoon & AERIE.RU)~ ~russian~
+  ~c2/american/setup.tra~
+  ~c2/russian/setup.tra~
+
+LANGUAGE ~Korean (web2air)~ ~korean~
+  ~c2/american/setup.tra~
+  ~c2/korean/setup.tra~
+
+
+BEGIN ~Original list version~
+  DESIGNATED 0
+  SUBCOMPONENT @1
+
+// in case Fixpack is installed, change shadow temple to not consume Symbol of Amaunator as a key
+COPY_EXISTING ~AR1401.ARE~ ~override~
+  READ_LONG 0xa4 "door_num"
+  READ_LONG 0xa8 "door_off"
+  FOR (index = 0 ; index < door_num ; index = index + 1) BEGIN
+    READ_ASCII ("%door_off%" + 0x20 + ("%index%" * 0xc8)) "doorname"
+    PATCH_IF ("%doorname%" STRING_COMPARE_CASE "DOORDRAG" = 0) BEGIN
+      READ_BYTE  ("%door_off%" + 0x29 + ("%index%" * 0xc8)) "usekey"
+      WRITE_BYTE ("%door_off%" + 0x29 + ("%index%" * 0xc8)) ("%usekey%" BAND  0b11111011) // removes use key bit
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// by Bioware naming convention, this item should be 4 enchantment
+COPY_EXISTING ~p3-12m4.itm~ ~override~
+  WRITE_LONG 0x60 4
+  BUT_ONLY_IF_IT_CHANGES
+
+// Wes' Carsomyr fixes: Adds (not sets) MR by 50%, always dispels on hit
+COPY_EXISTING ~sw2h10.itm~ ~override~
+              ~sw2h19.itm~ ~override~
+  READ_LONG  0x64 "abil_off" ELSE 0
+  READ_SHORT 0x68 "abil_num" ELSE 0
+  READ_LONG  0x6a "fx_off"   ELSE 0
+  READ_SHORT 0x70 "fx_num"   ELSE 0
+  FOR (index = 0 ; index < abil_num ; index = index + 1) BEGIN
+    READ_BYTE  ("%abil_off%" +        ("%index%" * 0x38)) "type"
+    PATCH_IF ("%type%" = 1) BEGIN // melee
+      WRITE_SHORT ("%abil_off%" + 0x16 + ("%index%" * 0x38)) 12 // sets dice size to 12
+      READ_SHORT  ("%abil_off%" + 0x1e + ("%index%" * 0x38)) "abil_fx_num"
+      READ_SHORT  ("%abil_off%" + 0x20 + ("%index%" * 0x38)) "abil_fx_idx"
+      FOR (index2 = 0 ; index2 < abil_fx_num ; index2 = index2 + 1) BEGIN
+        READ_SHORT ("%fx_off%" +        (0x30 * ("%abil_fx_idx%" + "%index2%"))) "opcode"
+        PATCH_IF ("%opcode%" = 58) BEGIN // dispel effects
+          WRITE_BYTE ("%fx_off%" + 0x03 + (0x30 * ("%abil_fx_idx%" + "%index2%"))) 0 // power
+          WRITE_LONG ("%fx_off%" + 0x08 + (0x30 * ("%abil_fx_idx%" + "%index2%"))) 0 // always dispel
+        END
+      END
+    END
+  END
+  FOR (index3 = 0 ; index3 < fx_num ; index3 = index3 + 1) BEGIN
+    READ_SHORT ("%fx_off%" +        (0x30 * "%index3%")) "opcode"
+    PATCH_IF ("%opcode%" = 166) BEGIN
+      WRITE_LONG ("%fx_off%" + 0x08 + (0x30 * "%index3%")) 0 // adds 50% MR instead of setting it
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// change MoD +5 to use MoD +1 BAMs instead of generic mace
+COPY_EXISTING ~BLUN25.ITM~ ~override~
+  WRITE_ASCII 0x3a ~IBLUN12~ #8
+  WRITE_ASCII 0x58 ~CBLUN12~ #8
+  READ_LONG   0x64 "abil_off" ELSE 0
+  READ_SHORT  0x68 "abil_num" ELSE 0
+  FOR (index = 0 ; index < abil_num ; index = index + 1) BEGIN
+    WRITE_ASCII ("%abil_off%" + 0x04 + ("%index%" * 0x38)) ~IBLUN12~ #8
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// fixes are now handled via patch, above
+COPY ~c2/bam~   ~override~ // graphics
+     ~c2/cre~   ~override~ // air elemental
+     ~c2/eff~   ~override~ // item effects (skullcrusher)
+
+COPY ~c2/itm/c2ring01.itm~ ~override~
+  SAY NAME2     @100
+  SAY DESC      @101
+
+COPY ~c2/itm/c2ring02.itm~ ~override~
+  SAY NAME2     @102
+  SAY DESC      @103
+
+COPY ~c2/itm/c2ring03.itm~ ~override~
+  SAY NAME2     @104
+  SAY DESC      @105
+
+COPY ~c2/itm/c2staf01.itm~ ~override~
+  SAY NAME2     @106
+  SAY DESC      @107
+
+COPY ~c2/itm/c2staf02.itm~ ~override~
+  SAY NAME2     @156
+  SAY DESC      @157
+
+COPY ~c2/itm/c2quiv01.itm~ ~override~
+  SAY NAME2     @108
+  SAY DESC      @109
+
+COPY ~c2/itm/c2quiv02.itm~ ~override~
+  SAY NAME2     @110
+  SAY DESC      @111
+
+COPY ~c2/itm/c2quiv03.itm~ ~override~
+  SAY NAME2     @112
+  SAY DESC      @113
+
+COPY ~c2/itm/c2boot01.itm~ ~override~
+  SAY NAME2     @114
+  SAY DESC      @115
+
+COPY ~c2/itm/c2boot02.itm~ ~override~
+  SAY NAME2     @116
+  SAY DESC      @117
+
+COPY ~c2/itm/c2boot03.itm~ ~override~
+  SAY NAME2     @118
+  SAY DESC      @119
+
+COPY ~c2/itm/c2boot04.itm~ ~override~
+  SAY NAME2     @120
+  SAY DESC      @121
+
+COPY ~c2/itm/c2blun01.itm~ ~override~
+  SAY NAME2     @122
+  SAY DESC      @123
+
+COPY ~c2/itm/c2blun02.itm~ ~override~
+  SAY NAME2     @124
+  SAY DESC      @125
+
+COPY ~c2/itm/c2blun03.itm~ ~override~
+  SAY NAME2     @172
+  SAY DESC      @173
+
+COPY ~c2/itm/c2bow01.itm~ ~override~
+  SAY NAME2     @126
+  SAY DESC      @127
+
+COPY ~c2/itm/c2valy01.itm~ ~override~
+  SAY NAME2     @128
+  SAY DESC      @129
+
+COPY ~c2/itm/c2robe01.itm~ ~override~
+  SAY NAME2     @130
+  SAY DESC      @131
+
+COPY ~c2/itm/c2robe02.itm~ ~override~
+  SAY NAME2     @132
+  SAY DESC      @133
+
+COPY ~c2/itm/c2robe03.itm~ ~override~
+  SAY NAME2     @134
+  SAY DESC      @135
+
+COPY ~c2/itm/c2helm01.itm~ ~override~
+  SAY NAME2     @136
+  SAY DESC      @137
+
+COPY ~c2/itm/c2helm02.itm~ ~override~
+  SAY NAME2     @138
+  SAY DESC      @139
+
+COPY ~c2/itm/c2hide01.itm~ ~override~
+  SAY NAME2     @140
+  SAY DESC      @141
+
+COPY ~c2/itm/c2leat01.itm~ ~override~
+  SAY NAME2     @142
+  SAY DESC      @143
+
+COPY ~c2/itm/c2keld01.itm~ ~override~
+  SAY NAME2     @144
+  SAY DESC      @145
+
+COPY ~c2/itm/c2keld02.itm~ ~override~
+  SAY NAME2     @164
+  SAY DESC      @165
+
+COPY ~c2/itm/c2plat01.itm~ ~override~
+  SAY NAME2     @146
+  SAY DESC      @147
+
+COPY ~c2/itm/c2shld01.itm~ ~override~
+  SAY NAME2     @148
+  SAY DESC      @149
+
+COPY ~c2/itm/c2sper01.itm~ ~override~
+  SAY NAME2     @150
+  SAY DESC      @151
+
+COPY ~c2/itm/c2sper02.itm~ ~override~
+  SAY NAME2     @152
+  SAY DESC      @153
+
+COPY ~c2/itm/c2sper03.itm~ ~override~
+  SAY NAME2     @154
+  SAY DESC      @155
+
+COPY ~c2/itm/c2sw1h01.itm~ ~override~
+  SAY NAME2     @158
+  SAY DESC      @159
+
+COPY ~c2/itm/c2sw1h02.itm~ ~override~
+  SAY NAME2     @160
+  SAY DESC      @161
+
+COPY ~c2/itm/c2mazz01.itm~ ~override~
+  SAY NAME2     @162
+  SAY DESC      @163
+
+COPY ~c2/itm/c2anom01.itm~ ~override~
+  SAY NAME2     @166
+  SAY DESC      @167
+
+COPY ~c2/itm/c2sw2h01.itm~ ~override~
+  SAY NAME2     @168
+  SAY DESC      @169
+
+COPY ~c2/itm/c2sw2h02.itm~ ~override~
+  SAY NAME2     @170
+  SAY DESC      @171
+
+COPY ~c2/itm/c2dagg01.itm~ ~override~
+  SAY NAME2     @174
+  SAY DESC      @175
+
+COPY ~c2/itm/c2shld02.itm~ ~override~
+  SAY NAME2     @176
+  SAY DESC      @177
+
+COPY ~c2/itm/c2brac01.itm~ ~override~
+  SAY NAME2     @178
+  SAY DESC      @179
+
+COPY ~c2/itm/c2amul01.itm~ ~override~
+  SAY NAME2     @180
+  SAY DESC      @181
+
+COPY ~c2/itm/c2sw1h03.itm~ ~override~
+  SAY NAME2     @182
+  SAY DESC      @183
+
+COPY ~c2/itm/c2ax1h01.itm~ ~override~
+  SAY NAME2     @184
+  SAY DESC      @185
+
+COPY ~c2/itm/c2ring04.itm~ ~override~
+  SAY NAME2     @186
+  SAY DESC      @187
+
+COPY ~c2/itm/c2belt01.itm~ ~override~
+  SAY NAME2     @188
+  SAY DESC      @189
+
+COPY ~c2/itm/c2kit.itm~ ~override~
+  SAY NAME2     @190
+  SAY DESC      @191
+
+COPY ~c2/itm/c2kit.cre~ ~override~
+  SAY NAME1     @192
+  SAY NAME2     @192
+
+COPY ~c2/itm/c2hd1.itm~ ~override~
+  SAY NAME2     @193
+  SAY DESC      @194
+
+COPY ~c2/itm/c2hd2.itm~ ~override~
+  SAY NAME2     @195
+  SAY DESC      @196
+
+COPY ~c2/itm/c2chan01.itm~ ~override~
+  SAY NAME2     @197
+  SAY DESC      @198
+
+// allows us to regexp match tabs and newlines
+OUTER_INNER_PATCH ~12~ BEGIN
+  WRITE_BYTE 1 0x09
+  READ_ASCII 1 tab (1)  // 0x09, tab
+  WRITE_BYTE 1 0x0a
+  READ_ASCII 1 lnl (1)  // 0x0a, Linux
+  WRITE_BYTE 0 0x0d
+  READ_ASCII 0 mnl (1)  // 0x0d, Mac
+  READ_ASCII 0 wnl (2)  // 0x0d0a, Windows
+END
+
+// unconventional, but it works: the two R_Ts intercept all calls to state 13 and
+// send them to the new IU 'menu' state instead. The new states are all in the
+// appended file
+COPY_EXISTING ~wsmith01.dlg~ ~override~
+  DECOMPILE_DLG_TO_D
+    REPLACE_TEXTUALLY "[%tab%%lnl%%wnl%%mnl%^ ]GOTO 13[%tab%%lnl%%wnl%%mnl%$ ]" " GOTO c2itemupgrade "
+    REPLACE_TEXTUALLY "[%tab%%lnl%%wnl%%mnl%^ ]EXTERN ~WSMITH01~ 13[%tab%%lnl%%wnl%%mnl%$ ]" " GOTO c2itemupgrade "
+    APPEND_FILE ~c2/dlg/crom.d~
+  COMPILE_D_TO_DLG
+
+// grants player extra sunstone in UE quest
+COMPILE ~c2/dlg/riftg03.d~
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur.bcs~ ~c2/bcs/lilarcor.baf~
+  
+BEGIN ~Revised consistency plus version~
+  DESIGNATED 10
+  SUBCOMPONENT @1
+  
+// in case Fixpack is installed, change shadow temple to not consume Symbol of Amaunator as a key
+COPY_EXISTING ~AR1401.ARE~ ~override~
+  READ_LONG 0xa4 "door_num"
+  READ_LONG 0xa8 "door_off"
+  FOR (index = 0 ; index < door_num ; index = index + 1) BEGIN
+    READ_ASCII ("%door_off%" + 0x20 + ("%index%" * 0xc8)) "doorname"
+    PATCH_IF ("%doorname%" STRING_COMPARE_CASE "DOORDRAG" = 0) BEGIN
+      READ_BYTE  ("%door_off%" + 0x29 + ("%index%" * 0xc8)) "usekey"
+      WRITE_BYTE ("%door_off%" + 0x29 + ("%index%" * 0xc8)) ("%usekey%" BAND  0b11111011) // removes use key bit
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// by Bioware naming convention, this item should be 4 enchantment
+COPY_EXISTING ~p3-12m4.itm~ ~override~
+  WRITE_LONG 0x60 4
+  BUT_ONLY_IF_IT_CHANGES
+
+// Wes' Carsomyr fixes: Adds (not sets) MR by 50%, always dispels on hit
+COPY_EXISTING ~sw2h10.itm~ ~override~
+              ~sw2h19.itm~ ~override~
+  READ_LONG  0x64 "abil_off" ELSE 0
+  READ_SHORT 0x68 "abil_num" ELSE 0
+  READ_LONG  0x6a "fx_off"   ELSE 0
+  READ_SHORT 0x70 "fx_num"   ELSE 0
+  FOR (index = 0 ; index < abil_num ; index = index + 1) BEGIN
+    READ_BYTE  ("%abil_off%" +        ("%index%" * 0x38)) "type"
+    PATCH_IF ("%type%" = 1) BEGIN // melee
+      WRITE_SHORT ("%abil_off%" + 0x16 + ("%index%" * 0x38)) 12 // sets dice size to 12
+      READ_SHORT  ("%abil_off%" + 0x1e + ("%index%" * 0x38)) "abil_fx_num"
+      READ_SHORT  ("%abil_off%" + 0x20 + ("%index%" * 0x38)) "abil_fx_idx"
+      FOR (index2 = 0 ; index2 < abil_fx_num ; index2 = index2 + 1) BEGIN
+        READ_SHORT ("%fx_off%" +        (0x30 * ("%abil_fx_idx%" + "%index2%"))) "opcode"
+        PATCH_IF ("%opcode%" = 58) BEGIN // dispel effects
+          WRITE_BYTE ("%fx_off%" + 0x03 + (0x30 * ("%abil_fx_idx%" + "%index2%"))) 0 // power
+          WRITE_LONG ("%fx_off%" + 0x08 + (0x30 * ("%abil_fx_idx%" + "%index2%"))) 0 // always dispel
+        END
+      END
+    END
+  END
+  FOR (index3 = 0 ; index3 < fx_num ; index3 = index3 + 1) BEGIN
+    READ_SHORT ("%fx_off%" +        (0x30 * "%index3%")) "opcode"
+    PATCH_IF ("%opcode%" = 166) BEGIN
+      WRITE_LONG ("%fx_off%" + 0x08 + (0x30 * "%index3%")) 0 // adds 50% MR instead of setting it
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// change MoD +5 to use MoD +1 BAMs instead of generic mace
+COPY_EXISTING ~BLUN25.ITM~ ~override~
+  WRITE_ASCII 0x3a ~IBLUN12~ #8
+  WRITE_ASCII 0x58 ~CBLUN12~ #8
+  READ_LONG   0x64 "abil_off" ELSE 0
+  READ_SHORT  0x68 "abil_num" ELSE 0
+  FOR (index = 0 ; index < abil_num ; index = index + 1) BEGIN
+    WRITE_ASCII ("%abil_off%" + 0x04 + ("%index%" * 0x38)) ~IBLUN12~ #8
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+// fixes are now handled via patch, above
+COPY ~c2/bam~   ~override~ // graphics
+     ~c2/cre~   ~override~ // air elemental
+     ~c2/eff~   ~override~ // item effects (skullcrusher)
+
+COPY ~c2/itm/c2ring01.itm~ ~override~
+  SAY NAME2     @100
+  SAY DESC      @101
+
+COPY ~c2/itm/c2ring02.itm~ ~override~
+  SAY NAME2     @102
+  SAY DESC      @103
+
+COPY ~c2/itm/c2ring03.itm~ ~override~
+  SAY NAME2     @104
+  SAY DESC      @105
+
+COPY ~c2/itm/c2staf01.itm~ ~override~
+  SAY NAME2     @106
+  SAY DESC      @107
+
+COPY ~c2/itm/c2staf02.itm~ ~override~
+  SAY NAME2     @156
+  SAY DESC      @157
+
+COPY ~c2/itm/c2quiv01.itm~ ~override~
+  SAY NAME2     @108
+  SAY DESC      @109
+
+COPY ~c2/itm/c2quiv02.itm~ ~override~
+  SAY NAME2     @110
+  SAY DESC      @111
+
+COPY ~c2/itm/c2quiv03.itm~ ~override~
+  SAY NAME2     @112
+  SAY DESC      @113
+
+COPY ~c2/itm/c2boot01.itm~ ~override~
+  SAY NAME2     @114
+  SAY DESC      @115
+
+COPY ~c2/itm/c2boot02.itm~ ~override~
+  SAY NAME2     @116
+  SAY DESC      @117
+
+COPY ~c2/itm/c2boot03.itm~ ~override~
+  SAY NAME2     @118
+  SAY DESC      @119
+
+COPY ~c2/itm/c2boot04.itm~ ~override~
+  SAY NAME2     @120
+  SAY DESC      @121
+
+COPY ~c2/itm/c2blun01.itm~ ~override~
+  SAY NAME2     @122
+  SAY DESC      @123
+
+COPY ~c2/itm/c2blun02.itm~ ~override~
+  SAY NAME2     @124
+  SAY DESC      @125
+
+COPY ~c2/itm/c2blun03.itm~ ~override~
+  SAY NAME2     @172
+  SAY DESC      @173
+
+COPY ~c2/itm/c2bow01.itm~ ~override~
+  SAY NAME2     @126
+  SAY DESC      @127
+
+COPY ~c2/itm/c2valy01.itm~ ~override~
+  SAY NAME2     @128
+  SAY DESC      @129
+
+COPY ~c2/itm/c2robe01.itm~ ~override~
+  SAY NAME2     @130
+  SAY DESC      @131
+
+COPY ~c2/itm/c2robe02.itm~ ~override~
+  SAY NAME2     @132
+  SAY DESC      @133
+
+COPY ~c2/itm/c2robe03.itm~ ~override~
+  SAY NAME2     @134
+  SAY DESC      @135
+
+COPY ~c2/itm/c2helm01.itm~ ~override~
+  SAY NAME2     @136
+  SAY DESC      @137
+
+COPY ~c2/itm/c2helm02.itm~ ~override~
+  SAY NAME2     @138
+  SAY DESC      @139
+
+COPY ~c2/itm/c2hide01.itm~ ~override~
+  SAY NAME2     @140
+  SAY DESC      @141
+
+COPY ~c2/itm/c2leat01.itm~ ~override~
+  SAY NAME2     @142
+  SAY DESC      @143
+
+COPY ~c2/itm/c2keld01.itm~ ~override~
+  SAY NAME2     @144
+  SAY DESC      @145
+
+COPY ~c2/itm/c2keld02.itm~ ~override~
+  SAY NAME2     @164
+  SAY DESC      @165
+
+COPY ~c2/itm/c2plat01.itm~ ~override~
+  SAY NAME2     @146
+  SAY DESC      @147
+
+COPY ~c2/itm/c2shld01.itm~ ~override~
+  SAY NAME2     @148
+  SAY DESC      @149
+
+COPY ~c2/itm/c2sper01.itm~ ~override~
+  SAY NAME2     @150
+  SAY DESC      @151
+
+COPY ~c2/itm/c2sper02.itm~ ~override~
+  SAY NAME2     @152
+  SAY DESC      @153
+
+COPY ~c2/itm/c2sper03.itm~ ~override~
+  SAY NAME2     @154
+  SAY DESC      @155
+
+COPY ~c2/itm/c2sw1h01.itm~ ~override~
+  SAY NAME2     @158
+  SAY DESC      @159
+
+COPY ~c2/itm/c2sw1h02.itm~ ~override~
+  SAY NAME2     @160
+  SAY DESC      @161
+
+COPY ~c2/itm/c2mazz01.itm~ ~override~
+  SAY NAME2     @162
+  SAY DESC      @163
+
+COPY ~c2/itm/c2anom01.itm~ ~override~
+  SAY NAME2     @166
+  SAY DESC      @167
+
+COPY ~c2/itm/c2sw2h01.itm~ ~override~
+  SAY NAME2     @168
+  SAY DESC      @169
+
+COPY ~c2/itm/c2sw2h02.itm~ ~override~
+  SAY NAME2     @170
+  SAY DESC      @171
+
+COPY ~c2/itm/c2dagg01.itm~ ~override~
+  SAY NAME2     @174
+  SAY DESC      @175
+
+COPY ~c2/itm/c2shld02.itm~ ~override~
+  SAY NAME2     @176
+  SAY DESC      @177
+
+COPY ~c2/itm/c2brac01.itm~ ~override~
+  SAY NAME2     @178
+  SAY DESC      @179
+
+COPY ~c2/itm/c2amul01.itm~ ~override~
+  SAY NAME2     @180
+  SAY DESC      @181
+
+COPY ~c2/itm/c2sw1h03.itm~ ~override~
+  SAY NAME2     @182
+  SAY DESC      @183
+
+COPY ~c2/itm/c2ax1h01.itm~ ~override~
+  SAY NAME2     @184
+  SAY DESC      @185
+
+COPY ~c2/itm/c2ring04.itm~ ~override~
+  SAY NAME2     @186
+  SAY DESC      @187
+
+COPY ~c2/itm/c2belt01.itm~ ~override~
+  SAY NAME2     @188
+  SAY DESC      @189
+
+COPY ~c2/itm/c2kit.itm~ ~override~
+  SAY NAME2     @190
+  SAY DESC      @191
+
+COPY ~c2/itm/c2kit.cre~ ~override~
+  SAY NAME1     @192
+  SAY NAME2     @192
+
+COPY ~c2/itm/c2hd1.itm~ ~override~
+  SAY NAME2     @193
+  SAY DESC      @194
+
+COPY ~c2/itm/c2hd2.itm~ ~override~
+  SAY NAME2     @195
+  SAY DESC      @196
+
+COPY ~c2/itm/c2chan01.itm~ ~override~
+  SAY NAME2     @197
+  SAY DESC      @198
+
+// allows us to regexp match tabs and newlines
+OUTER_INNER_PATCH ~12~ BEGIN
+  WRITE_BYTE 1 0x09
+  READ_ASCII 1 tab (1)  // 0x09, tab
+  WRITE_BYTE 1 0x0a
+  READ_ASCII 1 lnl (1)  // 0x0a, Linux
+  WRITE_BYTE 0 0x0d
+  READ_ASCII 0 mnl (1)  // 0x0d, Mac
+  READ_ASCII 0 wnl (2)  // 0x0d0a, Windows
+END
+
+COMPILE ~c2/crom/c2amul01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2anom01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2ax1h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2belt01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2blun01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2blun02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2blun03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2boot01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2boot02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2boot03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2boot04.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2bow01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2brac01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2chan01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2dagg01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2hd1.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2helm01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2helm02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2hide01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2keld01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2keld02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2kit.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2mazz01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2plat01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2ring01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2ring02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2ring03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2ring04.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2robe01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2robe02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2robe03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2shld01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2shld02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sper01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sper02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sper03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2staf01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2staf02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sw1h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sw1h02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sw1h03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2sw2h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/crom/c2valy01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+
+EXTEND_BOTTOM ~AR0334.bcs~ ~c2/crom/AR0334.baf~
+
+// grants player extra sunstone in UE quest
+COMPILE ~c2/dlg/riftg03.d~
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur.bcs~ ~c2/bcs/lilarcor.baf~
+  
+BEGIN ~Original list version~
+  REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~ar5503.are~ @3 // ToB
+  DESIGNATED 1
+  SUBCOMPONENT @2
+
+// unconventional, but it works: the two R_Ts intercept all calls to state 4 and
+// send them to the new IU 'menu' state instead. The new states are all in the
+// appended file
+COPY_EXISTING ~botsmith.dlg~ ~override~
+  DECOMPILE_DLG_TO_D
+    REPLACE_TEXTUALLY "[%tab%%lnl%%wnl%%mnl%^ ]GOTO 4[%tab%%lnl%%wnl%%mnl%$ ]" " GOTO c2itemupgrade "
+    REPLACE_TEXTUALLY "[%tab%%lnl%%wnl%%mnl%^ ]EXTERN ~BOTSMITH~ 4[%tab%%lnl%%wnl%%mnl%$ ]" " GOTO c2itemupgrade "
+    APPEND_FILE ~c2/dlg/cespy.d~
+  COMPILE_D_TO_DLG
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur25.bcs~ ~c2/bcs/lilarcor.baf~
+
+BEGIN ~Revised consistency plus version~
+  REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~ar5503.are~ @3 // ToB
+  DESIGNATED 11
+  SUBCOMPONENT @2
+  
+COMPILE ~c2/cespy/c2amul01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2anom01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2ax1h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2belt01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2blun01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2blun02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2blun03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2boot01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2boot02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2boot03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2boot04.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2bow01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2brac01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2chan01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2dagg01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2hd1.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2helm01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2helm02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2hide01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2keld01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2keld02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2kit.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2leat01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2mazz01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2plat01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2quiv01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2quiv02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2quiv03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2ring01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2ring02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2ring03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2ring04.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2robe01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2robe02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2robe03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2shld01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2shld02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sper01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sper02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sper03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2staf01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2staf02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sw1h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sw1h02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sw1h03.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sw2h01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2sw2h02.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+COMPILE ~c2/cespy/c2valy01.d~
+	USING ~c2/american/lolwot.tra~
+		  ~c2/%LANGUAGE%/lolwot.tra~
+
+EXTEND_BOTTOM ~BOTSMITH.BCS~ ~c2/cespy/BOTSMITH.baf~
+
+// prompts random StringHeads if Lil +5 is being used
+EXTEND_BOTTOM ~baldur25.bcs~ ~c2/bcs/lilarcor.baf~
