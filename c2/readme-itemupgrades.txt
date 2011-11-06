@@ -716,3 +716,4 @@ Version 38a: (Revised component fixbashing)
 	  Ring of Elemental Mastery lol)
 	* Revised components are now compatible with BG2Tweaks' "PnP-style Wear Multiple
 	  Items" component
+	* Added ggib_eht's fix for duplicate item creation (thanks the_bigg... whoops :P)
