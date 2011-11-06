@@ -92,8 +92,8 @@ APPEND WSMITH01
     IF ~~ THEN REPLY #66770 GOTO XO#NoItemUp
 	END
 
-	IF WEIGHT #-1 ~GlobalGT("XO#Craft","ar0334",0)~ THEN BEGIN XO#CRAFT SAY #59797
-		IF ~~ THEN DO ~SetGlobal("XO#Craft","ar0334",0)~ EXIT
+	IF WEIGHT #-1 ~OR(2) GlobalGT("XO#Craft","ar0334",0) GlobalGT("XO#ItemUp","ar0334",0)~ THEN BEGIN XO#CRAFT SAY #59797
+		IF ~~ THEN DO ~SetGlobal("XO#Craft","ar0334",0) SetGlobal("XO#ItemUp","ar0334",0)~ EXIT
 	END
 
 	IF ~~ THEN BEGIN XO#NoItemUp SAY @1234
