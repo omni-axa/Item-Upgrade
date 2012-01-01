@@ -645,7 +645,7 @@ Version 38:	(updated by Lollorian)
 		- morgan (polski) - also found typos in the english .tra AND revised the original polish setup.tra
 		- Hawkmoon, Aldark & prowler (russian)
 	* Added README and VERSION tags
-	* Added Lich's fixed c2ax1h01.itm (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
+	* Added Lich's fixed Azuredge +4 (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
 	* Expanded item checks for Gloves of Master Thief, Amulet of Ilmater, Sorcerian Ring and Girdle of Glory
 	* Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh +5)
 	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' upgrade
