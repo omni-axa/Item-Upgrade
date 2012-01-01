@@ -649,3 +649,8 @@ Version 38:	(updated by Lollorian)
 	* Expanded item checks for Gloves of Master Thief, Amulet of Ilmater, Sorcerian Ring and Girdle of Glory
 	* Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh +5)
 	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' upgrade
+Version 39: (updated by Lollorian)
+	* repairs ( http://forums.pocketplane.net/index.php/topic,27176.msg327010.html#msg327010 )
+	  ( http://forums.pocketplane.net/index.php/topic,27541.msg326886.html#msg326886 )
+	* French translation repairs from Sanctifer of the d'Oghmatiques 
+	* WeiDU update to v231

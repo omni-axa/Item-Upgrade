@@ -1,7 +1,7 @@
                              Baldur's Gate II
                            Item Upgrade Mod Pack
 		  Westley Weimer <weimer@cs.berkeley.edu>
-                            \/ Release 38a \/
+                             \/ Release 39 \/
 
                       http://www.weidu.org/item.html
 
@@ -699,7 +699,7 @@ Version 38:	(updated by Lollorian)
 		  original polish setup.tra
 		- Hawkmoon, Aldark & prowler (russian)
 	* Added README and VERSION tags
-	* Added Lich's fixed c2ax1h01.itm 
+	* Added Lich's fixed Azuredge +4
 	  (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
 	* Expanded item checks for Gloves of Master Thief, Amulet of Ilmater, 
 	  Sorcerian Ring and Girdle of Glory
@@ -707,7 +707,7 @@ Version 38:	(updated by Lollorian)
 	  +5)
 	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' 
 	  upgrade
-Version 38a: (Revised component fixbashing)
+Version 39: (Revised component fixbashing and translates)
 	* Fixed NVLORs in recipes for Girdle of Glory, Teleomortis +4, Gloves of the 
 	  Master Thief, Quietus +4, Inevitable Entropy & Creeping Chaos, Ring of 
 	  Elemental Mastery, Sorcerian Ring and Enhanced Robe of the Good/Neutral/Evil 
@@ -717,3 +717,5 @@ Version 38a: (Revised component fixbashing)
 	* Revised components are now compatible with BG2Tweaks' "PnP-style Wear Multiple
 	  Items" component
 	* Added ggib_eht's fix for duplicate item creation (thanks the_bigg... whoops :P)
+	* French translation repairs from Sanctifer of the d'Oghmatiques 
+	* WeiDU update to v231

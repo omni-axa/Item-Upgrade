@@ -1,6 +1,6 @@
 BACKUP ~c2/backup~
 AUTHOR ~weimer@cs.berkeley.edu~
-VERSION ~v38~
+VERSION ~v39~
 
 README ~c2/readme-itemupgrades.txt~
 
@@ -8,7 +8,7 @@ ALLOW_MISSING ~sw2h19.itm~
 
 LANGUAGE ~American English~ ~american~ ~c2/american/setup.tra~
 
-LANGUAGE ~Francais (traduction de Artemidore et Cocobard)~ ~french~
+LANGUAGE ~Francais (traduction de Artemidore et Cocobard et Sanctifer)~ ~french~
   ~c2/american/setup.tra~
   ~c2/french/setup.tra~
 

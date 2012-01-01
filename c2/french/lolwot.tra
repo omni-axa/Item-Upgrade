@@ -1,359 +1,362 @@
-/*NOTE TO TRANSLATORS: (if any :P)
-
-Many of these lines may already be translated in the original Item Upgrade mod. So please check and copy any that you find :) It'd save you HEAPS of trouble */
 
 //Naysayers
 
-@1234 = ~Well, let's see what else ye got.~
-@5678 = ~Well, let's sees what else you has...~
+@1234  = ~Bien, voyons ce que vous avez d'autre.~
+@5678  = ~Okay, voyons quoi tu as d'autre...~
+
+
 
 //Crom
 
-@123440 = ~Good lookin' ring ye got there. Lemme have a look...~
-@1234840 = ~I could combine a Ring of Protection +1 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 10,000 gold.~
-@1234940 = ~I could combine a Ring of Protection +1 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 10,000 gold. Interested?~
+@123440= ~Joli anneau que vous possédez là. Laissez-moi l'examiner...~
+@1234840= ~Je pourrais combiner un Anneau de Protection +1 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 10.000 pièces d'or.~
+@1234940= ~Je pourrais combiner un Anneau de Protection +1 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 10.000 pièces d'or. Ça vous intéresse ?~
 
-@123441 = ~Good lookin' ring ye got there. Lemme have a look...~
-@1234841 = ~I could combine a Ring of Protection +2 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 20,000 gold.~
-@1234941 = ~I could combine a Ring of Protection +2 with a Ring of Regeneration. I'd need to melt a diamond into the mixture and it would cost you 20,000 gold. Interested?~
+@123441= ~Joli anneau que vous possédez là. Laissez-moi l'examiner...~
+@1234841= ~Je pourrais combiner un Anneau de Protection +2 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 20.000 pièces d'or.~
+@1234941= ~Je pourrais combiner un Anneau de Protection +2 avec un Anneau de Régénération. Il me faudrait ajouter un diamant à la préparation et cela vous coûterait 20.000 pièces d'or. Ça vous intéresse ?~
 
-@123442 = ~Ah, ye have one 'a the rings of the Elements. Lets a have a look now...~
-@1234842 = ~I could combine the Rings of Air, Earth and Fire into a Ring of Elemental Mastery. I would need defensive scrolls of Protection from Petrification, Fire and Electricity as reagents. It will also cost you 20,000 gold.~
-@1234942 = ~I could combine the Rings of Air, Earth and Fire into a Ring of Elemental Mastery. I would need defensive scrolls of Protection from Petrification, Fire and Electricity as reagents. It will also cost you 20,000 gold. What say ye?~
+@123442= ~Ah, vous possédez un des Anneaux Élémentaires. Voyons ça...~
+@1234842= ~Je pourrais combiner les Anneaux de l'Air, du Feu et de la Terre pour en faire un Anneau de Maîtrise Élémentaire. Il me faudrait des parchemins défensifs de Protection contre la Pétrification, contre le Feu et contre l'Électricité comme réactifs. Cela vous coûterait aussi 20.000 pièces d'or.~
+@1234942= ~Je pourrais combiner les Anneaux de l'Air, du Feu et de la Terre pour en faire un Anneau de Maîtrise Élémentaire. Il me faudrait des parchemins défensifs de Protection contre la Pétrification, contre le Feu et contre l'Électricité comme réactifs. Cela vous coûterait aussi 20.000 pièces d'or. Qu'est-ce que vous en dites ?~
 
-@123443 = ~Aye, look at that Elemental Staff. I betcha I could make it even more impressive...~
-@1234843 = ~I could combine the Staves of Air, Earth and Fire into a Staff of Elemental Mastery. It will also cost ya 20,000 gold, but I'm sure it'd be glorious.~
-@1234943 = ~I could combine the Staves of Air, Earth and Fire into a Staff of Elemental Mastery. It will also cost ya 20,000 gold, but I'm sure it'd be glorious. Ye interested?~
+@123443= ~Ha, regardez-moi ce Bâton Élementaire. Je vous parie que je peux le rendre encore plus impressionnant...~
+@1234843= ~Je pourrais combiner les Bâtons de l'Air, de la Terre et du Feu pour en faire un Bâton de Maîtrise Élémentaire. Ça vous coûterait 20.000 pièces d'or, c'est vrai, mais je suis sûr que ce serait magnifique.~
+@1234943= ~Je pourrais combiner les Bâtons de l'Air, de la Terre et du Feu pour en faire un Bâton de Maîtrise Élémentaire. Ça vous coûterait 20.000 pièces d'or, c'est vrai, mais je suis sûr que ce serait magnifique. Ça vous intéresse ?~
 
-@123444 = ~Have ye been dealng with the local thieves' guild? Anyway, I'm sure I could do summin' with these boots of Stealth...~
-@1234844 = ~Aye, I could cobble together the Boots of Speed and these Boots of Stealth. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
-@1234944 = ~Aye, I could cobble together your Boots of Speed and these Boots of Stealth. You'd be fast as lightning with that footwear! I'd need a Rogue Stone as a reagent and 10,000 gold for the job. Tell me if yer interested.~
+@123444= ~Vous avez traité avec la Guilde des voleurs locale ? Quoi qu'il en soit, je dois pouvoir améliorer ces Bottes de Furtivité...~
+@1234844= ~Ha, je pourrais mêler les Bottes de Rapidité à ces Bottes de Furtivité. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@1234944= ~Ha, je pourrais mêler vos Bottes de Rapidité à ces Bottes de Furtivité. Vous seriez aussi rapide que l'éclair avec ça ! Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot. Dites-moi si ça vous intéresse.~
 
-@123445 = ~The last time I saw boots like these were with those junkies from Icewind Dale. I'm sure I did summin' for 'em...~
-@1234845 = ~Aye, I could cobble together the Boots of Speed and these Boots of the North. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
-@1234945 = ~Aye, I could cobble together your Boots of Speed and these Boots of the North. You'd be fast as lightning with that footwear! I'd need a Rogue Stone as a reagent and 10,000 gold for the job. Tell me if yer interested.~
+@123445= ~La dernière fois que j'ai vu des bottes de ce genre, c'était chez ces exaltés du Val de Bise. Je sûr d'avoir pu les améliorer pour eux...~
+@1234845= ~Ha, je pourrais mêler les Bottes de Rapidité à ces Bottes Nordiques. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@1234945= ~Ha, je pourrais mêler vos Bottes de Rapidité à ces Bottes Nordiques. Vous seriez aussi rapide que l'éclair avec ça ! Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot. Dites-moi si ça vous intéresse.~
 
-@123446 = ~Boots of Grounding eh? I could do something with them...~
-@1234846 = ~Aye, I could cobble together the Boots of Speed and these Boots of Grounding. I'd need a Rogue Stone as a reagent and 10,000 gold for the job.~
-@1234946 = ~Aye, I could cobble together your Boots of Speed and these Boots of Grounding. You'd be fast as lightning with that footwear! I'd need a Rogue Stone as a reagent and 10,000 gold for the job. Tell me if yer interested.~
+@123446= ~Des Bottes d'Atterrissage, hein ? Je dois pouvoir en faire quelque chose...~
+@1234846= ~Ha, je pourrais mêler les Bottes de Rapidité à ces Bottes d'Atterrissage. Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot.~
+@1234946= ~Ha, je pourrais mêler vos Bottes de Rapidité à ces Bottes d'Atterrissage. Vous seriez aussi rapide que l'éclair avec ça ! Il me faudrait une Esseulite comme réactif et 10.000 pièces d'or pour le boulot. Dites-moi si ça vous intéresse.~
 
-@123447 = ~Ah yes, the Boots of Avoidance - perfect for those run-ins with the elves...~
-@1234847 = ~Aye, I could cobble together the Boots of Speed and these Boots of Avoidance. I'd need a Rogue Stone as a reagent and 20,000 gold for the job.~
-@1234947 = ~Aye, I could cobble together your Boots of Speed and these Boots of Avoidance. You'd be fast as lightning with that footwear! I'd need a Rogue Stone as a reagent and 20,000 gold for the job. Tell me if yer interested.~
+@123447= ~Ah oui, les Bottes d'Évitement... parfaites en cas de querelle avec les Elfes...~
+@1234847= ~Ha, je pourrais mêler les Bottes de Rapidité à ces Bottes d'Évitement. Il me faudrait une Esseulite comme réactif et 20.000 pièces d'or pour le boulot.~
+@1234947= ~Ha, je pourrais mêler vos Bottes de Rapidité à ces Bottes d'Évitement. Vous seriez aussi rapide que l'éclair avec ça ! Il me faudrait une Esseulite comme réactif et 20.000 pièces d'or pour le boulot. Dites-moi si ça vous intéresse.~
 
-@123448 = ~Hmm, I've heard of Blackblood, but never had the good fortune to see it up close. Let's see what we can do...~
-@1234848 = ~I could combine the Blackblood and another sibling club I heard of - the Gnasher into a powerful club of acid-coated splinters. It would cost you 15,000 gold.~
-@1234948 = ~I could combine the Blackblood and the Gnasher into a powerful club of acid-coated splinters. It would cost you 15,000 gold. So, what ye say?~
+@123448= ~Mmmh, j'avais entendu parler de Noirsang, mais je n'avais jamais eu la chance de l'observer de près. Voyons voir ce qu'on peut en faire...~
+@1234848= ~Je pourrais combiner Noirsang et un autre gourdin apparenté dont j'ai entendu parler, la Mâchouilleuse, pour créer un puissant gourdin avec des piquants imprégnés d'acide. Ça vous coûterait 15.000 pièces d'or.~
+@1234948= ~Je pourrais combiner Noirsang et la Mâchouilleuse en un puissant gourdin avec des piquants imprégnés d'acide. Ça vous coûterait 15.000 pièces d'or. Qu'est-ce que vous en dites ?~
 
-@123449 = ~A club made of bone? The current generation tries to use anything for their means! Well, let's see...~
-@1234849 = ~I could combine the Bone Club and a club called the Gnasher into a powerful club... just perfect for servants of the Balance. It would cost you 15,000 gold.~
-@1234949 = ~I could combine the Bone Club and the Gnasher into a powerful club... just perfect for servants of the Balance. It would cost you 15,000 gold.~
+@123449= ~Un gourdin en os ? La génération actuelle essaye vraiment d'utiliser n'importe quoi à ses fins ! Enfin, voyons voir...~
+@1234849= ~Je pourrais combiner le Gourdin d'Os et un gourdin appelé la Mâchouilleuse en un puissant gourdin... Parfait pour les serviteurs de l'Équilibre. Ça vous coûterait 15.000 pièces d'or.~
+@1234949= ~Je pourrais combiner le Gourdin d'Os et la Mâchouilleuse en un puissant gourdin... Parfait pour les serviteurs de l'Équilibre. Ça vous coûterait 15.000 pièces d'or.~
 
-@123450 = ~Aye, the Skullcrusher - a dwarve's dream. Looks like it could be enhanced...~
-@1234850 = ~With a Finger of Death scroll, a cursed potion of healing and 15,000 gold I could reforge the Skullcrusher for ye.~
-@1234950 = ~With a Finger of Death scroll, a cursed potion of healing and 15,000 gold I could reforge the Skullcrusher for ye. Interested?~
+@123450= ~Ha, l'Écrase-Crânes, un rêve pour les Nains. On dirait bien qu'il pourrait être amélioré...~
+@1234850= ~Avec un parchemin de Doigt de Mort, une potion maudite de guérison et 15.000 pièces d'or, je pourrais reforger l'Écrase-Crânes pour vous.~
+@1234950= ~Avec un parchemin de Doigt de Mort, une potion maudite de guérison et 15.000 pièces d'or, je pourrais reforger l'Écrase-Crânes pour vous. Ça vous intéresse ?~
 
-@123451 = ~A fine bow ye got there. Lemme have a look...~
-@1234851 = ~The Heartseeker could be restrung with the bowstring of Gesen or Gond. With 4 Laeral's Tears and a Potion of Power as reagents I could make for ye a longbow that did not require earthly arrows.~
-@1234951 = ~The Heartseeker could be restrung with the bowstring of Gesen. With 4 Laeral's Tears and a Potion of Power as reagents I could make for ye a longbow that did not require earthly arrows. Dunna' worry about the gold. Them gems will pay fer themselves. Do ye be interested?~
-@1234751 = ~The Heartseeker could be restrung with the bowstring of Gond. With 4 Laeral's Tears and a Potion of Power as reagents I could make for ye a longbow that did not require earthly arrows. Dunna' worry about the gold. Them gems will pay fer themselves. Do ye be interested?~
+@123451= ~Un bel arc que vous avez là. Laissez-moi y jeter un oeil...~
+@1234851= ~On pourrait remplacer la corde de Cherchecoeur par une de celles de Gesen ou de Gond. Avec quatre Larmes de Laérale et une Potion de Pouvoir comme réactifs, je pourrais vous faire un arc long qui ne fait pas appel à des flèches d'ici-bas.~
+@1234951= ~On pourrait remplacer la corde de Cherchecoeur par la corde de Gesen. Avec quatre Larmes de Laérale et une Potion de Pouvoir comme réactifs, je pourrais vous faire un arc long qui ne fait pas appel à des flèches d'ici-bas. Ne vous inquiétez pas pour l'or, ces gemmes suffiront bien. Alors, ça vous intéresse ?~
+@1234751= ~On pourrait remplacer la corde de Cherchecoeur par la corde de Gond. Avec quatre Larmes de Laérale et une Potion de Pouvoir comme réactifs, je pourrais vous faire un arc long qui ne fait pas appel à des flèches d'ici-bas. Ne vous inquiétez pas pour l'or, ces gemmes suffiront bien. Alors, ça vous intéresse ?~
 
-@123454 = ~Some fine leather ye got there. Look's like it could be enchanted further...~
-@1234854 = ~Ah, there's a mageborn family. Using a Protection From Magic Scroll as a catalyst I could forge together the Corthala Family Armor and armor from a Shadow Dragon. It would cost you 10,000 gold.~
-@1234954 = ~Ah, there's a mageborn family. Using a Protection From Magic Scroll as a catalyst I could forge together the Corthala Family Armor and armor from a Shadow Dragon. It would cost you 10,000 gold. Whaddye think?~
+@123454= ~C'est une bien belle armure de cuir que vous avez là. On dirait bien qu'on pourrait en renforcer les enchantements...~
+@1234854= ~Ah, c'est une famille de mages. En prenant un parchemin de Protection contre la Magie comme catalyseur, je pourrais forger ensemble l'Armure de la Famille Corthala et l'Armure du Dragon d'Ombre. Ça vous coûterait 10.000 pièces d'or.~
+@1234954= ~Ah, c'est une famille de mages. En prenant un parchemin de Protection contre la Magie comme catalyseur, je pourrais forger ensemble l'Armure de la Famille Corthala et l'Armure du Dragon d'Ombre. Ça vous coûterait 10.000 pièces d'or. Qu'est-ce que vous en pensez ?~
 
-@123455 = ~A robe, and a fine one at that. Maybe I could refine it...~
-@1234855 = ~Yes, I could make some improvements to a Robe of the Archmagi. With a Cloak of Protection +1 and scrolls of Spirit Armor and Contingency as reagents I could make a mantle worthy of Elminster. It would cost you 20,000 gold.~
-@1234955 = ~Yes, I could make some improvements to a Robe of the Archmagi. With a Cloak of Protection +1 and scrolls of Spirit Armor and Contingency as reagents I could make a mantle worthy of Elminster. It would cost you 20,000 gold. Interested?~
+@123455= ~Une robe, une excellente robe d'ailleurs. Je pourrais peut-être la perfectionner...~
+@1234855= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or.~
+@1234955= ~Oui, je pourrais apporter des améliorations à cette Robe d'Archimage. Avec une Cape de Protection +1 et des parchemins d'Armure Spirituelle et de Contingence comme réactifs, je pourrais fabriquer un vêtement digne d'Elminster. Cela vous coûterait 20.000 pièces d'or. Ça vous intéresse ?~
 
-@123459 = ~Hmm, methinks this Helm of Defense could be improved...~
-@1234859 = ~Certainly. I could combine the defensive powers of a Helm of Defense and a Helm of Charm Protection. I'd need four pearls as reagents and 10,000 gold for the job.~
-@1234959 = ~Certainly. I could combine the defensive powers of a Helm of Defense and a Helm of Charm Protection. I'd need four pearls as reagents and 10,000 gold for the job. Ye want me ta go ahead?~
+@123459= ~Hmm, je pense que ce Heaume de Défense pourrait être amélioré...~
+@1234859= ~Certainement. Je pourrais combiner les pouvoirs défensifs d'un Heaume de Défense et d'un Casque Anti-Charmes. Il me faudrait quatre perles comme réactifs et 10.000 pièces d'or pour le boulot.~
+@1234959= ~Certainement. Je pourrais combiner les pouvoirs défensifs d'un Heaume de Défense et d'un Casque Anti-Charmes. Il me faudrait quatre perles comme réactifs et 10.000 pièces d'or pour le boulot. Souhaitez-vous que je le fasse ?~
 
-@123460 = ~A Helm of Charm Protection? It has a gaping weakness... and I know how ta fix it...~
-@1234860 = ~Hmm. If you managed to procure two flasks of Mind Flayer birthing brine I could use them to enchant a Helm of Charm Protection against Psionics. I'd charge 10,000 for the job.~
-@1234960 = ~Hmm. If you managed to procure two flasks of Mind Flayer birthing brine I could use them to enchant a Helm of Charm Protection against Psionics. I'd charge 10,000 for the job. What say ye?~
+@123460= ~Un Casque Anti-Charmes ? Il a un point faible... Et je sais comment réparer ça...~
+@1234860= ~Hmm. Si vous réussissez à vous procurer deux fioles de l'eau dans laquelle des jeunes Illithids ont grandi, je pourrais les utiliser pour enchanter contre les psioniques un Casque Anti-Charmes. Je vous facturerais ça 10.000 pièces d'or.~
+@1234960= ~Hmm. Si vous réussissez à vous procurer deux fioles de l'eau dans laquelle des jeunes Illithids ont grandi, je pourrais les utiliser pour enchanter contre les psioniques un Casque Anti-Charmes. Je vous facturerais ça 10.000 pièces d'or. Qu'est-ce que vous en dites ?~
 
-@123461 = ~Hmm, this is some very tough leather. Almost as good as chainmail...~
-@1234861 = ~With a Scroll of Protection from the Elements to use as a catalyst, I could make that old bear's hide even tougher and smellier than it already is. I'd charge 15,000 for me labour.~
-@1234961 = ~With a Scroll of Protection from the Elements to use as a catalyst, I could make that old bear's hide even tougher and smellier than it already is. I'd charge 15,000 for me labour. Interested?~
+@123461= ~Hmm, voilà du cuir bien robuste. Presque aussi bon qu'une cotte de mailles...~
+@1234861= ~Avec un parchemin de Protection contre les Éléments en guise de catalyseur, je pourrais rendre cette vieille peau d'ours encore plus coriace qu'elle ne l'est déjà. Je vous demanderais 15.000 pièces d'or pour le travail.~
+@1234961= ~Avec un parchemin de Protection contre les Éléments en guise de catalyseur, je pourrais rendre cette vieille peau d'ours encore plus coriace qu'elle ne l'est déjà. Je vous demanderais 15.000 pièces d'or pour le travail. Ça vous intéresse ?~
 
-@123462 = ~This paladin's armor. It could use some reforging...~
-@1234862 = ~With some choice plates from the Armor of the Hart I could reforge the Firecam Full-Plate. But quality doesn't come cheap: I'd ask 20,000 gold for the work.~
-@1234962 = ~With some choice plates from the Armor of the Hart I could reforge the Firecam Full-Plate. But quality doesn't come cheap: I'd ask 20,000 gold for the work. And that's final.~
+@123462= ~Cette armure de paladin. Elle pourrait bénéficier du travail de la forge...~
+@1234862= ~Avec certaines parties de l'Armure du Cerf, je pourrais reforger l'Armure de Plates Complète Firecam. Mais la qualité n'est pas bon marché : je vous demanderais 20.000 pièces d'or pour la tâche.~
+@1234962= ~Avec certaines parties de l'Armure du Cerf, je pourrais reforger l'Armure de Plates Complète Firecam. Mais la qualité n'est pas bon marché : je vous demanderais 20.000 pièces d'or pour la tâche. Et c'est mon dernier mot.~
 
-@123463 = ~I remember good ol' Taerom used to forge one a these babies in his smithy. Well, some competition's always good eh?~
-@1234863 = ~With two distinct kinds of scrolls of Protection from Acid to use for the rune-work, I could reforge a suit of Ankheg Plate Mail. It would cost you another 5,000 gold, though.~
-@1234963 = ~With two distinct kinds of scrolls of Protection from Acid to use for the rune-work, I could reforge a suit of Ankheg Plate Mail. It would cost you another 5,000 gold, though. What say ye?~
+@123463= ~Je me souviens que ce bon vieux Taerom avait forgé un de ces bébés dans son atelier. Eh bien, un peu de compétition est toujours bienvenue, hein ?~
+@1234863= ~Grâce aux runes de deux sortes différentes de parchemins de Protection contre l'Acide, je pourrais reforger une Armure de Plates d'Ankheg. Mais cela vous coûterait 5.000 pièces d'or de plus.~
+@1234963= ~Grâce aux runes de deux sortes différentes de parchemins de Protection contre l'Acide, je pourrais reforger une Armure de Plates d'Ankheg. Mais cela vous coûterait 5.000 pièces d'or de plus. Qu'est-ce que vous en dites ?~
 
-@123464 = ~This be a mighty fine shield here...~
-@1234864 = ~Ah, the Shield of Harmony. She's a beaute, I'll admit. If you had two flasks worth of Mind Flayer birthing brine, a Mind Flayer control circlet and a Beljuril I could forge up a storm with her. I'd charge you 10,000 gold as well, but she'd be stronger and more protective in the end.~
-@1234964 = ~Ah, the Shield of Harmony. She's a beaute, I'll admit. If you had two flasks worth of Mind Flayer birthing brine, a Mind Flayer control circlet and a Beljuril I could forge up a storm with her. That'll be for 10,000 gold though, take it or leave it..~
+@123464= ~Le beau et solide bouclier que voilà...~
+@1234864= ~Ah, le Bouclier de l'Harmonie. Une beauté, je l'admets. Si vous aviez deux flacons de la potion salée des Flagelleurs mentaux, un de leurs Colliers de contrôle et un Beljuril, je pourrais vous en faire un bouclier du tonnerre. Ça vous coûterait aussi 10.000 pièces d'or, mais il deviendrait plus solide et il offrirait une meilleure protection.~
+@1234964= ~Ah, le Bouclier de l'Harmonie. Une beauté, je l'admets. Si vous aviez deux flacons de la potion salée des Flagelleurs mentaux, un de leurs Colliers de contrôle et un Beljuril, je pourrais vous en faire un bouclier du tonnerre. Ça vous coûterait aussi 10.000 pièces d'or, à prendre ou à laisser.~
 
-@123465 = ~This spear been worked by a master craftsman. Let's see what another one can do then...~
-@1234865 = ~Aye, with a Rogue Stone and 10,000 gold I could make a rapid throwing spear from your Spear +3.~
-@1234965 = ~Aye, with a Rogue Stone and 10,000 gold I could make a rapid throwing spear from your Spear +3. Ye interested?~
+@123465= ~C'est un maître artisan qui a forgé cette lance. Voyons ce qu'un autre pourra en faire ...~
+@1234865= ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un leste javelot de votre Lance +3.~
+@1234965= ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un leste javelot de votre Lance +3. Ça vous intéresse ?~
 
-@123466 = ~If ye ask me, nancy things like unicorns dunna exist. But who's to stop ye from enchanting a fine weapon to begin with...~
-@1234866 = ~Aye, with a Rogue Stone and 10,000 gold I could make a throwing spear from your Spear of the Unicorn.~
-@1234966 = ~Aye, with a Rogue Stone and 10,000 gold I could make a throwing spear from your Spear of the Unicorn. Should we get ta work then?~
+@123466= ~Si vous voulez mon avis, les licornes et toutes ces niaiseries, ça n'existe pas. Mais qui suis-je pour vous empêcher d'améliorer une si belle arme...~
+@1234866= ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un javelot de votre Lance de la Licorne.~
+@1234966= ~Ha, avec une Esseulite et 10.000 pièces d'or je pourrais faire un javelot de votre Lance de la Licorne. On se met au travail ?~
 
-@123467 = ~I smell Sahuagin craftmanship on this spear. Lemme guess...~
-@1234867 = ~Ah, the Impaler. If there's anything those Sahuagin can make, it's a harpoon. With a Rogue Stone and 15,000 gold I could make it into a rapid throwing spear for you.~
-@1234967 = ~Ah, the Impaler. If there's anything those Sahuagin can make, it's a harpoon. With a Rogue Stone and 15,000 gold I could make it into a rapid throwing spear for you. Ye won't be disappointed.~
+@123467= ~Je sens de l'artisanat Sahuagin en cette lance. Laissez-moi deviner...~
+@1234867= ~Ah, l'Empaleur. S'il y a quelque chose que ces Sahuagins savent faire, c'est un harpon. Avec une Esseulite et 10.000 pièces d'or je pourrais en faire un leste javelot.~
+@1234967= ~Ah, l'Empaleur. S'il y a quelque chose que ces Sahuagins savent faire, c'est un harpon. Avec une Esseulite et 10.000 pièces d'or je pourrais en faire un leste javelot. Vous ne serez pas déçu.~ ~Ah, l'Empaleur. S'il y a quelque chose que ces Sahuagins savent faire, c'est un harpon. Avec une Esseulite et 10.000 pièces d'or je pourrais en faire un leste javelot. Vous ne serez pas déçue.~
 
-@123468 = ~What in the bloody hells are ye carrying a branch for? Oh, wait...~
-@1234868 = ~Harumph. These foresty staves have never been me favorites, but with rings of Protection and Animal friendship I could improve the Staff of the Woodlands. I'd charge 20,000 gold for the job.~
-@1234968 = ~Harumph. These foresty staves have never been me favorites, but with rings of Protection and Animal friendship I could improve the Staff of the Woodlands. I'd charge 20,000 gold for the job. Interested?~
+@123468= ~Par les Neufs Enfers, pourquoi vous vous encombrez d'une branche ? Oh, attendez...~
+@1234868= ~Humph. Ces bâtons sylvestres ne m'ont jamais dit grand chose, mais avec des Anneaux de Protection et d'Amitié avec les Animaux, je pourrais améliorer le Bâton des Bois. Je vous facturerais 20.000 pièces d'or pour la chose.~
+@1234968= ~Humph. Ces bâtons sylvestres ne m'ont jamais dit grand chose, mais avec des Anneaux de Protection et d'Amitié avec les Animaux, je pourrais améliorer le Bâton des Bois. Je vous facturerais 20.000 pièces d'or pour la chose. Ça vous intéresse ?~
 
-@123469 = ~The Daystar? Must've been adventuring a while if ye found this...~
-@1234869 = ~With four scrolls of Protection from Undead, two vials of Holy Water and two star sapphires I could turn the Daystar into the underworld's worst nightmare. I'd charge 15,000 for the job.~
-@1234969 = ~With four scrolls of Protection from Undead, two vials of Holy Water and two star sapphires I could turn the Daystar into the underworld's worst nightmare. I'd charge 15,000 for the job.~
+@123469= ~Étoile du Jour ? Vous avez dû pas mal bourlinguer, si vous avez trouvé cette arme...~
+@1234869= ~Avec quatre parchemins de Protection contre les Morts-vivants, deux flacons d'Eau bénite et deux saphirs étoilés je pourrais faire d'Étoile du Jour le pire cauchemar du monde d'en bas. Ça vous coûterait 15.000 pièces d'or.~
+@1234969= ~Avec quatre parchemins de Protection contre les Morts-vivants, deux flacons d'Eau bénite et deux saphirs étoilés je pourrais faire d'Étoile du Jour le pire cauchemar du monde d'en bas. Ça vous coûterait 15.000 pièces d'or.~
 
-@123470 = ~A katana? Looks like original Kara-Turan craftmanship too...~
-@1234870 = ~Celestial Fury? I'm nay from Kara-Tur, and enchanting a Katana is no easy task, but with a Demon Heart and a Wand of Lightning I could just about do it. I'd charge you 20,000 for me sweat.~
-@1234970 = ~Celestial Fury? I'm nay from Kara-Tur, and enchanting a Katana is no easy task, but with a Demon Heart and a Wand of Lightning I could just about do it. I'd charge you 20,000 for me sweat. Interested?~
+@123470= ~Un katana ? On dirait bien de l'authentique travail de Kara-Tur...~
+@1234870= ~Furie Céleste ? Je ne suis pas de Kara-Tur, et enchanter un katana n'est pas chose facile, mais avec le Coeur d'un Démon et une Baguette d'Éclairs, je pourrais faire quelque chose. Et je vous demanderais 20.000 pièces d'or pour la peine.~
+@1234970= ~Furie Céleste ? Je ne suis pas de Kara-Tur, et enchanter un katana n'est pas chose facile, mais avec le Coeur d'un Démon et une Baguette d'Éclairs, je pourrais faire quelque chose. Et je vous demanderais 20.000 pièces d'or pour la peine. Ça vous intéresse ?~
 
-@123471 = ~Now this is something ye don't see too often. A littlefolk paladin? But yes, her sword does show promise...~
-@1234871 = ~Aye, I could reforge the Sword of Arvoreen. But not without the blessing of the Goddess herself: I could only do the task for a party of the purest heart and highest reputation. I'd charge 15,000 for the job.~
-@1234971 = ~Aye, I could reforge the Sword of Arvoreen. But not without the blessing of the Goddess herself: I could only do the task for a party of the purest heart and highest reputation. I'd charge 15,000 for the job. Should I start?~
+@123471= ~Eh bien voilà quelquechose qu'on ne voit pas souvent. Une Petite-Femme paladin ? Mais oui, son épée a un potentiel prometteur...~
+@1234871= ~Ha, je pourrais reforger l'Épée d'Arvoreen. Mais pas sans la bénédiction de la Déesse elle-même : je ne pourrais accomplir cela que pour un groupe de gens au coeur le plus pur et d'excellente réputation. Je vous en demanderais 15.000 pièces d'or.~
+@1234971= ~Ha, je pourrais reforger l'Épée d'Arvoreen. Mais pas sans la bénédiction de la Déesse elle-même : je ne pourrais accomplir cela que pour un groupe de gens au coeur le plus pur et d'excellente réputation. Je vous en demanderais 15.000 pièces d'or. Je peux commencer ?~
 
-@123472 = ~Hmm, a blade that yearns to be like the Holy Avenger...~
-@1234872 = ~Ah, the Hallowed Redeemer. A holy blade, if a minor one by local standards. With a Demon Heart and five scrolls that Dispel Magic I could reforge it into something stronger still. But I'd need Torm's blessing for the task, so I could only undertake the job for a group of the highest virtue and reputation. I'd charge 15,000 gold.~
-@1234972 = ~Ah, the Hallowed Redeemer. A holy blade, if a minor one by local standards. With a Demon Heart and five scrolls that Dispel Magic I could reforge it into something stronger still. But I'd need Torm's blessing for the task, so I could only undertake the job for a group of the highest virtue and reputation. I'd charge 15,000 gold. Tell me if yer interested.~
+@123472= ~Hmmm, voilà une épée qui meurt d'envie de ressembler à la Sainte Lame...~
+@1234872= ~Ah, le Rédempteur Sanctifié. Une lame sacrée, bien que mineure selon les critères locaux. Avec le coeur d'un démon et cinq parchemins qui dissipent la magie, je pourrais la reforger en quelque chose d'un calme plus puissant. Mais il me faudrait la bénédiction de Torm, aussi je ne pourrais entreprendre le travail que pour un groupe de la plus haute vertu et de la plus excellente réputation. Je vous demanderais 15.000 pièces d'or.~
+@1234972= ~Ah, le Rédempteur Sanctifié. Une lame sacrée, bien que mineure selon les critères locaux. Avec le coeur d'un démon et cinq parchemins qui dissipent la magie, je pourrais la reforger en quelque chose d'un calme plus puissant. Mais il me faudrait la bénédiction de Torm, aussi je ne pourrais entreprendre le travail que pour un groupe de la plus haute vertu et de la plus excellente réputation. Je vous demanderais 15.000 pièces d'or. Dites-moi si ça vous intéresse.~
 
-@123473 = ~Ah, this brash lad has a fine shield. Mind if I take a look?~
-@1234873 = ~Yes. I could combine the armor plating from Anomen's shield with that of the famous shield Saving Grace. I'd charge 15,000 for the work.~
-@1234973 = ~Yes. I could combine the armor plating from Anomen's shield with that of the famous shield Saving Grace. I'd charge 15,000 for the work. So? What say ye?~
+@123473= ~Ah, ce fier-à-bras possède un beau bouclier. Je peux regarder ?~
+@1234873= ~Oui. Je pourrais combiner les plaques du bouclier d'Anomen avec celles du célèbre bouclier Grâce Salvatrice. Je vous prendrais 15.000 pièces pour le travail.~
+@1234973= ~Oui. Je pourrais combiner les plaques du bouclier d'Anomen avec celles du célèbre bouclier Grâce Salvatrice. Je vous prendrais 15.000 pièces pour le travail. Alors ? Qu'est-ce que vous en dites ?~
 
-@123474 = ~Ah, the blighted so-called 'Sentient Sword'. I cannae tell you how many times I've had adventurers come in here and ask me to dull it for good...~
-@1234874 = ~If you had a Mind Flayer Control Circlet I could put a damper on its chatter and make it more useful all the same. I'd charge 20,000 gold for the task.~
-@1234974 = ~If you had a Mind Flayer Control Circlet I could put a damper on its chatter and make it more useful all the same. I'd charge 20,000 gold for the task. Tell me when yer ready.~
+@123474= ~Ah, cette ferraille qui se dit "épée consciente". Je ne peux pas vous dire combien de fois des aventuriers sont venus ici et m'ont demandé de la faire taire pour de bon...~
+@1234874= ~Si vous aviez un collier de contrôle des Flagelleurs mentaux, je pourrais mettre un terme à son bavardage et la rendre en même temps plus utile. Je vous demanderais 20.000 pièces d'or pour la tâche.~
+@1234974= ~Si vous aviez un collier de contrôle des Flagelleurs mentaux, je pourrais mettre un terme à son bavardage et la rendre en même temps plus utile. Je vous demanderais 20.000 pièces d'or pour la tâche. Dites-moi quand vous êtes prêt.~
 
-@123475 = ~A wily dagger. Let me see...~
-@1234875 = ~Yes, that's quite a knife you have there. I could forge the Bone Blade and Pixie Prick together using four potions of Master Thievery as reagents and make a truly wicked blade for a thief. I'll take 15,000 gold for the deed.~
-@1234975 = ~Yes, that's quite a knife you have there. I could forge the Bone Blade and Pixie Prick together using four potions of Master Thievery as reagents and make a truly wicked blade for a thief. Would it be worth 15,000 gold to you?~
+@123475= ~Une dague de roublard. Laissez-moi voir...~
+@1234875= ~Oui, c'est un sacré couteau que vous avez là. Je pourrais mêler la Lame d'Os et l'Aiguillon de Pixie en utilisant quatre potions de Maître Voleur comme réactifs et fabriquer ainsi une lame de voleur vraiment sournoise. Et ça vous coûterait 15.000 pièces d'or.~
+@1234975= ~Oui, c'est un sacré couteau que vous avez là. Je pourrais mêler la Lame d'Os et l'Aiguillon de Pixie en utilisant quatre potions de Maître Voleur comme réactifs et fabriquer ainsi une lame de voleur vraiment sournoise. Vous êtes prêt à dépenser 15.000 pièces d'or pour cela ?~
 
-@123476 = ~This buckler looks interesting...~
-@1234876 = ~Yes. I could forge the Holy Symbol of Amaunator into your buckler, granting it the protection of that long-forgotten deity. I'd also need 5 Sunstone gems and 10,000 gold for the job. I dunnae where you'll find one a those symbols though. I forge the items, you find the ingredients~
-@1234976 = ~Yes. I could forge your Holy Symbol of Amaunator into your buckler, granting it the protection of that long-forgotten deity. I'd also need 5 Sunstone gems and 10,000 gold for the job. Interested?~
+@123476= ~Cette targe a l'air intéressante...~
+@1234876= ~Oui. Je pourrais incruster le Symbole sacré d'Amaunator dans votre targe, cela vous accorderait la protection de cette déité oubliée depuis longtemps. Il me faudrait aussi cinq gemmes Pierres de Soleil et 10.000 pièces d'or pour le travail. Mais je ne sais pas où vous pourriez trouver un tel symbole. Moi je forge les objets, c'est à vous de trouver les éléments.~
+@1234976= ~Oui. Je pourrais incruster ce Symbole Sacré d'Amaunator dans votre targe, cela vous accorderait la protection de cette déité oubliée depuis longtemps. Il me faudrait aussi cinq gemmes Pierres de Soleil et 10.000 pièces d'or pour le travail. Ça vous intéresse ?~
 
-@123477 = ~A thieving expert are we? Well, I have the perfect recipe for ye...~
-@1234877 = ~Ah. Should you manage to acquire the Gloves of Pick Pocketing, Bracers of Defense, Rings of Danger Sense and Lock Picking, and two Rings of Protection, I could cobble them all together for ye. 5,000 gold would cover me expenses.~
-@1234977 = ~Ah. Should you manage to acquire the Gloves of Pick Pocketing, Bracers of Defense, Rings of Danger Sense and Lock Picking, and two Rings of Protection, I could cobble them all together for ye. 5,000 gold would cover me expenses. What say ye?~
+@123477= ~Z'êtes un maître voleur hein ? Eh bien j'ai une formule parfaite pour vous...~
+@1234877= ~Ah. Si vous réussissiez à mettre la main sur les Gants de Pickpocket, les Bracelets de Défense, les Anneaux de Sens du Danger et de Crochetage, et sur deux Anneaux de Protection, je pourrais tous les combiner pour vous. 5.000 pièces d'or couvriraient mes frais.~
+@1234977= ~Ah. Si vous réussissiez à mettre la main sur les Gants de Pickpocket, les Bracelets de Défense, les Anneaux de Sens du Danger et de Crochetage, et sur deux Anneaux de Protection, je pourrais tous les combiner pour vous. 5.000 pièces d'or couvriraient mes frais. Qu'est-ce que vous en dites ?~
 
-@123478 = ~These amulets you be wearin' look workable. Mind if I have a look?~
-@1234878 = ~With two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding I could forge for ye an Amulet of Ilmater. About 10,000 gold should cover me expenses.~
-@1234978 = ~With two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding I could forge for ye an Amulet of Ilmater. Would you be willin' to pay 10,000 gold for it?~
+@123478= ~Ces amulettes que vous portez, elles ont du potentiel. Ça vous dérange si je jette un oeil ?~
+@1234878= ~Avec deux Amulettes de Protection, un Fétiche Anti-Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts, je pourrais forger pour vous une Amulette d'Ilmater. 10.000 pièces d'or devraient couvrir mes frais.~
+@1234978= ~Avec deux Amulettes de Protection, un Fétiche Anti-Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts, je pourrais forger pour vous une Amulette d'Ilmater. Voudriez-vous cela contre 10.000 pièces d'or ?~
 
-@123479 = ~A fine sword ye got over here, me friend. I think I know something that can make it better...~
-@1234879 = ~Aye, with Water's Edge, Adjatha the Drinker and Rashad's Talon we could forge a curved blade that would make the Stormlord himself green with envy. Such a water-based blade would cost ye 15,000 gold.~
-@1234979 = ~Aye, with Water's Edge, Adjatha the Drinker and Rashad's Talon we could forge a curved blade that would make the Stormlord himself green with envy. Such a water-based blade would cost ye 15,000 gold. Interested?~
+@123479= ~C'est une belle lame que vous possédez là, mon ami. Je pense savoir comment la rendre encore meilleure...~
+@1234879= ~Ha, avec Bord de l'Eau, Adjatha la Buveuse et la Serre de Rashad, nous pourrions forger une lame incurvée qui ferait verdir d'envie le Seigneur des Tempêtes lui-même. Une telle lame aquatique vous coûterait 15.000 pièces d'or.~
+@1234979= ~Ha, avec Bord de l'Eau, Adjatha la Buveuse et la Serre de Rashad, nous pourrions forger une lame incurvée qui ferait verdir d'envie le Seigneur des Tempêtes lui-même. Une telle lame aquatique vous coûterait 15.000 pièces d'or. Ça vous intéresse ?~
 
-@123480 = ~This looks interesting...~
-@1234880 = ~Ah. I could apply a coating of pure illithium to Azuredge, granting further offensive and defensive powers against the evils of the undead. For 20,000 gold I'd do the work for you.~
-@1234980 = ~Ah. I could apply a coating of pure illithium to Azuredge, granting further offensive and defensive powers against the evils of the undead. For 20,000 gold I'd do the work for you. Ye interested?~
+@123480= ~Voilà qui est intéressant...~
+@1234880= ~Ah. Je pourrais appliquer un revêtement d'illithium pur à Bordazur, ce qui vous accorderait des pouvoirs offensifs et défensifs supplémentaires contre les méfaits des morts-vivants. Pour 20.000 pièces d'or je ferai le travail pour vous.~
+@1234980= ~Ah. Je pourrais appliquer un revêtement d'illithium pur à Bordazur, ce qui vous accorderait des pouvoirs offensifs et défensifs supplémentaires contre les méfaits des morts-vivants. Pour 20.000 pièces d'or je ferai le travail pour vous. Ça vous intéresse ?~
 
-@123481 = ~These rings you be wearin' look workable. Mind if I have a look?~
-@1234881 = ~Aye, though magery be not my craft, I could forge a Ring of Acuity, a Ring of Wizardry and an Amulet of Metaspell Influence into a potent memory aid for an enchanter. A Ring of Protection and 20,000 gold would finish the job.~
-@1234981 = ~Aye, though magery be not my craft, I could forge a Ring of Acuity, a Ring of Wizardry and an Amulet of Metaspell Influence into a potent memory aid for an enchanter. A Ring of Protection and 20,000 gold would finish the job. Interested?~
+@123481= ~Ces anneaux que vous portez, ils ont du potentiel. Ça vous dérange si je jette un oeil ?~
+@1234881= ~Ha, bien que la magie ne soit pas mon art, je pourrais forger ensemble un Anneau de Précision, un Anneau des Arcanes et une Amulette d'Influence sur les Méta-Sorts pour faire un puissant aide-mémoire pour les enchanteurs. Un Anneau de Protection et 20.000 pièces d'or termineraient le travail.~
+@1234981= ~Ha, bien que la magie ne soit pas mon art, je pourrais forger ensemble un Anneau de Précision, un Anneau des Arcanes et une Amulette d'Influence sur les Méta-Sorts pour faire un puissant aide-mémoire pour les enchanteurs. Un Anneau de Protection et 20.000 pièces d'or termineraient le travail. Ça vous intéresse ?~
 
-@123483 = ~Hmm, I could do something with these belts...~
-@1234883 = ~Aye, if you had a matched set of girdle: blunt, piercing and slashing, I could forge them all together into a truly protective item. I'd need three bloodstones for reagents, and 10,000 gold as a commission.~
-@1234983 = ~Aye, if you had a matched set of girdle: blunt, piercing and slashing, I could forge them all together into a truly protective item. I'd need three bloodstones for reagents, and 10,000 gold as a commission. Interested?~
+@123483= ~Hmm, je pourrais faire quelque chose avec ces ceintures...~
+@1234883= ~Ha, si vous aviez un lot de ceinturons assortis : contondant, perçant et tranchant, je pourrais les assembler tous en un objet qui vous protègerait efficacement. J'aurais besoin de cinq gemmes héliotropes comme réactifs, et de 10.000 pièces d'or comme commission.~
+@1234983= ~Ha, si vous aviez un lot de ceinturons assortis : contondant, perçant et tranchant, je pourrais les assembler tous en un objet qui vous protègerait efficacement. J'aurais besoin de cinq gemmes héliotropes comme réactifs, et de 10.000 pièces d'or comme commission. Ça vous intéresse ?~
 
-@123496 = ~Well I'll be damned. Ye have one a those spider figurines the blasted drow carry around...~
-@1234896 = ~Ye'd be better off asking a drow magician than this dwarf to reforge a spider for ye, but I can do it. I won't enjoy it, but I can do it. I'll need some special reagents for the reforging: scrolls of Spider Spawn and Web; five poisoned throwing daggers; and 5,000 gold.~
-@1234996 = ~Ye'd be better off asking a drow magician than this dwarf to reforge a spider for ye, but I can do it. I won't enjoy it, but I can do it. I'll need some special reagents for the reforging: scrolls of Spider Spawn and Web; five poisoned throwing daggers; and 5,000 gold. Are ye still interested?~
+@123496= ~Que je sois maudit si ce n'est pas une de ces figurines d'araignée prisées par ces satanés Elfes noirs que vous transportez là !~
+@1234896= ~Vous feriez mieux de demander à un sorcier drow plutôt qu'à un nain de reforger une araignée pour vous, mais je peux le faire. Je n'y prendrai aucun plaisir, mais je peux le faire. J'aurais besoin de quelques réactifs rares pour la reforger : parchemins de Progéniture d'Araignée et de Toile d'Araignée ; cinq dagues de jet empoisonnées ; et 5.000 pièces d'or.~
+@1234996= ~Vous feriez mieux de demander à un sorcier drow plutôt qu'à un nain de reforger une araignée pour vous, mais je peux le faire. Je n'y prendrai aucun plaisir, mais je peux le faire. J'aurais besoin de quelques réactifs rares pour la reforger : parchemins de Progéniture d'Araignée et de Toile d'Araignée ; cinq dagues de jet empoisonnées ; et 5.000 pièces d'or. Ça vous intéresse toujours ?~
 
-@123498 = ~So, this pansy can fight as well eh? Sorry boy, but 'tis true that appearances can be decieving. Heh heh...~
-@1234898 = ~Ah, I've never tried to upgrade Planar weapons. Very dangerous work, that. Hmmm, let's see. If you don't mind sacrificing the swords of Ilbratha and Arbane, I can reforge Haer'Dalis' short swords so that they will inflict more damage and gain some spell-like powers. It will cost you 25,000 in gold, plus a Rogue Stone and scrolls of Chaos and Greater Malison.~
-@1234998 = ~Ah, I've never tried to upgrade Planar weapons. Very dangerous work, that. Hmmm, let's see. If you don't mind sacrificing the swords of Ilbratha and Arbane, I can reforge Haer'Dalis' short swords so that they will inflict more damage and gain some spell-like powers. It will cost you 25,000 in gold, plus a Rogue Stone and scrolls of Chaos and Greater Malison. Are ye interested?~
+@123498= ~Alors ce freluquet est capable de se battre hein ? Désolé petit, mais c'est vrai que les apparences sont parfois trompeuses. Ha ha...~
+@1234898= ~Ah, je n'ai jamais tenté d'améliorer des armes d'un autre Plan. Un travail très dangereux, ça. Hmmm, voyons. Si vous ne voyez pas d'inconvénients à sacrifier les épées Ilbratha et Arbane, je pourrais reforger les épées courtes d'Haer'Dalis pour qu'elles infligent plus de dommages et qu'elles gagnent quelques pouvoirs magiques. Ça vous coûtera 25.000 pièces d'or, ainsi qu'une Esseulite et des parchemins de Chaos et de Grande Malédiction.~
+@1234998= ~Ah, je n'ai jamais tenté d'améliorer des armes d'un autre Plan. Un travail très dangereux, ça. Hmmm, voyons. Si vous ne voyez pas d'inconvénients à sacrifier les épées Ilbratha et Arbane, je pourrais reforger les épées courtes d'Haer'Dalis pour qu'elles infligent plus de dommages et qu'elles gagnent quelques pouvoirs magiques. Ça vous coûtera 25.000 pièces d'or, ainsi qu'une Esseulite et des parchemins de Chaos et de Grande Malédiction. Ça vous intéresse ?~
 
-@1234100 = ~Very few dwarves hold the knowledge to tinker with elvish craft. Magic and muscle don't mix very easy. Fortunately, ye speak to one dwarf who knows his elves...~
-@12348100 = ~I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit.~
-@12349100 = ~I might forge together a suit of Sylvan Chain with the scales of a beast of the dread flame. With three gems of Andar and 3 Fire Agates to contain the inferno and 25,000 for reagents and labor, I could make ye a mighty powerful suit. Interested?~
+@1234100= ~Peu de nains possèdent les connaissances pour retoucher l'artisanat elfique. La magie et les muscles font difficilement bon ménage. Heureusement que vous parlez à un nain qui connaît les elfes...~
+@12348100= ~Je pourrais combiner une Cotte de Mailles Sylvestre avec les écailles d'une bête de flammes. Avec trois gemmes Andar, trois agates de feu pour contenir le brasier et 25.000 pièces d'or comme réactifs et pour la main d'oeuvre, je pourrais vous faire une puissante armure.~
+@12349100= ~Je pourrais combiner une Cotte de Mailles Sylvestre avec les écailles d'une bête de flammes. Avec trois gemmes Andar, trois agates de feu pour contenir le brasier et 25.000 pièces d'or comme réactifs et pour la main d'oeuvre, je pourrais vous faire une puissante armure. Ça vous intéresse ?~
+
+
+
+
 
 // Cespy
 
-@567840 = ~Why you gots so many rings? You have lots of spouseses on the side? Shame, shame, Cespenar KNOWS YOUR NAME!!!~ [FWCESP00]
-@5678840 = ~Ring of Protection +1 cans be combined with Ring of Regeneration. But will need 10,000 gold and diamond too for recipe to works.~
-@5678940 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +1 and do both in one. Saves room on hand. Only need 10,000 gold and melt a diamond in, too! You like?~
+@567840= ~Pourquoi tu as tellement d'anneaux ? Beaucoup d'épouses à t'attendre ? Honte, honte, Cespenar SAIT QUI TU ES !!!~ [FWCESP00] ~Pourquoi tu as tellement d'anneaux ? Beaucoup de maris à t'attendre ? Honte, honte, Cespenar SAIT QUI TU ES !!!~ [FWCESP00]
+@5678840= ~Anneau de Protection +1 peut faire un seul anneau avec Anneau de Régénération. Seulement besoin de 10.000 pièces d'or, et aussi un diamant pour que ça marche.~
+@5678940= ~Bon bon bon, on peut prendre un Anneau de Régénération et un Anneau de Protection +1 et faire un seul anneau. T'économises des doigts. Seulement besoin de 10.000 pièces d'or, et aussi un diamant ! Tu aimes ?~
 
-@567841 = ~Oh boy, you sure wears a lot of shinies on your fingers. Cespenar likes the look, heard it was in this season.~ [FWCESP01]
-@5678841 = ~Ring of Protection +2 cans be combined with Ring of Regeneration. But will need 20,000 gold and diamond too for recipe to works.~
-@5678941 = ~Anyhow, we can take Ring of Regeneration and Ring of Protection +2 and do both in one. Saves room on hand. Only need 20,000 gold and melt a diamond in, too! You like?~
+@567841= ~Dis donc, tu en portes des choses brillantes sur tes doigts. Cespenar aime bien le look, entendu dire que c'était la mode en ce moment.~ [FWCESP01]
+@5678841= ~Anneau de Protection +2 peut faire un seul anneau avec Anneau de Régénération. Seulement besoin de 20.000 pièces d'or, et aussi un diamant pour que ça marche.~
+@5678941= ~Bon bon bon, on peut prendre un Anneau de Régénération et un Anneau de Protection +2 et faire un seul anneau. T'économises des doigts. Seulement besoin de 20.000 pièces d'or, et aussi un diamant ! Tu aimes ?~
 
-@567842 = ~You don't needs jewelry box, you needs jewelry trunk! You maybe like having one on each big toe, too?!?~ [FWCESP02]
-@5678842 = ~Oooh! Cespenar has recipe to combine elemental rings of Fire, Earth and Air... Will need scrolls of Protection from Stonyface, Hot Stuff, and Zappings, and 20,000 gold.~
-@5678942 = ~How about Cespenar take these Rings of Air, Earth, and Fire and make one big Ring of Elemental Mastery? Cheaper to insure one ring than three. Recipe needs scrolls of Protection from Stonyface, Hot Stuff, and Zappings, and 20,000 gold. Cespenar no set the prices, just union rules.~
+@567842= ~Tu n'as pas besoin d'un sac à bijoux, t'as besoin d'un coffre à bijoux ! Peut-être que ça te plairait d'en avoir un sur chaque gros orteil, hein ?!?~ [FWCESP02]
+@5678842= ~Oooh ! Cespener a une recette pour combiner des anneaux élémentaires du Feu, de la Terre et de l'Air... Besoin de parchemins de Protection contre Visage-pierreux, Chaud-devant et Zip-zap, et 20.000 pièces d'or.~
+@5678942= ~Et si Cespenar prenait ces Anneaux de l'Air, de la Terre et du Feu et fabriquait un gros anneau de Maîtrise Élementaire ? Plus facile pour négocier l'assurance qu'avec trois. Besoin de parchemins de Protection contre Visage-pierreux, Chaud-devant et Zip-zap, et 20.000 pièces d'or. Cespenar fait pas les prix, c'est la loi du marché, la mondialisation, tout ça.~
 
-@567843 = ~You ever notice that elementals never pick up a check? I swears, sometimes I wish I have one of those sticks that give them such a beating... hey! You gots all three?~ [FWCESP03]
-@5678843 = ~Sticks of beating elementals... Find all three of them - Fire, Air and Earth - and I can makes you something that give you ultimate beating power! Oh, need 20,000 gold too.~
-@5678943 = ~Sticks of Beating Earth, Fire, and Air elementals no big deal to you now, but Cespenar make one big Staff of Elemental Mastery and then all elementals want to buy you lunch, or BLAMMO!!!! Costs 20,000, too, but Cespenar gots high fixed costs. Yes?~
+@567843= ~Tu as remarqué déjà que les élémentaux ne paient jamais l'addition ? Je jure, parfois je voudrais tellement avoir un de ces bouts de bois qui leur donnent un bon coup... Héhé ! Tu as les trois ?~ [FWCESP03]
+@5678843= ~Les bouts de bois pour frapper les élémentaux... Trouve les trois, Feu, Air et Terre, et je fais quelque chose pour pouvoir frapper très très fort ! Oh, besoin 20.000 pièces d'or, aussi.~
+@5678943= ~Les bouts de bois qui donnent un bon coup aux élémentaux de Terre, d'Air et de Feu, c'est pas terrible pour toi maintenant, mais Cespenar te fait un gros Bâton de Maîtrise Élémentaire, et alors tous les élémentaires t'invitent à déjeuner, ou alors VLAAAN !!! Ça coûte 20.000 pièces d'or, aussi, mais Cespenar a des coûts fixes élevés. D'accord ?~
 
-@567844 = ~AAAAAHHHHH! You snuck up on Cespenar! Tee hee hee, just kiddings!~ [FWCESP04]
-@5678844 = ~Ooooh, sneaky boots! Cespenar knows cool recipe for sneaky boots! Will need Boots of Speed, Rogue Stone and 10,000 gold.~
-@5678944 = ~Hokay, Cespenar can take sneaky boots and Boots of Speed and make you Celeritous Stealth footies. Pretty sure that be the right word, but Bhaal never let Cespenar read much books. (sniff) Anyways, hope you been saving Rogue Stones, because it will cost 10,000 plus one of those shinies.~
+@567844= ~AAAAAHHHHH ! Tu as fait peur à Cespenar ! Ha ha, rien qu'une plaisanterie !~ [FWCESP04]
+@5678844= ~Ooooh, des bottes furtives ! Cespenar connaît recette sympa pour Bottes de Furtivité ! Besoin des Bottes de Rapidité, Esseulite et 10.000 pièces d'or.~
+@5678944= ~Okaaaay, Cespenar prend tes bottes furtives et tes Bottes de Rapidité et te fait des chaussons lestes de célertivité. Presque sûr que c'est le bon mot, mais Bhaal a jamais laissé Cespenar lire des tas de livres. (sniff) Enfin bon, j'espère que t'as gardé des Esseulites, parce que t'auras besoin de 10.000 pièces d'or plus une de ces choses brillantes.~
 
-@567845 = ~Hmmm. Insulated boots? You need to lay eggs in here or something? Or maybe you rather be playing Icewind Dale?~ [FWCESP05]
-@5678845 = ~Ooooh, thick Boots of North! Cespenar knows cool recipe for thick boots! Will need Boots of Speed, Rogue Stone and 10,000 gold.~
-@5678945 = ~Unless you plans on growing more feets, Cespenar will take Boots of North and Boots of Speed and make you Blizzard Boots. Does same stuff as separate boots. Say la Vee. You got 10,000 and one of them Rogue Stones to shell out, maybe?~
+@567845= ~Hmmm. Des bottes thermos ? Tu as besoin d'un endroit pour conserver des oeufs au frais, c'est ça ? Ou peut-être tu joues à Icewind Dale ?~ [FWCESP05]
+@5678845= ~Ooooh, des grosses bottes nordiques ! Cespenar connaît recette sympa pour grosses bottes ! Besoin des Bottes de Rapidité, Esseulite et 10.000 pièces d'or.~
+@5678945= ~Sauf si tu comptes te faire pousser de nouveaux pieds, Cespenar prend tes Bottes Nordiques et de Rapidité et te fabrique des Bottes du Blizzard. Pareil que les deux paires séparées. Itce laïfe. Peut-être tu alignes 10.000 et une Esseulite ?~
 
-@567846 = ~Phheeeewww! Rubber boots get stinky with the Great One's sweaty feets, magic or no. You know that best way to avoid lightning bolt is to be somewheres else? It's true.~ [FWCESP06]
-@5678846 = ~Anyhoo, Boots of Grounding very useful but very slow. Cespenar cans make them faster with Boots of Speed. Will probably need Rogue Stone and 10,000 gold too though.~
-@5678946 = ~Cespenar knows a Priest of Talos who can makes you Stormlord's Heels out of Boots of Speed and Grounding. Don't let name fool you, will look good on men, too. He needs 10,000 gold and Rogue Stone, though.~
+@567846= ~Pfouuuuh ! Magie ou pas, les bottes en caoutchouc ça sent pas bon avec les pieds en sueur du Grand. Tu sais que le mieux pour éviter les éclairs c'est d'être ailleurs ? Incroyable, mais vrai.~ [FWCESP06]
+@5678846= ~Breeef, Bottes d'Atterrissage très utiles mais très lentes. Cespenar peut les rendre plus rapides avec Bottes de Rapidité. Faudra propablement une Esseulite et 10.000 pièces d'or aussi.~
+@5678946= ~Cespenar connaît un Prêtre de Talos qui peut te faire les Talons du Seigneur des Tempêtes avec des Bottes de Rapidité et d'Atterrissage. Te trompe pas sur le nom, ça va bien aussi aux hommes. Mais il lui faut 10.000 pièces d'or et une Esseulite.~
 
-@567847 = ~Cespenar know what to get the Great One for birthday: shoe trees! You sure you not in the wrong business? Maybe prefer to be cobbler or blacksmith or something? Nothing wrong with career change, you still young <PRO_MANWOMAN>!~ [FWCESP07]
-@5678847 = ~So, yous have Boots of Avoidance. Cespenar knows secret recipe for Hornet Boots that lets you zip like hornet. Will need Boots of Speed, a Rogue Stone and only 20,000 gold. Hee hee.~
-@5678947 = ~Still, you gots nice taste in footwear. Very good recipe for Boots of the Hornet, take your Boots of Speed and Avoidance and make you real hard to hit with arrows. Better than poke in the eye with sharp stick, or bolt, or stone, or dart... you gets the idea. Recipe costs 20,000 gold and Rogue Stone, which does not grow on most trees. Yes?~
+@567847= ~Cespenar a une idée de cadeau pour l'anniversaire du Grand : un lot de lacets assortis ! Tu es sûr que tu t'es pas trompé de métier ? Préférerais pas être cordonnier ou forgeron ou quelque chose ? Tu peux changer d'orientation professionnelle, tu es encore jeune !~ [FWCESP07]
+@5678847= ~Alors, tu as les Bottes d'Évitement. Cespenar connaît recette secrète pour faire Bottes du Frelon, pour filer comme un frelon. Besoin des Bottes de Rapidité, Esseulite et seulement 20.000 pièces d'or. Hé hé.~
+@5678947= ~Bon, tu as de l'expérience dans la chaussure. Très bonne recette pour Bottes du Frelon, je prends tes Bottes de Rapidité et d'Évitement et je te rends vraiment dur à toucher avec des flèches. Ça vaut mieux que se faire toucher à l'oeil avec un bâton pointu, ou un carreau, ou une bille, ou une fléchette... Tu vois le topo. La recette coûte 20.000 et une Esseulite, ca se trouve pas au supermarché. D'accord ?~
 
-@567848 = ~Oooooohhhh... you gots some scary sticks! Hee hee hee! You must have druid friend or something. Always have to have sticks for them. You think trees the sticks came from are mad?~ [FWCESP08]
-@5678848 = ~Cespenar knows recipe that combines Blackblood and Gnasher into new BUUURNING stick. Only need 15,000 gold to commission. Cespenar wonders how the wood don't burn away. Hmmm...~
-@5678948 = ~Maybe you got acid stick Blackblood and Gnasher, stick that SOMEBODY forgot to polish. Have recipe for Pitchwife, so now youse can give bad guys splinters that BUUUUUURN! Low low price of 15,000 gold. Unless you want Cespenar to get out sandpaper instead.~
+@567848= ~Ooooohhhh... T'as des bouts de bois qui font pas mal peur ! Hé hé hé ! Tu dois avoir un ami druide ou quelque chose. Faut toujours avoir des bouts de bois pour eux. Tu crois que les arbres sur lesquels on a pris les bouts de bois sont fous ?~ [FWCESP08]
+@5678848= ~Cespenar connaît une recette pour combiner Noirsang et Mâchouilleuse en bâton BRÛLANT. Seulement besoin d'une commission de 15.000 pièces d'or. Cespenar se demande comment le bois brûle pas en fait. Hmmm...~
+@5678948= ~Peut-être tu as le bout de bois acide Noirsang, et Mâchouilleuse, bout de bois que QUELQU'UN a oublié de polir. Recette pour Poisseuse et tu envoies des échardes aux vilains qui BRÛÛÛLENT. Pas cher, pas cher : 15.000 pièces. Sauf si tu prèfères que Cespenar t'apporte du papier de verre.~
 
-@567849 = ~Ouch! How come all your clubses be so spikey? Cespenar think he has cheesecloth somewhere to help with that...~ [FWCESP09]
-@5678849 = ~Shiny new club recipe I have, need Bone Club and Gnasher and only 15,000 gold. Cespenar speaks... No hurting me now, okay?~
-@5678949 = ~Or maybe you just want better club? Can take Bone Club and Gnashers and make Fulcrum. Hurts people who don't like "the balance." Cespenar try to stay away from politics, though, so he just takes 15,000 gold and makes the club and forgets about it, okay?~
+@567849= ~Ouille ! Pourquoi tous tes gourdins sont tellement piquants ? Cespenar doit avoir de la gaze quelque part...~ [FWCESP09]
+@5678849= ~Recette pour gourdin brillant j'ai, besoin de Gourdin d'Os et Mâchouilleuse et seulement 15.000 pièces. Cespenar a dit... Plus me faire mal maintenant, okay ?~
+@5678949= ~Ou peut-être tu veux meilleur gourdin ? Je prends Gourdin d'Os et Mâchouilleuse et je te donne Fulcrum. Fait mal à ceux qui aiment pas "l'équilibre". Cespenar essaye de pas faire de politique, cependant, alors il prend juste 15.000 pièces, et il oublie tout ça, d'accord ?~
 
-@567850 = ~Cespenar never understand why clerics allowed to make your head a bloody pulp but can't use butter knife. Weeeeeeeeeird.~ [FWCESP10]
-@5678850 = ~Anyway, you got good Skullcrusher mace. Cespenar can make much better with Finger of Death scroll, CURSED potion of healing (good cocktail mixer!) and 15,000 gold. And 3 clothespins from Matron Mother's undies drawer. Cespenar kidding about that part.~
-@5678950 = ~Ooohhh, you gots Skullcrusher... and scroll of Death Finger. Now alls we needs is... loook, a cursed healing potion. Now, if you having 15,000 gold, you gettings a shiny new mace. Want?~
+@567850= ~Cespenar a jamais compris pourquoi les clercs ont le droit de te réduire la tête en purée sanglante alors qu'ils peuvent pas utiliser des couteaux à beurre. C'est diiiiinnngue.~ [FWCESP10]
+@5678850= ~Enfin, tu as bonne masse Casse-têtes. Cespenar fait très beaucoup mieux avec un parchemin de Doigt de Mort, une potion de guérison MAUDITE (bonne recette pour les cocktails !) et 15.000 pièces d'or. Et trois pinces à linge qui ont servi à accrocher les dessous de la Mère Matrone. Cespenar plaisante, là.~
+@5678950= ~Oooooh, tu as Écrase-Crânes... et parchemin de Doigt de Mort. Maintenant il faut juste... Regaaaaarde, une potion de guérison maudite. Maintenant, si tu as 15.000 pièces, tu reçois une nouvelle masse brillante. Oui ?~
 
-@567851 = ~Hrrrrruuuhhh... hrrrruuuuhhh... hyyyyaaaaaaahhhhh! Oooh, this bow hard to bend! Cespenar would offer to shoot arrow off the Great One's head, but remember what happened when missed apple and hit Bhaal's nose. Cespenar not able to sit down for a tenday!~ [FWCESP11]
-@5678851 = ~You gots a nice bow, but can make much better with recipe for Teleomortis. Arrows appear in your hand, amazes your friends and enemieses. Needs lots of important materials: Gesen String or Gond String, four Laeral's Tears and Potion of Power for brewing, though.~
-@5678951 = ~Cespenar can create amazing Teleomortis using Heartseeker, Gesen String, four Laurel's Tears and Potion of Power. What's more? It absolutely free! You want?~
-@5678751 = ~Cespenar can create amazing Teleomortis using Heartseeker, Gond String, four Laurel's Tears and Potion of Power. What's more? It absolutely free! You want?~
+@567851= ~Huuurrrrrhhhh.... duuuurrrrhhhh... hyyyyaaaaaahhhhh ! Pfouh, dur de bander cet arc ! Cepenar proposerait de tirer une flèche vers la tête du Grand, mais se souvient de ce qui s'est passé quand il a manqué la pomme et touché le nez de Bhaal. Impossible de s'asseoir pendant dix jours !~ [FWCESP11]
+@5678851= ~Tu as un bel arc, mais peut faire très beaucoup mieux avec recette pour Teleomortis. Les flèches apparaissent dans ta main, tu émerveilles amis et ennemis. Mais faut beaucoup de trucs importants : corde de Gesen ou de Gond, quatre Larmes de Laérale, et Potion de Pouvoir pour mélanger le tout.~
+@5678951= ~Cespenar peut créer époustouflant Teleomortis avec Cherchecoeur, corde de Gesen, quatre Larmes de Laérale et Potion de Pouvoir. Quoi d'autre ? C'est gratuit ! Tu veux ?~
+@5678751= ~Cespenar peut créer époustouflant Teleomortis avec Cherchecoeur, corde de Gond, quatre Larmes de Laérale et Potion de Pouvoir. Quoi d'autre ? C'est gratuit ! Tu veux ?~
 
-@567854 = ~Oooh! Very sharp suit. Careful, mister, Cespenar not dusted yet today... if you sneeze, face may freeze that way. Tee hee hee! You know, some people say that Valygar is a bad mother... shut Cespenar's mouth? Cespenar just talking about Valygar!~ [FWCESP12]
-@5678854 = ~Can do a lot with two good suits, can make one really good suit! Lots of protections from most bad things like fire and acid! No need for matching cufflinks, just give Cespenar 10,000 gold and Scroll of Protection from Magic. And don't forget Black drgonscale armor... what other suit do yous think I talk about huh?~
-@5678954 = ~Ooooh, Valygar's suit with Black Dragonscale armor create new superhero suit! Me will need this scroll of Protection from Magic to create superpowers. And 10,000 gold for cape (not included). You want me make?~
+@567854= ~Oho ! Très classe, le costume ! Attention, monsieur, Cespenar a pas fait les poussières aujourd'hui... Si tu éternues, ton visage restera coincé. Héhéhé ! Tu sais, y en a qui disent que Valygar est une mauvaise mère... Cespenar la fermer ? Cespenar parle seulement de Valygar !~ [FWCESP12]
+@5678854= ~Possible de faire plein de choses avec deux bons costumes, possible de faire un costume vraiment bien ! Plein de protection contre un tas de trucs pas bien comme le feu et l'acide ! Pas besoin de chercher des boutons de manchettes, tu donnes juste 10.000 pièces à Cespenar et un parchemin de protection contre la magie. Et oublie pas l'Armure d'écailles de Dragon noir... De quel autre costume tu crois que je parlais hein ?~
+@5678954= ~Oooh, le costume de Valygar avec l'Armure d'écailles de Dragon noir font un nouveau costume de super-héros ! Besoin de ce parchemin de protection contre la Magie pour faire des superpouvoirs. Et 10.000 pièces pour cape (pas compris avec). Tu veux que je fasse ?~
 
-@567855 = ~Cespenar once have smoking jacket... was gift from very good friend, got lost at cleaners. You maybe have somethings to do with it? This lookings very familiar...~ [FWCESP13]
-@5678855 = ~Oh, is just Robe of Archmage Peoples. Good recipe so name not be so silly. Cespenar needs Cloak of Protection +1, Scrolls of Spirit Armor and Contingency and 20,000 gold. Cast more spells, be like REAL ARCHMAGE!~
-@5678955 = ~Oh, is just Robe of Archmage Peoples. Youse seems to be nice enough. And you have Cloak of Protection and Spirit Armor and Contingency scrolls. If you has 20,000 change to spare, Cespenar make for you Robe of REAL ARCHMAGE!~
+@567855= ~Avant, Cespenar avait un smoking... Un cadeau d'un très bon ami, perdu chez le teinturier. Tu as peut-être quelque chose à voir avec ça ? Celui-ci a l'air familier...~ [FWCESP13]
+@5678855= ~Oh, c'est juste la robe pour les gens archimages. Bonne recette pour que le nom soit pas aussi idiot. Cespenar a besoin Cape de Protection +1, parchemins d'Armure Spirituelle et Contingence et 20.000 pièces. Tu lances plus de sort, comme un VRAI ARCHIMAGE !~
+@5678955= ~Oh, c'est juste la robe pour les gens archimages. La tienne a l'air bien. Et tu as Cape de Protection +1, parchemins d'Armure Spirituelle et Contingence. Faut plus que 20.000 pièces et Cespenar te fait un robe de VRAI ARCHIMAGE !~
 
-@567859 = ~You ever not have pot to piss in? Youse know that saying? Cespenar suggest you use helmet, then. Someone else's helmet.~ [FWCESP14]
-@5678859 = ~If you does have extra pots, maybe Cespenar combine your big head pots for you! Good recipe smushes Helm of Defense and Helm of Charm Protection together. Need 4 pearls and 10,000 gold. Give me ingredients and take good pot... err, helm.~
-@5678959 = ~If you does have extra pots, maybe Cespenar combine your big head pots for you! Good recipe smushes Helm of Defense and Helm of Charm Protection together. Need these 4 pearls and 10,000 gold. Sounds good, yes?~
+@567859= ~Tu n'as pas de pot pour pisser ? Tu connais le proverbe ? Alors Cespenar pense que tu devrais utiliser un casque. Le casque de quelqu'un d'autre.~ [FWCESP14]
+@5678859= ~Si tu as des pots en trop, peut-être Cespenar peut combiner tes gros pots de chambre ! Bonne recette pour mélanger Heaume de Défense et Casque Anti-Charmes. Faut quatre perles et 10.000 pièces d'or. Tu donnes les ingrédients, et tu prends le joli pot... heu, casque.~
+@5678959= ~Si tu as des pots en trop, peut-être Cespenar peut combiner tes gros pots de chambre ! Bonne recette pour mélanger Heaume de Défense et Casque Anti-Charmes. Faut ces quatre perles et 10.000 pièces d'or. Ça a l'air bien, non ?~
 
-@567860 = ~Oooh! Cespenar could use for mixing bowl, if you no need this helmet anymore.~ [FWCESP15]
-@5678860 = ~How about recipe of Tower of Iron Will? Use Helm of Charm Protection, two Brine Love Juices potions from Mind Flayers (don't tell Cespenar how you gots them) and 10,000 gold. Keeps big people's heads even safer.~
-@5678960 = ~Cespenar cans make Tower of Iron Will using this Helm of Charm protection and two Mindflayer Brine Juice potions. Oh, will also need 10,000 gold for cleaning stuffs. Those juices leave very nasty stink. You ready?~
+@567860= ~Oooh ! Cespenar pourrait en faire un chaudron, si t'as plus besoin de ce casque.~ [FWCESP15]
+@5678860= ~Ou alors la recette de la Tour de la Volonté de Fer ? Je prends Casque Anti-Charmes, deux Potions salées des Flagelleurs Mentaux (raconte pas à Cespenar comment tu les as obtenues) et 10.000 pièces d'or. Avec ça, la tête des grands est encore plus en sécurité.~
+@5678960= ~Cespenar peut faire la Tour de la Volonté de Fer avec ce Casque Anti-Charmes et deux Potions salées des flagelleurs mentaux. Oh, besoin aussi de 10.000 pièces, pour nettoyer des trucs. Ces sucs laissent vraiment des odeurs horribles. Prêt ?~
 
-@567861 = ~You maybe want this hung on the wall? Most peoples don't want fireplace in Hell but maybe we can get one and make into floor rug.~ [FWCESP16]
-@5678861 = ~Or maybe you just want made shinier. Take Aeger's Hide, Scroll of Protection from the Elements, and 15,000 gold, and make stronger and make weather stuff hurt less. Cespenar never allowed to REALLY be creative.~
-@5678961 = ~Me cans take Aeger's Hide, Scroll of Protection from the Elements, and 15,000 gold, and make stronger and make weather stuff hurt less. Want?~
+@567861= ~Tu veux peut-être l'accrocher sur le mur ? Pas mal de gens veulent pas de cheminée en Enfer mais on peut en commander une et utiliser ça comme tapis.~ [FWCESP16]
+@5678861= ~Ou peut-être tu veux le rendre plus brillant. Prends la Cuirasse d'Aeger, parchemin de protection contre les éléments et 15.000 pièces, ça renforce et les trucs du climat te gênent moins. On laisse jamais Cespenar exprimer VRAIMENT sa créativité.~
+@5678961= ~Cespenar peut prendre Cuirasse d'Aeger, parchemin de Protection contre les Éléments et 15.000 pièces et renforcer pour que les trucs du climat te gênent moins. Tu veux ?~
 
-@567862 = ~How you get orange goody-two-shoes armor, anyway? Armor out in sun too long? Tee hee hee...~ [FWCESP17]
-@5678862 = ~Maybe Cespenar can make Firecam plate better by smelting down with Armor of the Hart and throwing in 20,000 gold. Could be less but Cespenar had to discontinue goody two-shoes discount, bad for reputation.~
-@5678962 = ~Hmmm, Firecam Plate and Armor of Hart cans be smelted down for more powering armors. Yous need armors for being godlike. Need to hire Bob the smelter, so 20,000 gold please.~
+@567862= ~Comment tu rends les armure de culs-bénits oranges ? Elle est restée trop longtemps au soleil ? Héhéhé...~ [FWCESP17]
+@5678862= ~Peut-être Cespenar peut faire mieux en ajoutant l'Armure du Cerf et en saupoudrant 20.000 pièces d'or. Ça pourrait être moins, mais Cespenar a pas les mêmes tarifs que les culs-bénits, trop mauvais pour la réputation.~
+@5678962= ~Hmmmm, Armure Firecam et Armure du Cerf peuvent fondre et devenir armure plus puissante. Tu veux armure pour être divin. Moi j'ai besoin d'engager Bob le Fondeur, alors 20.000 pièces d'or s'te plaît.~
 
-@567863 = ~You still wearing big bug on shoulders? You meets lots of new peoples that way?~ [FWCESP18]
-@5678863 = ~You give Cespenar both kinds of Protection From Acid scrolls and 5,000 gold and Cespenar make Ankheg work harder. Even shoot acid arrows at peoples!~
-@5678963 = ~Hmmm, huge bug armor and *different* scrolls of Acid Protection... perfect for new recipe! You want armor that shoot? Pew-pew!~
+@567863= ~Tu portes toujours un gros cafard sur tes épaules ? Tu fais beaucoup de rencontres comme ça ?~ [FWCESP18]
+@5678863= ~Tu donnes à Cespenar les deux sortes de parchemin de protection contre l'Acide et 5.000 pièces et Cespenar fait marcher l'Ankheg plus dur. Il tire même des flèches acides sur les gens !~
+@5678963= ~Hmmm, une grosse armure d'insecte et des parchemins de protection contre l'Acide *différents*... Parfait pour nouvelle recette ! Tu veux armure qui tire ? Pan pan !~
 
-@567864 = ~Awww, this is most adorable shield Cespenar ever see! Can maybe use for serving tray when company comes over?~ [FWCESP19]
-@5678864 = ~Hard to make good thing better, but if you gots two Mind Flayer brine drinks, weird control circles from same octopus-heads, and beljuril gem and 10,000 gold, Cespenar make you immune to Psionics, too.~
-@5678964 = ~Shield of Harmony cans protect from much stuff, but not octopus-heads. You have stuff needed - 2 brine juice potions, octo-head control circlet and beljuril. Does I hears 10,000 gold in your pocket or you just happy to see me?~
+@567864= ~Oooh, c'est le bouclier le plus charmant que Cespenar a jamais vu ! On peut peut-être en faire un plateau pour servir l'apéritif ?~ [FWCESP19]
+@5678864= ~Dur de rendre meilleures les choses bien, mais si tu as deux boissons à l'eau de mer des Flagelleurs mentaux, des bizarres colliers de contrôle des mêmes têtes de pieuvre et une gemme Beljuril et 10.000 pièces, Cespenar t'immunise aux psioniques.~
+@5678964= ~Bouclier de l'Harmonie protège de beaucoup de choses, mais pas des têtes de pieuvres. Tu as les trucs nécessaires - 2 potions salées, collier de contrôle des poulpes et beljuril. Est-ce que j'entends 10.000 pièces dans ta poche ou tu es juste content de me voir ?~
 
-@567865 = ~This reminds Cespenar of veeeeery long toothpick. Open wide, Cespenar is good servant, even clean your molars! Tee hee hee!~ [FWCESP20]
-@5678865 = ~How come you keep Spear +3 glued to your hand? Afraid it never comes back? Simple recipe: 10,000 gold and rogue stone, and spear will always come back if you throw it a looooooong way.~
-@5678965 = ~Cespenar cans make returning spear with big spear and rogue stone, with syrup of 10,000 gold for taste. No leave syrup for you though, but yous get good spear. Want?~
+@567865= ~Ça rapelle à Cespenar un cure-dent très très très long. Ouvre grand, Cespenar est un bon serviteur, il nettoie même tes molaires. Héhéhé !~ [FWCESP20]
+@5678865= ~Pourquoi tu gardes Lance +3 collée à ta main ? Peur qu'elle revient jamais ? Recette simple : 10.000 pièces et Esseulite, et la lance revient toujours si tu la jettes loooooiiin.~
+@5678965= ~Cespenar peut faire javelot-qui-revient avec longue lance et Esseulite, et du sirop de 10.000 pièces d'or pour le goût. Il reste pas de sirop pour toi après, mais tu reçois une belle lance. Tu veux ?~
 
-@567866 = ~What is this? Big lollipop on a stick? How come Cespenar never gets a lick?~ [FWCESP21]
-@5678866 = ~Oh, is unicorn horn. And pointy, too. Why don't youse start throwing this spear? Just give Cespenar Rogue Stone and 10,000 gold and you makes out like a wild spear-chucking bandit!~
-@5678966 = ~Oh, is unicorn horn. And pointy, too. Why don't youse start throwing this spear? Just give Cespenar Rogue Stone and 10,000 gold and you makes out like a wild spear-chucking bandit! Maybe yous want?~
+@567866= ~Qu'est-ce que c'est ? Une grosse sucette ? Pourquoi Cespenar n'a jamais pu lécher ?~ [FWCESP21]
+@5678866= ~Oh, une corne de licorne. Et pointue en plus. Pourquoi tu ne t'en sers pas comme d'un javelot ? Suffit de donner à Cespenar une Esseulite et 10.000 pièces d'or et t'as l'air d'un sauvage bandit lanceur de lances !~
+@5678966= ~Oh, une corne de licorne. Et pointue en plus. Pourquoi tu ne t'en sers pas comme d'un javelot ? Suffit de donner à Cespenar une Esseulite et 10.000 pièces d'or et t'as l'air d'un sauvage bandit lanceur de lances ! Peut-être tu veux ?~
 
-@567867 = ~You likes fishing? Maybe go fishing for big whale with this. Then you needs place to tie it, but that not Cespenar's problem.~ [FWCESP22]
-@5678867 = ~Make Impaler hurt so good from a very long way away. Needs just 15,000 gold and Rogue Stone. I really uses those things, I don't just ask for them for fun. Careful when spear comes back...if you miss, it will HURT! Ow!~
-@5678967 = ~Make Impaler hurt so good from a very long way away. Needs just 15,000 gold and Rogue Stone. I really uses those things, I don't just ask for them for fun. Careful when spear comes back...if you miss, it will HURT! Ow!~
+@567867= ~Toi t'aimes pêcher ? Peut-être tu vas pêcher une grosse baleine avec ça. Alors tu as besoin d'un endroit pour l'attacher, mais c'est pas le problème de Cespenar.~ [FWCESP22]
+@5678867= ~Je fais attaquer l'Empaleur de très loin à distance. Juste besoin de 15.000 pièces et une Esseulite. J'utilise vraiment ces machins, je demande pas par plaisir. Gaffe quand la lance revient... Si tu la rates, ca va faire MAL ! Ouh !~
+@5678967= ~Je fais attaquer l'Empaleur de très loin à distance. Juste besoin de 15.000 pièces et une Esseulite. J'utilise vraiment ces machins, je demande pas par plaisir. Gaffe quand la lance revient... Si tu la rates, ca va faire MAL ! Ouh !~
 
-@567868 = ~Nice big staff. Is bark worse than its bite? Tee hee hee...~ [FWCESP23]
-@5678868 = ~Cespenar can swing great new recipe for new Staff of the Woodlands. You gives Cespenar Ring of Protection +1, Ring of Animal Friendship and 20,000 gold, and we gets new staff that recharges and even does big nasties when you hit peoples!~
-@5678968 = ~Cespenar can swing great new recipe for new Staff of the Woodlands. You gives Cespenar Ring of Protection +1, Ring of Animal Friendship and 20,000 gold, and we gets new staff that recharges and even does big nasties when you hit peoples!~
+@567868= ~Pas mal ton bâton. Tu fais la majorette avec ça ? Héhéhé...~ [FWCESP23]
+@5678868= ~Cespenar a une grande nouvelle recette pour un nouveau Bâton des Bois. Tu donnes Anneau de Protection +1, Anneau d'Amitié avec les Animaux et 20.000 pièces, et on a un nouveau bâton qui se recharge et fait même des sales trucs quand tu attaques les gens !~
+@5678968= ~Cespenar a une grande nouvelle recette pour un nouveau Bâton des Bois. Tu donnes Anneau de Protection +1, Anneau d'Amitié avec les Animaux et 20.000 pièces, et on a un nouveau bâton qui se recharge et fait même des sales trucs quand tu attaques les gens !~
 
-@567869 = ~Ooooh! You got shiniest of all shiny longswords! I bet you killed a vampire or two with this baby! En garde, bloodsuckers! Cespenar will smite thee!~ [FWCESP24]
-@5678869 = ~Maybe you like better Daystar? You gots to give me good stuff, like four scrolls of Protection from Undead, two vials of elven holy water, two star sapphires and 15,000 gold, but Cespenar can hardly steer the Great One wrong! You gets more Sunrays and Protection from Evil.~
-@5678969 = ~Maybe you like better Daystar? You gots to give me good stuff, like four scrolls of Protection from Undead, two vials of elven holy water, two star sapphires and 15,000 gold, but Cespenar can hardly steer the Great One wrong! You gets more Sunrays and Protection from Evil. Needs must I begin?~
+@567869= ~Ooooh ! Tu as la plus brillante de tous les épées longues brillantes ! Je parie que tu as tué un vampire ou deux avec ce bébé ! En garde, suceurs de sang ! Cespenar va vous pourfendre !~ [FWCESP24]
+@5678869= ~Peut-être tu aimes meilleure Étoile du Jour ? Il me faut plein de bons trucs comme quatre parchemins de protection contre les morts-vivants, deux flacons d'Eau bénite des elfes, deux saphirs étoilés et 15.000 pièces d'or, mais Cespenar peut difficilement tromper le Grand ! Tu recois plus de Rayons de soleil et de Protection contre le mal.~
+@5678969= ~Peut-être tu aimes meilleure Étoile du Jour ? Il me faut plein de bons trucs comme quatre parchemins de protection contre les morts-vivants, deux flacons d'Eau bénite des elfes, deux saphirs étoilés et 15.000 pièces d'or, mais Cespenar peut difficilement tromper le Grand ! Tu recois plus de Rayons de soleil et de Protection contre le mal. Je commence ?~
 
-@567870 = ~Oh, most honorable Great One-san! Can youse believe that Celestial Fury not looking so good anymore?~ [FWCESP25]
-@5678870 = ~Cespenar have nice quick recipe to fix that! Well, is maybe not so quick. You gots Wand of Lightning? How about spare demon heart? Stiiiinky, I know, but they comes in handy for strangest things. Oh, and 20,000 gold be needed as well.~
-@5678970 = ~Cespenar have nice quick recipe to fix that! Well, is maybe not so quick. You gots Wand of Lightning? How about spare demon heart? Stiiiinky, I know, but they comes in handy for strangest things. Oh, and 20,000 gold be needed as well.~
+@567870= ~Oh, très honorable Grand-san ! Croirais-tu que la Furie Céleste n'est plus aussi bonne ?~ [FWCESP25]
+@5678870= ~Cespenar a une jolie rapide recette pour régler ça ! Bon, peut-être pas très rapide. Tu as baguette d'éclairs ? Et un coeur de démon ? Dégueulasse, je sais, mais ça sert à des machins super bizarres. Oh, et puis 20.000 pièces d'or, ça pourrait servir, aussi.~
+@5678970= ~Cespenar a une jolie rapide recette pour régler ça ! Bon, peut-être pas très rapide. Tu as baguette d'éclairs ? Et un coeur de démon ? Dégueulasse, je sais, mais ça sert à des machins super bizarres. Oh, et puis 20.000 pièces d'or, ça pourrait servir, aussi.~
 
-@567871 = ~You got the littlest paladin goody two-shoes? Cespenar got storybook in his attic that mention something like that.~ [FWCESP26]
-@5678871 = ~Can make sword much better. Special discount for not so big peoples, just need to think good thoughts and give Cespenar 15,000 gold! You not find better deal this side of Limbo!~
-@5678971 = ~Can make sword much better. Special discount for not so big peoples, just need to think good thoughts and give Cespenar 15,000 gold! You not find better deal this side of Limbo!~
+@567871= ~Tu as le plus petit des paladins culs-bénits ? Cespenar a un livre d'histoire dans son grenier qui parle de quelque chose comme ça.~ [FWCESP26]
+@5678871= ~Possible de rendre l'épée beaucoup très mieux. Tarif spécial pour les pas si grandes gens, juste besoin de penser à des bonnes pensées et donner 15.000 pièces à Cespenar ! Tu trouveras pas meilleure affaire de ce côté-ci des Limbes !~
+@5678971= ~Possible de rendre l'épée beaucoup très mieux. Tarif spécial pour les pas si grandes gens, juste besoin de penser à des bonnes pensées et donner 15.000 pièces à Cespenar ! Tu trouveras pas meilleure affaire de ce côté-ci des Limbes !~
 
-@567872 = ~Cespenar very very impressed to have goody two-shoes peoples with the Great One! You maybe want to still be using signature weapon to help the Great One?~ [FWCESP27]
-@5678872 = ~Cespenar knows Priest of Torm who will re-Hallow the Redeemer and give neatness like dispelling magic and silencing other peoples. Need extra demon heart (Cespenar fresh out), five scrolls of Dispel Magic and 15,000 gold, plus heart of gold. Would be less money, but Cespenar have to pay per-use license on recipe to goody two-shoes lawyer peoples. They strongarm poor Cespenar.~
-@5678972 = ~Cespenar knows Priest of Torm who will re-Hallow the Redeemer and give neatness like dispelling magic and silencing other peoples. Need extra demon heart (Cespenar fresh out), five scrolls of Dispel Magic and 15,000 gold, plus heart of gold. Would be less money, but Cespenar have to pay per-use license on recipe to goody two-shoes lawyer peoples. They strongarm poor Cespenar.~
+@567872= ~Cespenar très très impressionné de voir des culs-bénits avec le Grand ! Tu veux peut-être continuer à utiliser une arme personnalisée pour aider le Grand ?~ [FWCESP27]
+@5678872= ~Cespenar connaît un prêtre de Torm qui va re-sanctifier le Rédempteur et donner des bonus comme dissipation de la magie ou faire taire les gens. Faut un coeur de démon de plus, cinq parchemins de dissipation de la magie et 15.000 pièces, plus un coeur d'or. Ça pourrait être moins, mais Cespenar doit payer les avocats des culs-bénits pour utiliser leurs brevets. Ils rackettent pauvre Cespenar.~
+@5678972= ~Cespenar connaît un prêtre de Torm qui va re-sanctifier le Rédempteur et donner des bonus comme dissipation de la magie ou faire taire les gens. Faut un coeur de démon de plus, cinq parchemins de dissipation de la magie et 15.000 pièces, plus un coeur d'or. Ça pourrait être moins, mais Cespenar doit payer les avocats des culs-bénits pour utiliser leurs brevets. Ils rackettent pauvre Cespenar.~
 
-@567873 = ~Oh boy! More serving platters! Cespenar running out of table settings for Great One's banquets!~ [FWCESP28]
-@5678873 = ~Wait... I knows recipe for big serving platters shield things. Take Delryn Family Shield and Saving Grace platter, and use 15,000 gold to make Delryn Shield protect more! Or we just keeps extra trays for company.~
-@5678973 = ~Wait... I knows recipe for big serving platters shield things. Take Delryn Family Shield and Saving Grace platter, and use 15,000 gold to make Delryn Shield protect more! Or we just keeps extra trays for company.~
+@567873= ~Oh là là ! Encore des plateaux pour faire le service ! Et Cespenar qui manquait de vaisselle pour les banquets du Grand !~ [FWCESP28]
+@5678873= ~Attends... Je connais recette pour grands plateaux à service boucliers machins. Tu prends le bouclier de la famille Delryn et Grâce Salvatrice et tu utilises 15.000 pièces et le bouclier Delryn protège mieux ! Ou alors on garde les plateaux pour faire le service.~
+@5678973= ~Attends... Je connais recette pour grands plateaux à service boucliers machins. Tu prends le bouclier de la famille Delryn et Grâce Salvatrice et tu utilises 15.000 pièces et le bouclier Delryn protège mieux ! Ou alors on garde les plateaux pour faire le service.~
 
-@567874 = ~What? You no like talking sword? What if you gets buried in deep dark hole and only gots sword to talk to? You be grateful then!~ [FWCESP29]
-@5678874 = ~But, hmmmm, Cespenar cans use Mind Flayer Control Circlet, can use to make Lilarcor stronger, keep nasty mind flayers from suckings your brains out through straw, too! But Larry can't talk to youse no more. It would be sad, and it woulds costs you 20,000 gold, too.~
-@5678974 = ~But, hmmmm, Cespenar sees Mind Flayer Control Circlet, can use to make Lilarcor stronger, keep nasty mind flayers from suckings your brains out through straw, too! But Larry can't talk to youse no more. It would be sad, and it woulds costs you 20,000 gold, too.~
+@567874= ~Quoi ? Tu n'aimes pas épée parlante ? Et si tu te fais enterrer dans un trou sombre et profond, et que tu as qu'une épée pour la conversation ? Tu serais heureux, alors !~ [FWCESP29]
+@5678874= ~Mais, hmmm, Cespenar peut utiliser Collier de contrôle des Flagelleurs mentaux, on peut l'utiliser pour rendre Lilarcor plus fort, empêche les vilains flagelleurs de sucer ta cervelle à la paille ! Mais Larry peut plus te parler. Ça serait triste, et ça te coûterait aussi 20.000 pièces d'or.~
+@5678974= ~Mais, hmmm, Cespenar voit Collier de contrôle des Flagelleurs mentaux, on peut l'utiliser pour rendre Lilarcor plus fort, empêche les vilains flagelleurs de sucer ta cervelle à la paille ! Mais Larry peut plus te parler. Ça serait triste, et ça te coûterait aussi 20.000 pièces d'or.~
 
-@567875 = ~You ever think of making love, not war? You sure gots lots of knives here... ~ [FWCESP30]
-@5678875 = ~Ahhhh, Cespenar have good idea! Make good dagger for sneaky peoples. Take Bone Blade and Pixie Prick and make dagger of very very good backstabbing and sleepiness! Needs must add four potions of Master Thievery and pay 15,000 gold, but then enemies never know what hit them, POW!~
-@5678975 = ~Ahhhh, Cespenar have good idea! Make good dagger for sneaky peoples. Take Bone Blade and Pixie Prick and make dagger of very very good backstabbing and sleepiness! Needs must add four potions of Master Thievery and pay 15,000 gold, but then enemies never know what hit them, POW!~
+@567875= ~Tu n'as jamais penser à faire l'amour et pas la guerre ? Tous ces couteaux...~ [FWCESP30]
+@5678875= ~Ahhh, Cespenar a bonne idée ! Fabrique bonne dague pour les gens silencieux. Prends Lame d'Os et Aiguillon de Pixie et fabrique une dague très très bonne pour l'attaque sournois et l'ensommeillement ! Il faut ajouter quatre potions de Maître voleur et payer 15.000 pièces, mais les ennemis ne sauront jamais qui les a attaqués, PAN !~
+@5678975= ~Ahhh, Cespenar a bonne idée ! Fabrique bonne dague pour les gens silencieux. Prends Lame d'Os et Aiguillon de Pixie et fabrique une dague très très bonne pour l'attaque sournois et l'ensommeillement ! Il faut ajouter quatre potions de Maître voleur et payer 15.000 pièces, mais les ennemis ne sauront jamais qui les a attaqués, PAN !~
 
-@5678791 = ~Oooh, someone talk you into Quiver of Plenty? Is like bad penny... guess Cespenar needs must throw this in river again, this time with bigger weight attached!~ [FWCESP31]
-@56789791 = ~Or maybe we try something different this time and use new recipe. You gots 40 +3 arrows and 40,000 gold and then we make Quiver of Plenty +3. Think of all the money you be saving on arrows! Unless youse invested in fancy long-term bonds, then youse probably make out even better.~
+@5678791= ~Oooh, quelqu'un t'as parlé du Carquois d'Abondance ? Vraiment la guigne... Il va falloir que Cespenar jette encore ça dans la rivière, cette fois avec un poids plus lourd attaché !~ [FWCESP31]
+@56789791= ~Ou peut-être on essaye quelque chose de différent cette fois, nouvelle recette. Tu prends 40 flèches +3 et 40.000 pièces d'or et on fait un Carquois d'Abondance +3. Pense à tout l'argent que tu économises sur les flèches ! Sauf si tu as investi dans un contrat à long terme, alors là tu as sans doute trouvé mieux.~
 
-@5678792 = ~Oooh, someone talk you into Case of Plenty? Is like bad penny... guess Cespenar needs must throw this in river again, this time with bigger weight attached2~ [FWCESP31]
-@56789792 = ~Or maybe we try something different this time and use new recipe. You gots 40 +3 bolts and 40,000 gold and then we make Case of Plenty +3. Think of all the money you be saving on bolts! Unless youse invested in fancy long-term bonds, then youse probably make out even better.~
+@5678792= ~Oooh, quelqu'un t'as parlé de l'Étui d'Abondance ? Vraiment la guigne... Il va falloir que Cespenar jette encore ça dans la rivière, cette fois avec un poids plus lourd attaché !~ [FWCESP31]
+@56789792= ~Ou peut-être on essaye quelque chose de différent cette fois, nouvelle recette. Tu prends 40 carreaux +3 et 40.000 pièces d'or et on fait un Étui d'Abondance +3. Pense à tout l'argent que tu économises sur les carreaux ! Sauf si tu as investi dans un contrat à long terme, alors là tu as sans doute trouvé mieux.~
 
-@5678793 = ~Oooh, someone talk you into Bag of Plenty? Is like bad penny... guess Cespenar needs must throw this in river again, this time with bigger weight attached!~ [FWCESP31]
-@56789793 = ~Or maybe we try something different this time and use new recipe. You gots 40 +3 bullets and 40,000 gold and then we make Bag of Plenty +3. Think of all the money you be saving on bullets! Unless youse invested in fancy long-term bonds, then youse probably make out even better.~
+@5678793= ~Oooh, quelqu'un t'as parlé du Sac d'Abondance ? Vraiment la guigne... Il va falloir que Cespenar jette encore ça dans la rivière, cette fois avec un poids plus lourd attaché !~ [FWCESP31]
+@56789793= ~Ou peut-être on essaye quelque chose de différent cette fois, nouvelle recette. Tu prends 40 billes +3 et 40.000 pièces d'or et on fait un Sac d'Abondance +3. Pense à tout l'argent que tu économises sur les billes ! Sauf si tu as investi dans un contrat à long terme, alors là tu as sans doute trouvé mieux.~
 
-@567883 = ~Looks like big peoples on clothes hanger. Hello, big peoples! Wave to Cespenar, you gets worn around now by the Great One!~ [FWCESP32]
-@5678883 = ~Cespenar no taxidermist but can take Human Flesh and combine with Soulstone and Scroll of Protection from Magic and 20,000 gold and make much shinier. Make you healthier and stronger. Can't say same for big peoples you wearing.~
-@5678983 = ~Cespenar no taxidermist but can take Human Flesh and combine with Soulstone and Scroll of Protection from Magic and 20,000 gold and make much shinier. Make you healthier and stronger. Can't say same for big peoples you wearing.~
+@567883= ~On dirait des gens sur un porte-manteau. Salut, les gens ! Faites coucou à Cespenar, vous vous faites porter par le Grand !~ [FWCESP32]
+@5678883= ~Cespenar n'est pas taxidermiste mais il peut prendre la Chair Humaine et combiner avec Pierre d'Âme et Parchemin de protection contre la magie et 20.000 pièces d'or et ça la rend très plus brillante. Et toi tu es plus fort et plus robuste. Peux pas dire la même chose des gens que tu portes.~
+@5678983= ~Cespenar n'est pas taxidermiste mais il peut prendre la Chair Humaine et combiner avec Pierre d'Âme et Parchemin de protection contre la magie et 20.000 pièces d'or et ça la rend très plus brillante. Et toi tu es plus fort et plus robuste. Peux pas dire la même chose des gens que tu portes.~
 
-@567884 = ~Where you find this? Bhaal look all over for this, never find it! Him wanted to hang over doorway as decoration... Cespenar talk him into roses, but that was soooooome fight...~ [FWCESP33]
-@5678884 = ~Very very devious recipe for Soul Reaver. Take Heart of the Damned and ultimate sword of goody two-shoesness and 20,000 gold, make Soul Reaver super-duper deadly! When goody two-shoes come asking, you no tell them it was Cespenar's idea!~
-@5678984 = ~Very very devious recipe for Soul Reaver. Take Heart of the Damned and ultimate sword of goody two-shoesness and 20,000 gold, make Soul Reaver super-duper deadly! When goody two-shoes come asking, you no tell them it was Cespenar's idea!~
+@567884= ~Où t'as trouvé ça ? Bhaal l'a cherchée partout, jamais trouvée ! Lui voulait l'accrocher au dessus de la porte pour décorer... Cespenar l'a convaincu de prendre des roses, mais ça a été duuuur...~ [FWCESP33]
+@5678884= ~Très très infâme recette pour Voleuse d'Âmes. Tu prends le Coeur du Damné et l'épée ultime de cul-bénéditude et 20.000 pièces, tu rends Voleuse d'Âmes super-super mortelle ! Quand les culs-bénits viennent te demander, tu dis pas que c'est Cespenar qui a eu l'idée !~
+@5678984= ~Très très infâme recette pour Voleuse d'Âmes. Tu prends le Coeur du Damné et l'épée ultime de cul-bénéditude et 20.000 pièces, tu rends Voleuse d'Âmes super-super mortelle ! Quand les culs-bénits viennent te demander, tu dis pas que c'est Cespenar qui a eu l'idée !~
 
-@567885 = ~Ooh, shiny symbol of old Sun God! Amaunator and Bhaal never really got along. Old dispute involving demons, sunlight and this one blessed goat. Very sad story. After goat died, Ammy never came back over for tea.~ [FWCESP34]
-@5678885 = ~Anyway, me can puts holy symbol of Ammy into buckler. Add one Sunstone Gem for each quarter and 10,000 gold, make shiny shield for scaring undead nasties.~
-@5678985 = ~Anyway, can puts holy symbol into buckler. Add one Sunstone Gem for each quarter and 10,000 gold, make shiny shield for scaring undead nasties. You want?~
+@567885= ~Ooh, symbole brillant du vieux Dieu du Soleil ! Amaunator et Bhaal ne se sont jamais vraiment bien entendus. Une vieille histoire à propos de démons, la lumière du soleil et une certaine chèvre consacrée. Une histoire très triste. Après la mort de la chèvre, Amau n'est plus jamais revenu prendre le thé.~ [FWCESP34]
+@5678885= ~Enfin bon, je peux mettre le symbole sacré sur la targe. Tu ajoutes une gemme Pierre de Soleil pour chaque doigt et 10.000 pièces, et tu fais un bouclier brillant pour effrayer les vilains morts-vivants.~
+@5678985= ~Enfin bon, on peut mettre le symbole sacré sur la targe. Tu ajoutes une gemme Pierre de Soleil pour chaque doigt et 10.000 pièces, et tu fais un bouclier brillant pour effrayer les vilains morts-vivants. Tu veux ?~
 
-@567886 = ~Thiefy sneakings, I see. Youse going to pick Cespenar's pockets? Wait! Cespenar has no pockets. Ha! Don't feel bad. I'm sure there will be lots of baddies for you to loot later.~ [FWCESP35]
-@5678886 = ~In the mean-time, I have a recipe for thiefy accesories. Quite the fashion plate: gloveses of pick pocketing and defense, rings of danger senses and lock picking, two rings of protection. With 5,000 gold I can make one big shiny one.~
-@5678986 = ~In the mean-time, I have a recipe for thiefy accesories. Quite the fashion plate: gloveses of pick pocketing and defense, rings of danger senses and lock picking, two rings of protection. With 5,000 gold I can make one big shiny one.~
+@567886= ~Sournoiserie de voleur, je vois. Tu veux faire les poches à Cespenar ? Attends ! Cespenar n'a pas de poches. Ha ! C'est pas grave. Je suis sûr que tu auras plein de méchants à voler plus tard.~ [FWCESP35]
+@5678886= ~Maintenant, j'ai une recette pour les accessoires de voleur. Le dernier cri : Gants de Pickpocket et de Défense, Anneaux de Sens du Danger et de Crochetage, deux Anneaux de Protection. Avec 5.000 pièces, je te fabrique une grosse chose brillante.~
+@5678986= ~Maintenant, j'ai une recette pour les accessoires de voleur. Le dernier cri : Gants de Pickpocket et de Défense, Anneaux de Sens du Danger et de Crochetage, deux Anneaux de Protection. Avec 5.000 pièces, je te fabrique une grosse chose brillante.~
 
-@567887 = ~Ah, sparkly jewels you haves. Very poor color coordination, however.  Perhaps Cespenar can help you with that later. Some mauve would really bring out your eyes? No?~ [FWCESP36]
-@5678887 = ~Anyway, Cespenar can smash together two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding. That's a lot of chains an jewels! Obtain minor blessing from good friend Ilmater (for some reason, Ilmater have soft-spot for poor Cespenar) and presto! Maybe 10,000 gold for services best, eh?~
-@5678987 = ~Anyway, Cespenar can smash together two Amulets of Protection, a Periapt of Proof against Poison, a Necklace of Form Stability and an Amulet of Spell Warding. That's a lot of chains an jewels! Obtain minor blessing from good friend Ilmater (for some reason, Ilmater have soft-spot for poor Cespenar) and presto! Youse wants for 10,000 gold?~
+@567887= ~Ah, des joyaux étincelants tu as. Les couleurs vont très mal ensemble, par contre. Peut-être Cespenar peut t'aider plus tard. Un peu de mauve mettrait vraiment tes yeux en valeur. Non ?~ [FWCESP36]
+@5678887= ~Bien, Cespenar peut mélanger deux Amulettes de Protection, un Fétiche de Protection contre le Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts. Plein de colliers et de bijoux ! Obtient une bénédiction mineure de l'ami Ilmater (pour une raison ou un autre, Ilmater aime bien le pauvre Cespenar) et hop-là ! Et 10.000 pièces pour le travail peut-être, hein ?~
+@5678987= ~Bien, Cespenar peut mélanger deux Amulettes de Protection, un Fétiche de Protection contre le Poison, un Collier de Stabilité de Forme et une Amulette de Protection contre les Sorts. Plein de colliers et de bijoux ! Obtient une bénédiction mineure de l'ami Ilmater (pour une raison ou un autre, Ilmater aime bien le pauvre Cespenar) et hop-là ! Tu veux pour 10.000 pièces ?~
 
-@567888 = ~Swish-swash! Blade of water would be much more fun than just splashing around. Youse a fencer, perhaps? Cespenar have recipe that work very well for speedy lunges.~ [FWCESP37]
-@5678888 = ~With Water's Edge, Rashad's Talon and Adjatha the Drinker, can make big water-themed sword. Not so big, really, but still very nice. Hope you likes poison! May need 15,000 gold for insurance purposes.~
-@5678988 = ~With Water's Edge, Rashad's Talon and Adjatha the Drinker, can make big water-themed sword. Not so big, really, but still very nice. Hope you likes poison! Have 15,000 gold for the job?~
+@567888= ~Flic flac ! Une lame d'eau ça serait mieux que juste barboter. Tu es un escrimeur, peut-être ? Cespenar a recette qui marche très bien pour les assauts rapides.~ [FWCESP37]
+@5678888= ~Avec Bord de l'Eau, Serre de Rashad et Adjatha la Buveuse, on fait grosse épée sur le thème de l'eau. Pas si grosse en fait, mais quand même pas mal. Tu aimes le poison, hein ? Faudra peut-être 15.000 pièces pour les assurances.~
+@5678988= ~Avec Bord de l'Eau, Serre de Rashad et Adjatha la Buveuse, on fait grosse épée sur le thème de l'eau. Pas si grosse en fait, mais quand même pas mal. Tu aimes le poison, hein ? Tu as 15.000 pièces pour le boulot ?~
 
-@567889 = ~Oooh, shiny axe that kills evil things. You trying to kill Cespenar? Oh wait, only works on undead, not demons. Very scary for a moment. Cespenar sees life pass before eyes: too much bowing, not enough scraping. Must rectify.~ [FWCESP38]
-@5678889 = ~Anyway, pink not really your color. Could apply coating of illithium to Azuredge, make it a much more refined purple. Also grant some extra undead-smiting powers and protections. Need 20,000 gold though.~
-@5678989 = ~Anyway, pink not really your color. Could apply coating of illithium to Azuredge, make it a much more refined purple. Also grant some extra undead-smiting powers and protections. 20,000 gold. You like?~
+@567889= ~Oooh, brillante hache qui tue toutes les choses mauvaises. Tu essaies tuer Cespenar ? Oh attends, ça marche que sur les morts-vivants, pas les démons. Très effrayant pendant un moment. Cespenar voit l'existence passer devant ses yeux : trop de courbettes, pas assez de révérences. Il faut changer cette vie.~ [FWCESP38]
+@5678889= ~En tout cas, le rose c'est vraiment pas ta couleur. On pourrait mettre un revêtement d'illithium à Bordazur, ça fait un violet beaucoup plus classe. Et puis aussi des pouvoirs et des protections supplémentaires avec les morts-vivants. Faut 20.000 pièces quand-même.~
+@5678989= ~En tout cas, le rose c'est vraiment pas ta couleur. On pourrait mettre un revêtement d'illithium à Bordazur, ça fait un violet beaucoup plus classe. Et puis aussi des pouvoirs et des protections supplémentaires avec les morts-vivants. 20.000 pièces. Tu aimes ?~
 
-@567890 = ~I spy a ring clinking on your finger! Too many rings for youse fingers? Is big problem, Cespenar know. Soo many sparklies, so few claws.~ [FWCESP39]
-@5678890 = ~Tell you what. Cespenar can merge together rings of Wizardy and Acuity, along with old-forgotten Metaspell Amulet and standard Ring of Protection to form Sorcerian Ring. Very nice for the mages. For 20,000 gold, mes can be *your* friend anytime.~
-@5678990 = ~Tell you what. Cespenar can merge together your rings of Wizardy and Acuity, along with old-forgotten Metaspell Amulet and standard Ring of Protection to form Sorcerian Ring. Very nice for the mages. You like, for 20,000 gold?~
+@567890= ~Y a un anneau qui fait "clink" à ton doigt ! Trop d'anneaux pour tes doigts ? Gros problème, Cespenar sait. Teeeeeellement d'étincelles, si peu de griffes.~ [FWCESP39]
+@5678890= ~Tu sais quoi ? Cespenar peut mélanger tes anneaux des Arcanes et de Précision avec la vieille Amulette d'Influence sur les Méta-sorts et un Anneau de Protection, et ça donne un Anneau Ensorceleur. Très bien pour les mages. Pour 20.000 pièces, moi je peux être *ton* ami quand tu veux.~
+@5678990= ~Tu sais quoi ? Cespenar peut mélanger tes anneaux des Arcanes et de Précision avec la vieille Amulette d'Influence sur les Méta-sorts et un Anneau de Protection, et ça donne un Anneau Ensorceleur. Très bien pour les mages. Tu aimes, pour 20.000 ?~
 
-@567893 = ~Ooh, belts are quite the fashion this season. Wonder why all of these look sort of beige? Must be this horrid pocket-plane lighting. Always make Cespenar look tired.~ [FWCESP40]
-@5678893 = ~Anyway, if youse have all three belts of protection, I has recipe for combining them into one really thick belt. If you hide behind it, enemies cannot hurt you. Yeah, great deal, but need three bloodstones all of same type. And 10,000 gold, no forgetting gold.~
-@5678993 = ~Anyway, if youse have three belts of protection, I have recipe for combining them into one really thick belt. If you hide behind it, enemies cannot hurt you. I know, great deal, but need three bloodstones all of same type. You like, for 10,000 gold?~
+@567893= ~Ooh, les ceintures c'est vraiment la mode cette saison. Pourquoi elles sont toutes de cette espèce de beige ? Ça doit être ce sale éclairage du plan miniature. Donne toujours un air fatigué à Cespenar.~ [FWCESP40]
+@5678893= ~Enfin bon, si tu as les trois ceintures de protection, j'ai une recette pour les combiner en une ceinture vraiment épaisse. Si tu te caches derrière, les ennemis peuvent pas t'atteindre. Une sacrée affaire, ouais, mais j'ai besoin de trois gemmes héliotropes identiques. Et 10.000 pièces d'or, faut pas oublier l'or.~
+@5678993= ~Enfin bon, si tu as trois ceintures de protection, j'ai une recette pour les combiner en une ceinture vraiment épaisse. Si tu te caches derrière, les ennemis peuvent pas t'atteindre. Une sacrée affaire, ouais, mais j'ai besoin de trois gemmes héliotropes identiques. Tu aimes, pour 10.000 pièces ?~
 
-@567896 = ~Ooh, sneaky-sneaky! You want Cespenar to make your friendly neighborhood spider figurine more amazing? Add some web spinners, maybe? You want to terrorize a certain goblin?~ [FWCESP41]
-@5678896 = ~Cespenar's senses tingle at the thought. However, need special materials to upgrade this wall-crawler. Must have scrolls of Spider Spawn and Web, plus five poisoned throwing daggers. Also 5,000 gold.~
-@5678996 = ~Cespenar sense... tingling. However, need special materials to upgrade this wall-crawler. Must have scrolls of Spider Spawn and Web, plus five poisoned throwing daggers. Also 5,000 gold. You want?~
+@567896= ~Ooh, sournois-sournois ! Tu veux que Cespenar rende les figurines d'araignée de ton amical entourage, encore plus surprenante ?  Ajouter quelques tours de toile, peut-être ? Tu veux faire peur à un gobelin en particulier ?~ [FWCESP41]
+@5678896= ~Les sens de Cespenar frémissent rien qu'à l'idée. Cependant, il me faut des matériaux spéciaux pour améliorer ce marcheur aux murs. Il faut des parchemins de Progéniture d'Araignée et de Toile d'Araignée, ajoute aussi cinq dagues de jet empoisonnées. Et aussi 5.000 pièces..~
+@5678996= ~Les sens de Cespenar sont en train de frémir. Cependant, il me faut des matériaux spéciaux pour améliorer ce marcheur aux murs. Il faut des parchemins de Progéniture d'Araignée et de Toile d'Araignée, ajoute aussi cinq dagues de jet empoisonnées. Et aussi 5.000 pièces. D'accord ?~
 
-@567898 = ~Hmm, mister fancy-pants cans fight? What? He bore everyone to death or what? Maybe give baddies kiss... OF DEATH!... No?~
-@5678898 = ~Short swords? Takes secure guy to use short swords, if you catch Cespenar's drift. But need more thwacking power, eh? Okay, here's what Cespenar can do. Get bewilderment scroll and malison scroll, mix with Ilbratha and Arbane, and short swords will be even more worthy of being called Abyssal Weapons! Oh, Cespenar also needs 25,000 gold. And a Rogue stone, unless you want to be picking up pieces of Cespenar all over pocket plane. Um, that not suggestion.~ [FWCESP42]
-@5678998 = ~Short swords? Takes secure guy to use short swords, if you catch Cespenar's drift. But need more thwacking power, eh? Okay, here's what Cespenar can do. Get bewilderment scroll and malison scroll, mix with Ilbratha and Arbane, and short swords will be even more worthy of being called Abyssal Weapons! Oh, Cespenar also needs 25,000 gold. And a Rogue stone, unless you want to be picking up pieces of Cespenar all over pocket plane. Um, that not suggestion.~ [FWCESP42]
+@567898= ~Hmm, monsieur femmelette sait se battre ? Quoi ? Il est ennuyeux à mourir ou quoi ? Ou peut-être il donne des méchants bisous... MORTELS !... Non ?~
+@5678898= ~Des épées courtes ? Il faut pas avoir un complexe d'infériorité pour utiliser des épées courtes, si tu vois ce que Cespenar veut dire. Mais, besoin de plus grands pouvoirs destructeurs, hé ? Okay, voilà ce que Cespenar peut faire. Ramène un parchemin de Chaos et un de Malédiction, mélange avec Ilbratha et Arbane, et les épées courtes seront enfin dignes d'être appelées des armes abyssales ! Oh, Cespenar a aussi besoin de 25.000 pièces d'or. Et une Esseulite, à moins que tu ne veuilles ramasser des petits morceaux de Cespenar un peu partout dans le plan miniature. Hum, ce n'est pas une option.~ [FWCESP42]
+@5678998= ~Des épées courtes ? Il faut pas avoir un complexe d'infériorité pour utiliser des épées courtes, si tu vois ce que Cespenar veut dire. Mais, besoin de plus grands pouvoirs destructeurs, hé ? Okay, voilà ce que Cespenar peut faire. Ramène un parchemin de Chaos et un de Malédiction, mélange avec Ilbratha et Arbane, et les épées courtes seront enfin dignes d'être appelées des armes abyssales ! Oh, Cespenar a aussi besoin de 25.000 pièces d'or. Et une Esseulite, à moins que tu ne veuilles ramasser des petits morceaux de Cespenar un peu partout dans le plan miniature. Hum, ce n'est pas une option.~ [FWCESP42]
 
-@5678100 = ~Ooh, Sylvan Chain? You suddenly gots urge to wear leaves and starts protest against 'global-warming' and whatnot? Sheesh... <PRO_RACE>ses~
-@56788100 = ~Oooh Yes! Maybe you likes things hot and spicy? Cespenar stir-fry together some elven chain with some red dragon scales. Add shiitake mushrooms, some andar spices and fire agate peppers and presto: very light, very hot, very filling. Cespenar quite the iron chef ... or perhaps the culinary forger. Unfortunately, special wok and peanut oil will set you back 25,000 gold.~
-@56789100 = ~Oooh Yes! You likes things hot and spicy? Cespenar stir-fry together some elven chain with some red dragon scales. Add shiitake mushrooms, some andar spices and fire agate peppers and presto: very light, very hot, very filling. Cespenar quite the iron chef ... or perhaps the culinary forger. Unfortunately, special wok and peanut oil will set you back 25,000 gold. You still want?~ [FWCESP43]
+@5678100= ~Oooh, Cotte de Mailles Sylvestre ? Tu as tout à coup envie de te couvrir de feuilles et protester contre le "réchauffement climatique" ou je sais pas quoi ? Pfff... Ces <PRO_RACE>s !~
+@56788100= ~Oooh oui ! Peut-être tu aimes ce qui est chaud et épicé ? Cespenar fait frire ensemble une cotte de mailles elfique et des écailles de dragon rouge. On ajoute des champignons, des épices d'Andar et du poivre d'agates de feu et ça y est : très léger, très chaud, très nourrissant. Cespenar est un chef du fer... ou peut être un forgeron culinaire. Malheureusement, la poêle spéciale et l'huile de cacahouète te coûteront 25.000 pièces d'or.~
+@56789100= ~Oooh oui ! Tu aimes ce qui est chaud et épicé ? Cespenar fait sauter ensemble une cotte de mailles elfique et des écailles de dragon rouge. On ajoute des champignons, des épices d'Andar et du poivre d'agates de feu et ça y est : très léger, très chaud, très nourrissant. Cespenar est un chef du fer... ou peut être un forgeron culinaire. Malheureusement, la poêle spéciale et l'huile de cacahouète te coûteront 25.000 pièces d'or. Toujours d'accord ?~ [FWCESP43]
