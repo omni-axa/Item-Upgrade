@@ -327,11 +327,11 @@ COMPILE ~c2/dlg/riftg03.d~
 
 // prompts random StringHeads if Lil +5 is being used
 EXTEND_BOTTOM ~baldur.bcs~ ~c2/bcs/lilarcor.baf~
-  
+
 BEGIN ~Revised consistency plus version~
   DESIGNATED 10
   SUBCOMPONENT @1
-  
+
 // in case Fixpack is installed, change shadow temple to not consume Symbol of Amaunator as a key
 COPY_EXISTING ~AR1401.ARE~ ~override~
   READ_LONG 0xa4 "door_num"
@@ -744,7 +744,7 @@ COMPILE ~c2/dlg/riftg03.d~
 
 // prompts random StringHeads if Lil +5 is being used
 EXTEND_BOTTOM ~baldur.bcs~ ~c2/bcs/lilarcor.baf~
-  
+
 BEGIN ~Original list version~
   REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~ar5503.are~ @3 // ToB
   DESIGNATED 1
@@ -767,7 +767,7 @@ BEGIN ~Revised consistency plus version~
   REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~ar5503.are~ @3 // ToB
   DESIGNATED 11
   SUBCOMPONENT @2
-  
+
 COMPILE ~c2/cespy/c2amul01.d~
 	USING ~c2/american/lolwot.tra~
 		  ~c2/%LANGUAGE%/lolwot.tra~

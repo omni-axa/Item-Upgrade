@@ -39,7 +39,7 @@ Specjalne:
  +50% do odpornoœci na elektrycznoœæ~
 
 @106 = ~Kostur w³adzy nad ¿ywio³ami +5~
-@107 = ~Po³¹czony trzema p³aszczyznami ¿ywio³ów, ten potê¿ny kostur zosta³ wykuty dla ciebie. To jest potê¿na broñ sama w sobie, ale tak¿e posiada moc ¿ycia i œmierci zwi¹zan¹ z istotami ¿ywio³ów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz ma³ymi wy¿³obieniami. Wieœæ niesie, ¿e sekret tej specyficznej konstrukcji zosta³ pierwotnie odkryty przez Rakshasa, która to stworzy³a go do stworzenia Cepa bojowego wieków.
+@107 = ~Po³¹czony trzema p³aszczyznami ¿ywio³ów, ten potê¿ny kostur zosta³ wykuty dla ciebie. To jest potê¿na broñ sama w sobie, ale tak¿e posiada moc ¿ycia i œmierci zwi¹zan¹ z istotami ¿ywio³ów. Ten szczególny kij jest zimny w dotyku i jest pokryty wypalonymi znakami oraz ma³ymi wy¿³obieniami. Wieœæ niesie, ¿e sekret tej specyficznej konstrukcji zosta³ pierwotnie odkryty przez Rakshasa, który u¿y³ go do stworzenia Cepa bojowego wieków.
 
 PARAMETRY:
 
@@ -51,7 +51,7 @@ Specjalne:
  Zabija jednym trafieniem ¯ywio³aki ognia, ziemi i powietrza
  Raz dziennie pozwala rzucaæ Przywo³anie ¯ywio³aka ziemi, powietrza i ognia (na okres 5 tur, zawsze przyjaznego)
  Dwa razy dziennie pozwala rzucaæ Ognist¹ tarczê (na okres 13 rund)
- Dwa razy dziennie pozwala rzucaæ Usypiaj¹c¹ chmurê (zasiêg 12m, ofiara musi wykonaæ rzut obronny przeciw truciŸnie w przeciwnym wypadku zaœnie na okres 3 rund).
+ Dwa razy dziennie pozwala rzucaæ Usypiaj¹c¹ chmurê (zasiêg 12 metrów, ofiara musi wykonaæ rzut obronny przeciw truciŸnie w przeciwnym wypadku zaœnie na okres 3 rund).
 Waga: 3
 OpóŸnienie: 0
 Rodzaj bieg³oœci: kij

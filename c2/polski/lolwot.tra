@@ -18,8 +18,8 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @1234941 = ~Mogê po³¹czyæ Pierœcieñ ochrony +2 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o 20000 sztuk z³ota. Zainteresowany?~ ~Mogê po³¹czyæ Pierœcieñ ochrony +2 i Pierœcieñ regeneracji. Muszê te¿ zanurzyæ diament wed³ug tego przepisu, a poza tym bêdzie to kosztowa³o 20000 sztuk z³ota. Zainteresowana?~
 
 @123442 = ~Ach, masz jeden z pierœcieni ¿ywio³ów. Pozwól mi nañ rzuciæ okiem...~
-@1234842 = ~Mogê po³¹czyæ pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem w Pierœcieñ kontroli nad ¿ywio³ami. Potrzebujê zwojów ochronnych ochrony przed petryfikacj¹, ogniem oraz elektrycznoœci¹ jako reagenty. To bêdzie tak¿e kosztowaæ 20000 sztuk z³ota.~
-@1234942 = ~Mogê po³¹czyæ pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem w Pierœcieñ kontroli nad ¿ywio³ami. Potrzebujê zwojów ochronnych ochrony przed petryfikacj¹, ogniem oraz elektrycznoœci¹ jako reagenty. To bêdzie tak¿e kosztowaæ 20000 sztuk z³ota. Co ty na to?~
+@1234842 = ~Mogê po³¹czyæ pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem w Pierœcieñ kontroli nad ¿ywio³ami. Potrzebujê zwojów ochronnych ochrony przed petryfikacj¹, ogniem oraz elektrycznoœci¹ jako reagentów. To bêdzie tak¿e kosztowaæ 20000 sztuk z³ota.~
+@1234942 = ~Mogê po³¹czyæ pierœcienie kontroli nad powietrzem, ziemi¹ i ogniem w Pierœcieñ kontroli nad ¿ywio³ami. Potrzebujê zwojów ochronnych ochrony przed petryfikacj¹, ogniem oraz elektrycznoœci¹ jako reagentów. To bêdzie tak¿e kosztowaæ 20000 sztuk z³ota. Co ty na to?~
 
 @123443 = ~Taaak, to mi wygl¹da na kostur ¿ywio³u. Mogê siê za³o¿yæ, ¿e potrafi³bym go uczyniæ bardziej imponuj¹cym...~
 @1234843 = ~Mogê po³¹czyæ kostury powietrza, ziemi oraz ognia w Kostur w³adzy nad ¿ywio³ami. To bêdzie te¿ kosztowa³o ciê 20000 sztuk z³ota, ale jestem pewien, ¿e siê op³aci.~
@@ -63,8 +63,8 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 @1234954 = ~Ach, znaæ ród magów. U¿ywaj¹c zwoju ochrony przed magi¹ jako katalizatora mogê skuæ razem Rodow¹ zbrojê Corthalów i £uskê Smoka Cieni. To jednak bêdzie kosztowaæ 10000 sztuk z³ota. Co o tym s¹dzisz?~
 
 @123455 = ~Szata, i to jedna z tych zacnych. Mo¿e móg³bym uczyniæ j¹ jeszcze zacniejsz¹...~
-@1234855 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota.~
-@1234955 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 i zwojami eteralnego pancerza i warunkowania jako reagentów mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota. Zainteresowany?~ ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 i zwojami eternalnego pancerza i warunkowania jako reagentów mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota. Zainteresowana?~
+@1234855 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 oraz zwojami eteralnego pancerza i warunkowania jako reagentami mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota.~
+@1234955 = ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 oraz zwojami eteralnego pancerza i warunkowania jako reagentami mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota. Zainteresowany?~ ~Tak, mogê dokonaæ kilku ulepszeñ Szaty arcymaga. Wraz z P³aszczem ochrony +1 oraz zwojami eternalnego pancerza i warunkowania jako reagentami mogê zrobiæ szatê godn¹ Elminstera. To bêdzie kosztowaæ 20000 sztuk z³ota. Zainteresowana?~
 
 @123459 = ~Hmm, s¹dzê, ¿e He³m ochrony mo¿e zostaæ ulepszony...~
 @1234859 = ~Jak najbardziej. Mogê po³¹czyæ defensywne moce He³mu ochrony i He³mu ochrony przed urokami. Potrzebujê 4 per³y jako reagenty i 10000 sztuk z³ota za pracê.~
@@ -214,7 +214,7 @@ Many of these lines may already be translated in the original Item Upgrade mod. 
 
 @567849 = ~Uch! Dlaczego wszystkie maczugi musz¹ byæ takie k³uj¹ce? Cespenar myœli, ¿e ma coœ, co mo¿e na to poradziæ...~ [FWCESP09]
 @5678849 = ~Na g³adk¹ now¹ maczugê przepis ja mam, potrzeba Koœcianej maczugi i Zgniatacza, a tak¿e jedynych 15 000 sztuk z³ota. Cespenar mówi... Nie krzywdŸ mnie teraz, dobra?~
-@5678949 = ~A mo¿e po prostu chcesz mieæ lepsz¹ maczugê? Mogê wzi¹æ Koœcian¹ maczugê i Zgniatacza i stworzyæ Punkt podparcia. Krzywdzi ludzi, którzy nie lubi¹ "równowagi" Cespenar stara siê nie wtr¹caæ do polityki, dlatego weŸmie tylko 15 000 sztuk z³ota, zrobi maczugê i zapomni o tym, dobrze?~
+@5678949 = ~A mo¿e po prostu chcesz mieæ lepsz¹ maczugê? Mogê wzi¹æ Koœcian¹ maczugê i Zgniatacza i stworzyæ Punkt podparcia. Krzywdzi ludzi, którzy nie lubi¹ "równowagi". Cespenar stara siê nie wtr¹caæ do polityki, dlatego weŸmie tylko 15 000 sztuk z³ota, zrobi maczugê i zapomni o tym, dobrze?~
 
 @567850 = ~Cespenar nigdy nie rozumia³, dlaczego kap³anom pozwala siê na zrobienie z twojej g³owy krwawej miazgi, a nie mog¹ u¿yæ no¿a do mas³a. Dziiiiiiiiwne.~ [FWCESP10]
 @5678850 = ~Tak czy siak, masz dobr¹ wekierê - Roz³upywacz czaszek. Cespenar mo¿e zrobiæ znacznie lepsz¹ ze zwojem Palca Œmierci, PRZEKLÊT¥ miksturê lecznicz¹ (dobry mix koktajli!) i 15 000 sztuk z³ota. Aha, tak¿e 3 spinki do ubrañ z szuflady Matki Prze³o¿onej. Cespenar ¿artowa³ z t¹ czêœci¹.~

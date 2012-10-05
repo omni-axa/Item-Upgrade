@@ -1,57 +1,57 @@
-                             Baldur's Gate II
-                           Item Upgrade Mod Pack
-		  Westley Weimer <weimer@cs.berkeley.edu>
-                             \/ Release 39 \/
+                 Baldur's Gate II
+              Item Upgrade Mod Pack
+      Westley Weimer <weimer@cs.berkeley.edu>
+                \/ Release 39 \/
 
-                      http://www.weidu.org/item.html
+          http://www.weidu.org/item.html
 
 Francais? Lisez "c2\README-ItemUpgrades.French.txt"!
-Polski? Read "c2\README-ItemUpgrades.Polski.txt"! 
+Polski? Read "c2\readme-itemupgrades.polski.html"!
 
-		Table of Contents
-		~~~~~~~~~~~~~~~~~
-I. 	About
-II. 	Installation
+        Table of Contents
+        ~~~~~~~~~~~~~~~~~
+I.      About
+II.     Installation
 III.    Items
-IV.	Known Bugs
-V.	Thanks
-VI. 	FAQ (Spoilers)
-VII.	Changes
+IV.     Known Bugs
+V.      Thanks
+VI.     FAQ (Spoilers)
+VII.    Changes
 
 
-		Section I. About
-		~~~~~~~~~~~~~~~~
+        Section I. About
+        ~~~~~~~~~~~~~~~~
 The Item Upgrade Mod Pack allows Cromwell and Cespenar to upgrade more
 items for you. Half of them are conveniences, the other half try to prop up
-weapon categories that are "weak" by comparison (e.g., maces and clubs). 
+weapon categories that are "weak" by comparison (e.g., maces and clubs).
 
 See Section III for an item list.
 
 
-		Section II. Installation
-		~~~~~~~~~~~~~~~~~~~~~~~~
+        Section II. Installation
+        ~~~~~~~~~~~~~~~~~~~~~~~~
 BGII is required. ToB is optional but recommended. The Item Upgrade Mod
 will install correctly over (or without) the Ascension Mod. It should work
-fine with any WeiDU mod. See the webpage for details. 
+fine with any WeiDU mod. See the webpage for details.
 
 Unzip the main ZIP file into your BGII main directory. This is normally:
         C:\Program Files\Black Isle\BGII - SoA\
 
-Run (click on) "Setup-ItemUpgrade.exe". 
+Run (click on) "Setup-ItemUpgrade.exe".
 
-First, pick your favorite language. Currently available: 
-  American English 
+First, pick your favorite language. Currently available:
+  American English
   French Translation by Artemidore (artemidore@caramail.com)
                      &  Cocobard (bardbards@planetis.com)
   German Translation by Maus (maus@fphfslinux.physik.uni-karlsruhe.de)
                      &  Norbert Frishcauf
                      &  Patrick Lainer
   Spanish Translation by Clan DLAN ( http://www.clandlan.cjb.net )
-                     & Bhasbuto 
+                     & Bhasbuto
                      & Immortality
                      & Neil Sharp (FWP)
   Polish Translation by Damian Staniszewski
-  Russian Translation by Iogan 
+  Russian Translation by Iogan
                      & AERIE.RU
   Korean Translation by web2air
 
@@ -61,35 +61,35 @@ uninstall them later by re-running "Setup-ItemUpgrade.exe".
 Starting from v38, there are 2 sub-components for both SoA and ToB components:
 
 1) Original Version: This is Wes Weimer's original item upgrade mod where
-					you can actually *tell* Cromwell and/or Cespenar through
-					dialogue about what to upgrade.
-					
+                     you can actually *tell* Cromwell and/or Cespenar through
+                     dialogue about what to upgrade.
+
 2) Revised Consistency-plus version: In order to bring the upgrades more
-					in-line with how vanilla Crom/Cespy upgrades happen
-					(they rummage through your stuff and tell you what they
-					can do with the items) this component lets Crom and Cespy
-					find what they can work with without you specifying. Like
-					vanilla, you can still tell them to ignore the item if you
-					want :)
-					
+                     in-line with how vanilla Crom/Cespy upgrades happen
+                     (they rummage through your stuff and tell you what they
+                     can do with the items) this component lets Crom and Cespy
+                     find what they can work with without you specifying. Like
+                     vanilla, you can still tell them to ignore the item if you
+                     want :)
+
 You do *not* need to start a new game to take advantage of anything you
-installed. 
+installed.
 
 The components should install correctly for international players who have
-both DIALOG.TLK and DIALOGF.TLK. 
+both DIALOG.TLK and DIALOGF.TLK.
 
 
-		Section III. Items
-		~~~~~~~~~~~~~~~~~~
+        Section III. Items
+        ~~~~~~~~~~~~~~~~~~
 The items are listed here with the components on the left and the result on
 the right. For example, the first group means that you can forge a Ring of
 Protection +1, a Ring of Regeneration, a Diamond and 10,000 gold into a Ring
-of Preservation +1. 
+of Preservation +1.
 
-[ This mod also fixes Carsomyr +5 and Carsomyr +6 so that they use the same 
+[ This mod also fixes Carsomyr +5 and Carsomyr +6 so that they use the same
   "dispel magic" opcode as the Staff of the Magi. That is, they will
   actually dispel things. They also increase MR by 50% rather than setting
-  it to 50%. In addition, the Mace of Disruption +2 now uses the MoD+1 icon. ] 
+  it to 50%. In addition, the Mace of Disruption +2 now uses the MoD+1 icon. ]
 
 ---------------------------------------------------------------------------
 2 Amulets of Protection +1
@@ -105,14 +105,14 @@ Ring of Regeneration
 Diamond
 10,000 Gold
                         Ring of Preservation +1
-                        +1 AC, +1 Saves, Regenerate 1 hp/6 seconds. 
+                        +1 AC, +1 Saves, Regenerate 1 hp/6 seconds.
 ---------------------------------------------------------------------------
 Ring of Protection +2
 Ring of Regeneration
 Diamond
 20,000 Gold
                         Ring of Preservation +2
-                        +2 AC, +2 Saves, Regenerate 1 hp/6 seconds. 
+                        +2 AC, +2 Saves, Regenerate 1 hp/6 seconds.
 ---------------------------------------------------------------------------
 Ring of Air Control
 Ring of Earth Control
@@ -127,9 +127,9 @@ Scroll of Protection From Electricity (green)
                         Summon Elementals (1 each, once/day, friendly)
                         Improved Invisibility (once/day)
 ---------------------------------------------------------------------------
-Staff of Air 
+Staff of Air
 Staff of Earth
-Staff of Fire 
+Staff of Fire
 20,000 Gold
                         Staff of Elemental Mastery +5
                         Any Elemental hit by staff is destroyed
@@ -137,7 +137,7 @@ Staff of Fire
                         Fireshield: Red (twice/day)
                         Sleep Cloud (twice/day)
 ---------------------------------------------------------------------------
-Quiver/Case/Bag of Plenty +2 
+Quiver/Case/Bag of Plenty +2
 40 Bolts/Arrows/Bullets +3
 40,000 Gold
                         Quiver/Case/Bag of Plenty +3
@@ -160,7 +160,7 @@ Boots of Speed
 Boots of Grounding
 Rogue Stone
 10,000 Gold
-                        Stormlord's Heels 
+                        Stormlord's Heels
                         Haste & 50% elec resistance
 ---------------------------------------------------------------------------
 Boots of Speed
@@ -197,7 +197,7 @@ Heartseeker
 4 Laeral's Tears (and no extra gold)
 Potion of Power
                         Teleomortis +4 (Long Bow)
-                        no ammo required, 5% chance of confusing target 
+                        no ammo required, 5% chance of confusing target
                         for 30 seconds
 ---------------------------------------------------------------------------
 Corthala Family Armor
@@ -206,7 +206,7 @@ Shadow Dragon Armor
 10,000
                         Corthala Family Armor
                         50% res to fire/acid/magic damage, immunity to
-                        charm, non-detection, AC 0. 
+                        charm, non-detection, AC 0.
 ---------------------------------------------------------------------------
 Robe of the Good/Neutral/Evil Archmagi
 Cloak of Protection +1
@@ -236,7 +236,7 @@ Scroll of Protection From The Elements
 15,000 Gold
                         Aeger's Hide +5
                         AC 1, Immunity to Confusion, 25% resistance to
-                        fire, cold, acid. 
+                        fire, cold, acid.
 ---------------------------------------------------------------------------
 Human Flesh +5
 Malla's Soulstone
@@ -258,7 +258,7 @@ Scroll of Protection From Acid (green)
 Scroll of Protection From Acid (blue)
 5,000 Gold
                         Ankheg Plate Mail
-                        AC -1, 50% acid res, cast acid arrow 3x/day. 
+                        AC -1, 50% acid res, cast acid arrow 3x/day.
 ---------------------------------------------------------------------------
 Shield of Harmony +2
 2 Brine Potions
@@ -273,7 +273,7 @@ Symbol of Amaunator
 5 Sunstone Gems
 10,000 Gold
                         Holy Buckler of Amaunator +2
-                        Negative Plane Protection. False Dawn 2x/day. 
+                        Negative Plane Protection. False Dawn 2x/day.
 ---------------------------------------------------------------------------
 Spear +3
 Rogue Stone
@@ -287,10 +287,10 @@ Rogue Stone
                         1d6+3, +2 fire damage, immunity to hold and charm,
                         +3 saves vs. death
 ---------------------------------------------------------------------------
-Impaler 
+Impaler
 Rogue Stone
 15,000 Gold
-                        Impaler +4 (throwing spear, long bow rate-of-fire) 
+                        Impaler +4 (throwing spear, long bow rate-of-fire)
                         1d6+4 + 10
 ---------------------------------------------------------------------------
 Staff of the Woodlands
@@ -299,7 +299,7 @@ Ring of Animal Friendship
 20,000 Gold
                         Staff of the Woodlands +5
                         Old Woodlands abilities. 5% chance of creeping doom
-                        on hit, staff recharges overnight. 
+                        on hit, staff recharges overnight.
 ---------------------------------------------------------------------------
 Azuredge +3
 Illithium
@@ -314,21 +314,21 @@ Daystar
 15,000 Gold
                         Daystar +4
                         1d8+4, +8 vs. evil creatures, double against undead
-                        Protection From Evil while equipped, Sunray 2x/day. 
+                        Protection From Evil while equipped, Sunray 2x/day.
 ---------------------------------------------------------------------------
 Celestial Fury
 Demon Heart
 Wand of Lightning
 20,000 Gold
                         Celestial Fury +5
-                        Old CF abilities. 
+                        Old CF abilities.
 ---------------------------------------------------------------------------
 Sword of Arvoreen +2
 Reputation 20
 15,000 Gold
                         Sword of Arvoreen +5
                         Free Action. Target must save vs. wands or be
-                        Slowed. Grants +1 STR, +75 exceptional STR. 
+                        Slowed. Grants +1 STR, +75 exceptional STR.
 ---------------------------------------------------------------------------
 Water's Edge +3
 Adjatha the Drinker +2
@@ -337,7 +337,7 @@ Rashad's Talon +2
                         Water's Talon +4
                         1d8+4, each hit raises user's current and max hp by
                         2 and poisons victim for 2hp/second. Extended
-                        Reach. Immune to Charm and Horrid Wilting. 
+                        Reach. Immune to Charm and Horrid Wilting.
 ---------------------------------------------------------------------------
 Hallowed Redeemer
 Reputation 20
@@ -346,19 +346,19 @@ Demon Heart
 15,000 Gold
                         Hallowed Redeemer +5
                         Old HR effects. Dispel Magic on Hit. Silences
-                        target for two rounds. 
+                        target for two rounds.
 ---------------------------------------------------------------------------
 Delryn Family Shield
 Saving Grace
 15,000 Gold
                         Delryn Family Shield +4
-                        Old DFS abilities. 
+                        Old DFS abilities.
 ---------------------------------------------------------------------------
 Lilarcor
 Mind Flayer Control Circlet
 20,000 Gold
                         Lilarcor +5
-                        Old abilities, plus immunity to INT modification 
+                        Old abilities, plus immunity to INT modification
 ---------------------------------------------------------------------------
 Soul Reaver
 Heart of the Damned
@@ -367,7 +367,7 @@ Carsomyr
                         Soul Reaver +6
                         1d12 +6, +1d6 magic damage. 50% MR, dispel magic on
                         hit, target suffers a -2 THAC0 penalty for 120
-                        seconds. 
+                        seconds.
 ---------------------------------------------------------------------------
 Bone Blade
 Pixie Prick
@@ -375,8 +375,8 @@ Pixie Prick
 15,000 Gold
                         Quietus +4 (Dagger)
                         Increase backstab multiplier by 1. Target must save
-                        vs. poison at -2 or suffer blindness or sleep 
-                        for 12 seconds. 
+                        vs. poison at -2 or suffer blindness or sleep
+                        for 12 seconds.
 ---------------------------------------------------------------------------
 Gloves of Pick Pocketing
 Bracers of Defense AC 4
@@ -385,7 +385,7 @@ Ring of Lock Picks
 2 Rings of Protection +1
 5,000 Gold
                         Gloves of the Master Thief
-                        +25% traps, +25% locks, +20% pickpocket, 
+                        +25% traps, +25% locks, +20% pickpocket,
                         +3 AC, +1 saves
 ---------------------------------------------------------------------------
 Ring of Wizardry
@@ -393,8 +393,8 @@ Ring of Acuity
 Amulet of Metaspell Influence
 Ring of Protection +1
 20,000 Gold
-                        Sorcerian Ring 
-                        +1 AC, +1 saves, memorize an extra spell for 
+                        Sorcerian Ring
+                        +1 AC, +1 saves, memorize an extra spell for
                         each spell level 1 through 7
 ---------------------------------------------------------------------------
 Golden Girdle
@@ -422,12 +422,12 @@ Arbane
 Rogue Stone
 25,000 Gold
                         Creeping Chaos
-                        (+3 weapon, 5% confuse target, 2 pt dex drain) 
+                        (+3 weapon, 5% confuse target, 2 pt dex drain)
                         Inevitable Entropy
                         (+3 weapon, 5% cast malison on target, 6 pts poison)
 ---------------------------------------------------------------------------
 Red Dragon Scales
-Sylvan Chain 
+Sylvan Chain
 3 Andar Gems
 3 Fire Agate Gems
 25,000 Gold
@@ -442,27 +442,27 @@ there are two "Pearl"s and two "Wand of Lightning"s in ShadowKeeper's item
 list) -- but only one of them is really found in the game and only one of
 them will work with the Item Upgrade mod. If you give yourself the wrong
 one (and it is easy to do since they have the same name) you won't be able
-to do the upgrade. 
+to do the upgrade.
 
 
-		Section IV. Known Bugs
-		~~~~~~~~~~~~~~~~~~~~~~
+        Section IV. Known Bugs
+        ~~~~~~~~~~~~~~~~~~~~~~
 Currently none of the items count as "magical items" or "magical armor", so
-you may wear them and rings of protection at the same time. 
+you may wear them and rings of protection at the same time.
 
 Cespenar can sometimes "drop reagents". You will still get your upgrade,
-but you might get some of the gems back or something. 
+but you might get some of the gems back or something.
 
 (Revised component only) Because BG2Tweaks adds 2 (interchangeable) versions
 of all protection items (ring, amulet & cloak), the upgrade recipes for the
-Amulet of ilmatar and the Gloves of Master Thief require 2 of the SAME 
+Amulet of ilmatar and the Gloves of Master Thief require 2 of the SAME
 versions of the item to be detected. Detecting all combinations is possible
 (but tedious) so may be implemented in the future.
 
-		Section V. Thanks
-		~~~~~~~~~~~~~~~~~
+        Section V. Thanks
+        ~~~~~~~~~~~~~~~~~
 Special thanks to Jason Compton for the Cespenar dialogue. Thanks to GB for
-testing the ITM files. 
+testing the ITM files.
 
 Thanks to Artemidore for the French translation!
 
@@ -470,17 +470,17 @@ Thanks to Maus for the German translation!
 
 And a big "thank you" to all of the people on alt.games.baldurs-gate who
 answered my survey. The items were balanced according to your
-specifications. 
+specifications.
 
 
-		Section V. FAQ (Spoilers)
-		~~~~~~~~~~~~~~~~~~~~~~~~~
+        Section V. FAQ (Spoilers)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
 Q: Why can't I talk to Lilarcor?
 
 A: Lilarcor +5 is controlled by the mind flayer circlet and thus prevented
 from having complete conversations. He will still banter with you (e.g.,
 "Booring!" or "Throw a coin in that fountain!") while you're standing
-around. 
+around.
 
 
 Q: Does the Ring of Elemental Mastery include the "hidden" +1 saves
@@ -488,7 +488,7 @@ bonus from the Ring of Earth Control?
 
 A: Yes. The "hidden" +1 saves bonus in the Earth Control ring may or may
 not be a bug in BG2, but by a large margin users voted to keep the +1
-bonus in the RoEM regardless. 
+bonus in the RoEM regardless.
 
 
 Q: How do I get that many demon hearts?
@@ -503,14 +503,14 @@ Q: Where can I get a cursed potion of healing?
 
 A: Nearly every merchant in Athkatla sells the things. Look for the bottle
 labeled "Potion of Healing" that isn't blue. The description usually says
-something about it being "oddly murky". 
+something about it being "oddly murky".
 
 
 Q: What are the stats for the original Kitthix?
 
 A: 44 HP, Base AC 4, Attacks 3/2, Saves 12/14/13/14/14, 10% MR, 2 Hit Dice,
 14 STR, 9 Other Stats. Attack: +0 weapon, 1d8 piercing, save vs. poison at
-+1 or take 3 hp per second for 14 seconds. Immune to Web. 
++1 or take 3 hp per second for 14 seconds. Immune to Web.
 
 
 Q: What are the stats for the Improved Kitthix?
@@ -518,204 +518,207 @@ Q: What are the stats for the Improved Kitthix?
 A: 80 HP, Base AC -2, 4 Attacks, Saves 6, 25% MR, 10 Hit Dice, 18 DEX.
 Attack: +3 weapon, 2d4 piercing, save vs. poison at -3 or take 5 hp per
 second for 12 seconds, save vs. spells at -2 or be webbed for 7 seconds.
-Immunity to Web, 50% melee damage resistance. Regenerates. 
+Immunity to Web, 50% melee damage resistance. Regenerates.
 
 
 Q: Where is Water's Edge?
 
 A: It belongs to a noble drow in the city of Ust Natha. Do all of the
-side-quests there. 
+side-quests there.
 
 
-		Section VI. Changes
-		~~~~~~~~~~~~~~~~~~~
+        Section VI. Changes
+        ~~~~~~~~~~~~~~~~~~~
 Version 3 BETA:
-        * Initial public release. 
+    * Initial public release.
 Version 4 BETA:
-        * Quiver typo fixed. Thanks Jason Whittaker. 
+    * Quiver typo fixed. Thanks Jason Whittaker.
 Version 5:
-        * Big Cespy dialogue from Jason Compton, master of BGII humor.
-        * Require Contingency scrolls instead of Chain Contingency (forum
-          suggestion).
-        * Require 2 elven holy water instead of 3 (you can still use one on
-          Bodhi, even though you don't really need it).
-        * Fixed Ring-Mastery fire-res bug.
-        * Fixed a bug where you'd get the wrong boots back. 
-        * OK, talking Lilarcor by popular demand. You can't "converse" with
-          him, but he'll still banter every once in a while. 
-        * Daystar upgrade now really only takes 2 vials of holy water.
-          Thanks to Jason Whittaker.
-        * Cromwell spelling fixes by Necardan. 
-        * The lovely CF description from Homunculus has been included.
-        * Hallowed Redeemer +5 is now +5 (not +2). Thanks, Kreese. 
+    * Big Cespy dialogue from Jason Compton, master of BGII humor.
+    * Require Contingency scrolls instead of Chain Contingency (forum
+      suggestion).
+    * Require 2 elven holy water instead of 3 (you can still use one on
+      Bodhi, even though you don't really need it).
+    * Fixed Ring-Mastery fire-res bug.
+    * Fixed a bug where you'd get the wrong boots back.
+    * OK, talking Lilarcor by popular demand. You can't "converse" with
+      him, but he'll still banter every once in a while.
+    * Daystar upgrade now really only takes 2 vials of holy water.
+      Thanks to Jason Whittaker.
+    * Cromwell spelling fixes by Necardan.
+    * The lovely CF description from Homunculus has been included.
+    * Hallowed Redeemer +5 is now +5 (not +2). Thanks, Kreese.
 Version 6:
-        * Celestial Fury demon heart requirement can now be satisfied by
-          those demon hearts from the Watcher's Keep. 
-        * Ammo of Plenty +3 - Arrows. Fixed a typo that would prevent you
-          from ever  getting it. Thanks to Reiella Darksythe for
-          identifying this problem. 
+    * Celestial Fury demon heart requirement can now be satisfied by
+      those demon hearts from the Watcher's Keep.
+    * Ammo of Plenty +3 - Arrows. Fixed a typo that would prevent you
+      from ever  getting it. Thanks to Reiella Darksythe for
+      identifying this problem.
 Version 7:
-        * Added the Holy Buckler and Thief Glove upgrades based on user
-          suggestions.
+    * Added the Holy Buckler and Thief Glove upgrades based on user
+      suggestions.
 Version 8:
-        * Fixed a typo in the Cespy dialogue that was preventing ToB
-          installation. Thanks, John Aprile.
-        * Jason Compton Deity fix. 
+    * Fixed a typo in the Cespy dialogue that was preventing ToB
+      installation. Thanks, John Aprile.
+    * Jason Compton Deity fix.
 Version 9:
-        * Pitchwife now actually gives 25% MR. Thanks, Bengtson. 
+    * Pitchwife now actually gives 25% MR. Thanks, Bengtson.
 Version 10:
-        * Added Amulet of Ilmater. Thanks, Mike Barnes. 
-        * Fixed a bug with the thief gauntlets. 
+    * Added Amulet of Ilmater. Thanks, Mike Barnes.
+    * Fixed a bug with the thief gauntlets.
 Version 11:
-        * Added Water's Talon, Azuredge +4. 
-        * Also included: Fix to the monster weapon "P3-12M4" to make it +4
-          (as it should be, see other ?X-YM4.ITM files) instead of +1.
-          This might actually make it worthwhile to cast the Gate spell,
-          for instance. 
+    * Added Water's Talon, Azuredge +4.
+    * Also included: Fix to the monster weapon "P3-12M4" to make it +4
+      (as it should be, see other ?X-YM4.ITM files) instead of +1.
+      This might actually make it worthwhile to cast the Gate spell,
+      for instance.
 Version 12:
-        * Changed the throwing spear animation. 
-        * Added Sorcerian Ring, Girdle of Glory. 
+    * Changed the throwing spear animation.
+    * Added Sorcerian Ring, Girdle of Glory.
 Version 13:
-        * Amaunator Avatar now gives 3 Sunstone gems as well as Saving
-          Grace. :-)
-        * Fixed Girdle-Cromwell bug and Cespy typo. Thanks, Kish. 
+    * Amaunator Avatar now gives 3 Sunstone gems as well as Saving
+      Grace. :-)
+    * Fixed Girdle-Cromwell bug and Cespy typo. Thanks, Kish.
 Version 14:
-        * Fixed Girdle bug (again!?).
+    * Fixed Girdle bug (again!?).
 Version 15:
-        * Upgraded to the newer WeiDU. 
+    * Upgraded to the newer WeiDU.
 Version 16:
-        * Fixed typo in README about Girdle of Glory!
-        * Upgraded Corthala Family armor now disables spellcasting. 
+    * Fixed typo in README about Girdle of Glory!
+    * Upgraded Corthala Family armor now disables spellcasting.
 Version 17:
-        * Fixed a bug where Cespy would talk about flaming swords even if
-          you didn't have them. Thanks, Reiella. 
+    * Fixed a bug where Cespy would talk about flaming swords even if
+      you didn't have them. Thanks, Reiella.
 Version 18:
-        * Fixed "recity" typo, thanks Artemidore. 
-        * Folk README fixes. 
-        * Fixed more typos, thanks to Azaelus. 
+    * Fixed "recity" typo, thanks Artemidore.
+    * Folk README fixes.
+    * Fixed more typos, thanks to Azaelus.
 Version 19:
-        * French translation of the README, etc. No new items. 
+    * French translation of the README, etc. No new items.
 Version 20:
-        * Fixed a bug with the French installation (caused by missing
-          translations). 
+    * Fixed a bug with the French installation (caused by missing
+      translations).
 Version 21:
-        * Fixed a bug with Upgraded Firecam Armor usability. Thanks to
-          Andrew Wong.
-        * Added a German Translation by Maus. Thanks!
-        * Added Kitthix Upgrade (it was a forum suggestion). Please let me
-          know if you find it well-balanced or not. 
-        * You can now say "goodbye" to Cespy and Crom after looking at Item
-          Upgrade Mod upgrades if you don't want to sit through their
-          normal offerings. 
-        * Fixed some typos mentioned by Michel. Thanks!
-        * Added some missing information to item descriptions. Thanks Maus! 
+    * Fixed a bug with Upgraded Firecam Armor usability. Thanks to
+      Andrew Wong.
+    * Added a German Translation by Maus. Thanks!
+    * Added Kitthix Upgrade (it was a forum suggestion). Please let me
+      know if you find it well-balanced or not.
+    * You can now say "goodbye" to Cespy and Crom after looking at Item
+      Upgrade Mod upgrades if you don't want to sit through their
+      normal offerings.
+    * Fixed some typos mentioned by Michel. Thanks!
+    * Added some missing information to item descriptions. Thanks Maus!
 Version 22:
-        * Fixed some typos. Thanks, Tyrus. 
-        * Fixed some more typos. Thanks, forum members. 
-        * Fixed a typo in a setup file that was causing the items to appear
-          in French when you picked the German translation. Thanks to
-          Rebecca for pointing this out. 
-        * Updated german translation. Thanks, Maus!
+    * Fixed some typos. Thanks, Tyrus.
+    * Fixed some more typos. Thanks, forum members.
+    * Fixed a typo in a setup file that was causing the items to appear
+      in French when you picked the German translation. Thanks to
+      Rebecca for pointing this out.
+    * Updated german translation. Thanks, Maus!
 Version 23:
-        * Minor typos fixed, thanks forum members. 
-        * Azuredge icon fix for second ability. 
-        * Daystar no-charge bug fixed. Thanks Gorrister. 
-        * Added Haer'Dalis upgrades. Special thanks to Jeanne Burch. 
-        * Added Incarnadine Chain. Thanks to Renmauzo and Renegade. 
+    * Minor typos fixed, thanks forum members.
+    * Azuredge icon fix for second ability.
+    * Daystar no-charge bug fixed. Thanks Gorrister.
+    * Added Haer'Dalis upgrades. Special thanks to Jeanne Burch.
+    * Added Incarnadine Chain. Thanks to Renmauzo and Renegade.
 Version 24:
-        * Installing the mod now changes the Mace of Disruption +2 icon so
-          that it looks like the MoD+1 icon. Thanks, Moonfruit. 
-        * Fixed a bug in the Ilmater Amulet's heal power. Thanks, Dashael. 
-        * Fixed a possible bug in Chaos that was causing it to not confuse
-          things. Now it behaves just like the wizard spell (except only 5%
-          of the time). 
-        * Added Cocobard's French translation. 
+    * Installing the mod now changes the Mace of Disruption +2 icon so
+      that it looks like the MoD+1 icon. Thanks, Moonfruit.
+    * Fixed a bug in the Ilmater Amulet's heal power. Thanks, Dashael.
+    * Fixed a possible bug in Chaos that was causing it to not confuse
+      things. Now it behaves just like the wizard spell (except only 5%
+      of the time).
+    * Added Cocobard's French translation.
 Version 25:
-        * More French translations from Cocobard. 
-        * More German translations from Norbert Frischauf. 
-        * Azuredge now really does have different icons for ranged and
-          melee modes. Also, this includes the Carso "add 50% MR" fix. 
-          Thanks, Mike Barnes. 
+    * More French translations from Cocobard.
+    * More German translations from Norbert Frischauf.
+    * Azuredge now really does have different icons for ranged and
+      melee modes. Also, this includes the Carso "add 50% MR" fix.
+      Thanks, Mike Barnes.
 Version 26:
-        * More German translations from Norbert Frischauf. 
-        * Fulcrum: fixed a bug where the extra damage wasn't actually
-          working correctly. 
-        * Arvoreen: No longer blocks Haste. 
-        * Upgrade to a newer WeiDU. Hopefully this will help out Mac users. 
+    * More German translations from Norbert Frischauf.
+    * Fulcrum: fixed a bug where the extra damage wasn't actually
+      working correctly.
+    * Arvoreen: No longer blocks Haste.
+    * Upgrade to a newer WeiDU. Hopefully this will help out Mac users.
 Version 27:
-        * Fixed that Azuredge icon (really this time). 
-        * Included Spanish Translation by Clan DLAN & friends. Thanks!
+    * Fixed that Azuredge icon (really this time).
+    * Included Spanish Translation by Clan DLAN & friends. Thanks!
 Version 28:
-        * Updated Spanish Translation.
-        * Rassadihn fixes: 
-          * Woodlands saving throw fix. 
-          * Massive typo fixes for American, French and German. 
-          * Girdle of Glory can now be made with 3 bloodstone gems or 3
-            bloodstone rings or 3 bloodstone amulets. No mix-and-match,
-            though. 
-          * Archmagi robes now require a *cloak* or protection not a *ring*
-            of protection. 
+    * Updated Spanish Translation.
+    * Rassadihn fixes:
+    * Woodlands saving throw fix.
+    * Massive typo fixes for American, French and German.
+    * Girdle of Glory can now be made with 3 bloodstone gems or 3
+      bloodstone rings or 3 bloodstone amulets. No mix-and-match,
+      though.
+    * Archmagi robes now require a *cloak* or protection not a *ring*
+      of protection.
 Version 29:
-        * Fixed a bug in the Holy Buckler involving magic resistance.
-          Thanks, SixofSpades.
+    * Fixed a bug in the Holy Buckler involving magic resistance.
+      Thanks, SixofSpades.
 Version 30:
-        * Quietus inflicts piercing damage. Thanks, Dawid Piotrowski.
-        * Polish Translation by Damian Staniszewski. Thanks!
+    * Quietus inflicts piercing damage. Thanks, Dawid Piotrowski.
+    * Polish Translation by Damian Staniszewski. Thanks!
 Version 31:
-        * Russian Translation by Iogan & AERIE.RU. Thanks!
-        * Updated German translation by Patrick Lainer. Thanks!
+    * Russian Translation by Iogan & AERIE.RU. Thanks!
+    * Updated German translation by Patrick Lainer. Thanks!
 Version 33 (updated by CamDawg):
-        * Cromwell and Cespenar dialogues no longer replace critical states, 
-	  making it much easier for other mods to interact with IU
-        * Fixed broken index for c2blun02.itm. On OS X, a bad index causes
-          BG2 to crash to desktop. Additionally, the indexing error can
-	  cause other mod installations (i.e. Quest Pack) to fail.
-	* Changes to Carsomyr and p3-12m4.itm (demon weapon) are now done
-	  via patch instead of overwrite
-	* Lilarcor +5, like the original, was permanently setting an
-	  immunity to the confusion animation instead of simply preventing
-	  it while equipped. The original Lilarcor is fixed by the BG2
-	  Fixpack.
-	* Severl items had minor effects (such as a color set) failing due
-	  to incorrect timings and magic resistance checks
-	* Closed usability loopholes on Entropy, Chaos, Hallowed Redeemer +5 
-	  and Sword of Arvoreen +5
-	* Upgraded Corthala Family Armor now displays Mind Shield icon
+    * Cromwell and Cespenar dialogues no longer replace critical states,
+      making it much easier for other mods to interact with IU
+    * Fixed broken index for c2blun02.itm. On OS X, a bad index causes
+      BG2 to crash to desktop. Additionally, the indexing error can
+      cause other mod installations (i.e. Quest Pack) to fail.
+    * Changes to Carsomyr and p3-12m4.itm (demon weapon) are now done
+      via patch instead of overwrite
+    * Lilarcor +5, like the original, was permanently setting an
+      immunity to the confusion animation instead of simply preventing
+      it while equipped. The original Lilarcor is fixed by the BG2
+      Fixpack.
+    * Severl items had minor effects (such as a color set) failing due
+      to incorrect timings and magic resistance checks
+    * Closed usability loopholes on Entropy, Chaos, Hallowed Redeemer +5
+      and Sword of Arvoreen +5
+    * Upgraded Corthala Family Armor now displays Mind Shield icon
 Version 34 (updated by CamDawg):
-        * Fixed broken index for c2staf01.itm. On OS X, a bad index causes
-          BG2 to crash to desktop. Additionally, the indexing error can
-	  cause other mod installations (i.e. Quest Pack) to fail.
+    * Fixed broken index for c2staf01.itm. On OS X, a bad index causes
+      BG2 to crash to desktop. Additionally, the indexing error can
+      cause other mod installations (i.e. Quest Pack) to fail.
 Version 35 (updated by CamDawg):
-        * Added Korean translation, courtesy of web2air.
+    * Added Korean translation, courtesy of web2air.
 Version 36:
-        * Updated Spanish translation. Immortality and her gang etc.
+    * Updated Spanish translation. Immortality and her gang etc.
 Version 37:
-        * Ditto.
-Version 38:	(updated by Lollorian)
-	* IU can now also use standard BGII-ToB upgrading methods as separate 
-	  components (translations by:
-		- Ancalagon el Negro (spanish)
-		- morgan (polski) - also found typos in the english .tra AND revised the
-		  original polish setup.tra
-		- Hawkmoon, Aldark & prowler (russian)
-	* Added README and VERSION tags
-	* Added Lich's fixed Azuredge +4
-	  (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
-	* Expanded item checks for Gloves of Master Thief, Amulet of Ilmater, 
-	  Sorcerian Ring and Girdle of Glory
-	* Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh 
-	  +5)
-	* Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis' 
-	  upgrade
+    * Ditto.
+Version 38: (updated by Lollorian)
+    * IU can now also use standard BGII-ToB upgrading methods as separate
+      components (translations by:
+      - Ancalagon el Negro (spanish)
+      - morgan (polski) - also found typos in the english .tra AND revised the
+        original polish setup.tra
+      - Hawkmoon, Aldark & prowler (russian)
+    * Added README and VERSION tags
+    * Added Lich's fixed Azuredge +4
+      (http://kerzenburg.baldurs-gate.eu/showpost.php?p=903720&postcount=1008)
+    * Expanded item checks for Gloves of Master Thief, Amulet of Ilmater,
+      Sorcerian Ring and Girdle of Glory
+    * Smiths now properly destroy Aeger's Hide +3 (used to destroy Human Flesh
+      +5)
+    * Smiths no longer take Poisoned Throwing Daggers when doing Haer'Dalis'
+      upgrade
 Version 39: (Revised component fixbashing and translates)
-	* Fixed NVLORs in recipes for Girdle of Glory, Teleomortis +4, Gloves of the 
-	  Master Thief, Quietus +4, Inevitable Entropy & Creeping Chaos, Ring of 
-	  Elemental Mastery, Sorcerian Ring and Enhanced Robe of the Good/Neutral/Evil 
-	  Archmagi.
-	* Staff of Elemental Mastery recipe now really gives a STAFF (used to give the
-	  Ring of Elemental Mastery lol)
-	* Revised components are now compatible with BG2Tweaks' "PnP-style Wear Multiple
-	  Items" component
-	* Added ggib_eht's fix for duplicate item creation (thanks the_bigg... whoops :P)
-	* French translation repairs from Sanctifer of the d'Oghmatiques 
-	* WeiDU update to v231
+    * Fixed NVLORs in recipes for Girdle of Glory, Teleomortis +4, Gloves of the
+      Master Thief, Quietus +4, Inevitable Entropy & Creeping Chaos, Ring of
+      Elemental Mastery, Sorcerian Ring and Enhanced Robe of the Good/Neutral/Evil
+      Archmagi.
+    * Staff of Elemental Mastery recipe now really gives a STAFF (used to give the
+      Ring of Elemental Mastery lol)
+    * Revised components are now compatible with BG2Tweaks' "PnP-style Wear Multiple
+      Items" component
+    * Added ggib_eht's fix for duplicate item creation (thanks the_bigg... whoops :P)
+    * Removed spurious Max HP bonus from Daystar +4 (increased Max HP by 0 with no
+      mention in the item description)
+    * French translation repairs from Sanctifer of the d'Oghmatiques
+    * Polish translation repairs from morgan of the Children of Bhaal
+    * WeiDU update to v231
