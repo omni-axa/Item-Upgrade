@@ -1,7 +1,7 @@
                  Baldur's Gate II
               Item Upgrade Mod Pack
       Westley Weimer <weimer@cs.berkeley.edu>
-                \/ Release 39 \/
+                \/ Release 39b \/
 
           http://www.weidu.org/item.html
 
@@ -722,3 +722,6 @@ Version 39: (Revised component fixbashing and translates)
     * French translation repairs from Sanctifer of the d'Oghmatiques
     * Polish translation repairs from morgan of the Children of Bhaal
     * WeiDU update to v231
+Version 39b: (Revised component fixbashing and translates)
+    * Items and patches are now always installed and don't depend on the combination of
+      components you choose
