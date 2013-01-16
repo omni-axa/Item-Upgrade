@@ -722,6 +722,13 @@ Version 39: (Revised component fixbashing and translates)
     * French translation repairs from Sanctifer of the d'Oghmatiques
     * Polish translation repairs from morgan of the Children of Bhaal
     * WeiDU update to v231
-Version 39b: (Revised component fixbashing and translates)
+Version 39b: (general happy happy joy joy)
     * Items and patches are now always installed and don't depend on the combination of
       components you choose
+    * Staff of Woodlands +5 (C2STAF02.ITM) now provides +1 saving throws from Barkskin
+    * Removed spurious abilities from upgraded robes (C2ROBE01.ITM, C2ROBE02.ITM, C2ROBE03.ITM)
+    * C2VALY01.ITM now properly displays the Mind Shield portrait icon
+    * C2HELM02.ITM, C2MAZZ01.ITM, C2SHLD01.ITM, C2SW1H03.ITM had numerous spurious duplicated
+      effects
+    * C2LEAT01.ITM, C2RING03.ITM, C2ROBE01.ITM, C2ROBE02.ITM, C2ROBE03.ITM now display portrait
+      icons corresponding to their bonuses
